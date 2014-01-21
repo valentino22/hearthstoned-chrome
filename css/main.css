@@ -14,7 +14,7 @@
 html, body {
 	width:700px;
 	height:500px;
-    background: none repeat scroll 0 0 #242424;
+    background: none repeat scroll 0 0 #000;
     color: #DDDDDD;
     font: 12px/1.3 "Lucida Sans Unicode",Arial,Helvetica,sans-serif;
     height: 100%;
@@ -46,7 +46,6 @@ table {
 	background: none repeat scroll 0 0 #333333;
     border: 1px solid #404040;
     color: #DDDDDD;
-    cursor: pointer;
     font-size: 13px;
     font-weight: normal;
     padding: 1px 20px 1px 10px;
@@ -72,7 +71,7 @@ table {
 
 .table-info tbody tr:hover {
     background-color: #202020;
-    cursor: pointer;
+    cursor: default;
 }
 
 .table-info td {
