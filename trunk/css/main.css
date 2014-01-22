@@ -2,6 +2,8 @@
 	padding-left: 10px;
 	font-size: 13px;
 	font-weight:bold;
+	
+	border-bottom:1px solid #333;
 }
 
 .filter-table input{
@@ -13,11 +15,10 @@
 
 html, body {
 	width:700px;
-	height:500px;
+	height:100.1%; /* This hack prevents fluid layout because of scrollbar by putting the scrollbar always there */
     background: none repeat scroll 0 0 #000;
-    color: #DDDDDD;
+    color: #fff;
     font: 12px/1.3 "Lucida Sans Unicode",Arial,Helvetica,sans-serif;
-    height: 100%;
 }
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, em, img, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
@@ -43,14 +44,39 @@ table {
 }
 
 .table-info th {
-	background: none repeat scroll 0 0 #333333;
+	background: none repeat scroll 0 0 #111;
     border: 1px solid #404040;
-    color: #DDDDDD;
+    color: #fff;
     font-size: 13px;
     font-weight: normal;
     padding: 1px 20px 1px 10px;
     text-transform: capitalize;
 	font-weight:bold;
+}
+
+/* Setting the header widths */
+.table-info th:nth-child(1), .table-info tr td:nth-child(1){
+	width:135px;
+}
+
+.table-info th:nth-child(2), .table-info tr td:nth-child(2){
+	width:36px;
+}
+
+.table-info th:nth-child(3), .table-info tr td:nth-child(3){
+	width:35px;
+}
+
+.table-info th:nth-child(4), .table-info tr td:nth-child(4){
+	width:39px;
+}
+
+.table-info th:nth-child(5), .table-info tr td:nth-child(5){
+	width:41px;
+}
+
+.table-info th:nth-child(6), .table-info tr td:nth-child(6){
+	width:314px;
 }
 
 .table-info th:hover {
@@ -76,7 +102,7 @@ table {
 
 .table-info td {
     border: 1px solid #404040;
-    color: #DDDDDD;
+    color: #fff;
     font-size: 12px;
     font-weight: normal;
     padding: 4px 10px;

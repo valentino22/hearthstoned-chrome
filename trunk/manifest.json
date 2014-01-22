@@ -2,11 +2,16 @@
   "manifest_version": 2,
   "name": "Hearthstoned",
   "description": "This extension lists all cards in the Hearthstone game. It's useful for looking up cards while watching a stream or reading a guide.",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Szabolcs Ferenczi",
   "browser_action": {
-    "default_icon": "images/icon.png",
+    "default_icon": "images/HS-19.png",
     "default_popup": "cards.html"
+  },
+   "icons": {
+    "16": "images/HS-19.png",
+    "48": "images/HS-48.png",
+    "64": "images/HS-64.png"
   },
    "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.hearthhead.com; object-src 'self'"
 }
