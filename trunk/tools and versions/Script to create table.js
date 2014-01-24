@@ -5672,6 +5672,272 @@ var hearthstoneCards = [{
     "description": "Battlecry: Give both players the power to ROCK! (with a Power Chord card)",
     popularity: 41
 }];
+
+
+/* TIER LIST */
+// http://www.liquidhearth.com/forum/viewmessage.php?topic_id=513
+var tierList = [{
+	"name":"Chillwind Yeti",
+	"arenaRank":"1"
+},{
+    "name":"Dark Iron Dwarf",
+    "arenaRank":"2"
+},{
+    "name":"Harvest Golem",
+    "arenaRank":"3"
+},{
+    "name":"Shattered Sun Cleric",
+    "arenaRank":"4"
+},{
+    "name":"Acidic Swamp Ooze",
+    "arenaRank":"5"
+},{
+    "name":"Silver Hand Knight",
+    "arenaRank":"6"
+},{
+    "name":"Venture Co. Mercenary",
+    "arenaRank":"7"
+},{
+    "name":"Scarlet Crusader",
+    "arenaRank":"8"
+},{
+    "name":"Boulderfist Ogre",
+    "arenaRank":"9"
+},{
+    "name":"Gnomish Inventor",
+    "arenaRank":"10"
+},{
+    "name":"Earthen Ring Farseer",
+    "arenaRank":"11"
+},{
+    "name":"Sen'jin Shieldmasta",
+    "arenaRank":"12"
+},{
+    "name":"Cult Master",
+    "arenaRank":"13"
+},{
+    "name":"Stormwind Champion",
+    "arenaRank":"14"
+},{
+    "name":"Worgen Infiltrator",
+    "arenaRank":"15"
+},{
+    "name":"Loot Hoarder",
+    "arenaRank":"16"
+},{
+    "name":"Mad Bomber",
+    "arenaRank":"17"
+},{
+    "name":"Spellbreaker",
+    "arenaRank":"18"
+},{
+    "name":"Frostwolf Warlord",
+    "arenaRank":"19"
+},{
+    "name":"Faerie Dragon",
+    "arenaRank":"20"
+},{
+    "name":"Youthful Brewmaster",
+    "arenaRank":"21"
+},{
+    "name":"Bloodfen Raptor",
+    "arenaRank":"22"
+},{
+    "name":"Stranglethorn Tiger",
+    "arenaRank":"23"
+},{
+    "name":"Raging Worgen",
+    "arenaRank":"24"
+},{
+    "name":"Stormwind Knight",
+    "arenaRank":"25"
+},{
+    "name":"Jungle Panther",
+    "arenaRank":"26"
+},{
+    "name":"Dire Wolf Alpha",
+    "arenaRank":"27"
+},{
+    "name":"Ancient Brewmaster",
+    "arenaRank":"28"
+},{
+    "name":"Fen Creeper",
+    "arenaRank":"29"
+},{
+    "name":"Stormpike Commando",
+    "arenaRank":"30"
+},{
+    "name":"Darkscale Healer",
+    "arenaRank":"31"
+},{
+    "name":"Bluegill Warrior",
+    "arenaRank":"32"
+},{
+    "name":"Wolfrider",
+    "arenaRank":"33"
+},{
+    "name":"Spiteful Smith",
+    "arenaRank":"34"
+},{
+    "name":"Flesheating Ghoul",
+    "arenaRank":"35"
+},{
+    "name":"Frost Elemental",
+    "arenaRank":"36"
+},{
+    "name":"Oasis Snapjaw",
+    "arenaRank":"37"
+},{
+    "name":"Silvermoon Guardian",
+    "arenaRank":"38"
+},{
+    "name":"War Golem",
+    "arenaRank":"39"
+},{
+    "name":"Ironfur Grizzly",
+    "arenaRank":"40"
+},{
+    "name":"Razorfen Hunter",
+    "arenaRank":"41"
+},{
+    "name":"Amani Berserker",
+    "arenaRank":"42"
+},{
+    "name":"Acolyte of Pain",
+    "arenaRank":"43"
+},{
+    "name":"Lord of the Arena",
+    "arenaRank":"44"
+},{
+    "name":"Gurubashi Berserker",
+    "arenaRank":"45"
+},{
+    "name":"Archmage",
+    "arenaRank":"46"
+},{
+    "name":"Elven Archer",
+    "arenaRank":"47"
+},{
+    "name":"Dragonling Mechanic",
+    "arenaRank":"48"
+},{
+    "name":"Novice Engineer",
+    "arenaRank":"49"
+},{
+    "name":"Bloodsail Raider",
+    "arenaRank":"50"
+},{
+    "name":"River Crocolisk",
+    "arenaRank":"51"
+},{
+    "name":"Abusive Sergeant",
+    "arenaRank":"52"
+},{
+    "name":"Ironforge Rifleman",
+    "arenaRank":"53"
+},{
+    "name":"Ogre Magi",
+    "arenaRank":"54"
+},{
+    "name":"Priestess of Elune",
+    "arenaRank":"55"
+},{
+    "name":"Reckless Rocketeer",
+    "arenaRank":"56"
+},{
+    "name":"Booty Bay Bodyguard",
+    "arenaRank":"57"
+},{
+    "name":"Ironbeak Owl",
+    "arenaRank":"58"
+},{
+    "name":"Kobold Geomancer",
+    "arenaRank":"59"
+},{
+    "name":"Argent Squire",
+    "arenaRank":"60"
+},{
+    "name":"Murloc Tidehunter",
+    "arenaRank":"61"
+},{
+    "name":"Core Hound",
+    "arenaRank":"62"
+},{
+    "name":"Raid Leader",
+    "arenaRank":"63"
+},{
+    "name":"Leper Gnome",
+    "arenaRank":"64"
+},{
+    "name":"Thrallmar Farseer",
+    "arenaRank":"65"
+},{
+    "name":"Windfury Harpy",
+    "arenaRank":"66"
+},{
+    "name":"Nightblade",
+    "arenaRank":"67"
+},{
+    "name":"Frostwolf Grunt",
+    "arenaRank":"68"
+},{
+    "name":"Mogu'shan Warden",
+    "arenaRank":"69"
+},{
+    "name":"Dread Corsair",
+    "arenaRank":"70"
+},{
+    "name":"Tauren Warrior",
+    "arenaRank":"71"
+},{
+    "name":"Magma Rager",
+    "arenaRank":"72"
+},{
+    "name":"Dalaran Mage",
+    "arenaRank":"73"
+},{
+    "name":"Voodoo Doctor",
+    "arenaRank":"74"
+},{
+    "name":"Silverback Patriarch",
+    "arenaRank":"75"
+},{
+    "name":"Southsea Deckhand",
+    "arenaRank":"76"
+},{
+    "name":"Goldshire Footman",
+    "arenaRank":"77"
+},{
+    "name":"Shieldbearer",
+    "arenaRank":"78"
+},{
+    "name":"Stonetusk Boar",
+    "arenaRank":"79"
+},{
+    "name":"Murloc Raider",
+    "arenaRank":"80"
+},{
+    "name":"Young Dragonhawk",
+    "arenaRank":"81"
+},{
+    "name":"Wisp",
+    "arenaRank":"82"
+},{
+    "name":"Grimscale Oracle",
+    "arenaRank":"83"
+}];
+
+var counter = 0;
+$.each(tierList, function(cardName, rank) {
+	$.each(hearthstoneCards, function(index, value) {
+	   if (rank.name === value.name){
+	       value.arenaRank = rank.arenaRank;
+		   counter++;
+	   }
+    });
+});
+//console.log(counter);
+
 var table = "";
 $.each(hearthstoneCards, function(i, value) {
 
@@ -5772,19 +6038,27 @@ $.each(hearthstoneCards, function(i, value) {
 		attack = "";
 	}
 	
+	var arenaRank  = "";
+	if (!(typeof value.arenaRank === 'undefined')){
+		arenaRank = value.arenaRank;
+	} 
+	
 	var description = "";
 	if (!(typeof value.description === 'undefined')){
 		description = value.description;
 	} 
-	
+
 	table += '<tr><td><a href="http://wowhead.com/hearthstone/card='+value.id+'&image" class="quality '+ quality + '" target="_blank">' + value.name + '</a></td>';
 	table += '<td class="txclass ' + classs + '">' + classs + '</td>';
 	table += '<td><span class="mana">' + value.cost + '</span></td>';
 	table += '<td><span class="' + attackType + '">' + attack + '</span></td>';
 	table += '<td><span class="' + healthType + '">' + health + '</span></td>';
+	table += '<td><span class="arenaRank">' + arenaRank + '</span></td>';
 	table += '<td class="description">' + description + '</td>';
 	table += '</tr>';
 });
-$('table tbody').remove();
+$('table').remove();
+$('body').append('<table style="700px;" class="table-info" id="table-card-list"></table>');
+$('table').append('<thead><tr><th class="header">title</th><th class="header">class</th><th class="header">mana</th><th class="header">attack</th><th class="header">health</th><th class="header">Rank</th><th class="header">description</th></tr></thead>');
 $('table').append("<tbody></tbody>");
 $('table tbody').html(table);

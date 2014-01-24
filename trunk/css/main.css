@@ -2,8 +2,19 @@
 	padding-left: 10px;
 	font-size: 13px;
 	font-weight:bold;
-	
+	float:left;
 	border-bottom:1px solid #333;
+}
+
+label#tierListCheckboxWrapper{
+	float:right;
+	margin-right: 13px;
+    margin-top: 9px;
+}
+
+label#tierListCheckboxWrapper input{
+	margin-top: 0;
+    vertical-align: middle;
 }
 
 .filter-table input{
@@ -26,6 +37,14 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     margin: 0;
     outline: 0 none;
     padding: 0;
+}
+
+.clear{
+	clear:both;
+}
+
+label{
+	cursor: pointer;
 }
 
 .txclass {
@@ -56,7 +75,7 @@ table {
 
 /* Setting the header widths */
 .table-info th:nth-child(1), .table-info tr td:nth-child(1){
-	width:135px;
+	width:107px;
 }
 
 .table-info th:nth-child(2), .table-info tr td:nth-child(2){
@@ -76,7 +95,7 @@ table {
 }
 
 .table-info th:nth-child(6), .table-info tr td:nth-child(6){
-	width:314px;
+	width:30px;
 }
 
 .table-info th:hover {
