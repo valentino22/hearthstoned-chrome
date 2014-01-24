@@ -10,12 +10,14 @@ $(document).ready(function() {
 	});
 	
 	$("p.filter-table").after('<label id="tierListCheckboxWrapper"><input type="checkbox" value="tierList" name="tierListCheckbox">Show Arena Tier List (by Trump)</label>');
-	$("label#tierListCheckboxWrapper").after("<div class='clear'></div>");
+	$("label#tierListCheckboxWrapper").after("<div id='tierListLegend'><ul><li>1-15 Excellent</li><li>16-24 Good</li><li>25-43 Average</li><li>44-60 Poor</li><li>61-83 Terrible</li></ul></div>");
+	$("#tierListLegend").after("<div class='clear'></div>");
 	
 	// show the tier list by default
 	$("#tierListCheckboxWrapper input").prop('checked', true);
 	$('td:nth-child(6)').show();
 	$('th:nth-child(6)').show();
+	$('#tierListLegend').show();
 
 	// load options
 	chrome.storage.sync.get("arenaTiers", function(data) {
@@ -24,10 +26,12 @@ $(document).ready(function() {
 				$("#tierListCheckboxWrapper input").prop('checked', true);
 				$('td:nth-child(6)').show();
 				$('th:nth-child(6)').show();
+				$('#tierListLegend').show();
 			} else {
 				$("#tierListCheckboxWrapper input").prop('checked', false);
 				$('td:nth-child(6)').hide();
 				$('th:nth-child(6)').hide();
+				$('#tierListLegend').hide();
 			}
 		}
 	});
@@ -40,10 +44,12 @@ $(document).ready(function() {
 			arenaTiers = true;
             $('td:nth-child(6)').show();
 			$('th:nth-child(6)').show();
+			$('#tierListLegend').show();
         } else {
 			arenaTiers = false;
 			$('td:nth-child(6)').hide();
 			$('th:nth-child(6)').hide();
+			$('#tierListLegend').hide();
 		}
 		
 		// save user setting
