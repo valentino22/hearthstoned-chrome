@@ -2,11 +2,13 @@
 	"name": "Hearthstone Cards",
 	"manifest_version": 2,
 	"description": "This extension lists all cards in the Hearthstone game. It's useful for looking up cards while watching a stream or reading a guide.",
-	"version": "1.3",
+	"version": "1.4",
 	"author": "Szabolcs Ferenczi",
+	"short_name": "Hearthstone Cards",
 	"browser_action": {
 		"default_icon": "images/HS-19.png",
-		"default_popup": "cards.html"
+		"default_popup": "cards.html",
+		"default_title": "HearthStone Cards"
 	},
 	"icons": {
 		"16": "images/HS-19.png",

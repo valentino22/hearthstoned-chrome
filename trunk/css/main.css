@@ -1,9 +1,13 @@
 .filter-table{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 690px;
+	background-color:#000;
+	border-bottom:1px solid #777;
 	padding-left: 10px;
 	font-size: 13px;
 	font-weight:bold;
-	float:left;
-	width: 197px;
 }
 
 .filter-table input{
@@ -30,7 +34,7 @@ label#tierListCheckboxWrapper input{
     line-height: 18px;
     margin: 2px 0 2px 3px;
     padding: 3px 0 1px 2px;
-    width: 269px;
+    width: 476px;
 	border: 1px solid #777777;
 }
 
@@ -182,7 +186,7 @@ table {
     color: #B16C1E !important;
 }
 
-.quality.basic {
+.quality.free {
     color: #999999 !important;
 }
 
