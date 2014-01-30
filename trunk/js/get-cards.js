@@ -7,10 +7,13 @@ $(document).ready(function() {
 	$('table#table-card-list').tablesorter({
 		sortReset      : true,
 		theme: 'blackice',
+		textExtraction: {
+			6: function(node, table, cellIndex){ return $(node).find(".arenaRankTier").text();}
+		}
 	});
 	
-	$("p.filter-table").after('<label id="tierListCheckboxWrapper"><input type="checkbox" value="tierList" name="tierListCheckbox">Show Arena Tier List (by Trump)</label>');
-	$("label#tierListCheckboxWrapper").after("<div id='tierListLegend'><ul><li>1-15: Excellent, </li><li>16-24: Good, </li><li>25-43: Average, </li><li>44-60: Poor, </li><li>61-83: Terrible</li></ul></div>");
+	$("p.filter-table").append('<label id="tierListCheckboxWrapper"><input type="checkbox" value="tierList" id="tierListCheckbox" name="tierListCheckbox">Show Arena Tier List (by Trump)</label>');
+	//$("label#tierListCheckboxWrapper").after("<div id='tierListLegend'><ul><li>1-15: Excellent, </li><li>16-24: Good, </li><li>25-43: Average, </li><li>44-60: Poor, </li><li>61-83: Terrible</li></ul></div>");
 	$("#tierListLegend").after("<div class='clear'></div>");
 	
 	// show the tier list by default

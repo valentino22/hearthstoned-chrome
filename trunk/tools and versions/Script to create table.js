@@ -7128,267 +7128,443 @@ var hearthstoneCards = hearthstoneCards.concat(uncollectibleCards);
 
 /* TIER LIST */
 // http://www.liquidhearth.com/forum/viewmessage.php?topic_id=513
-var tierList = [{
+var tierListCommon = [{
 	"name":"Chillwind Yeti",
-	"arenaRank":"1"
+	"arenaRank":1
 },{
     "name":"Dark Iron Dwarf",
-    "arenaRank":"2"
+    "arenaRank":2
 },{
     "name":"Harvest Golem",
-    "arenaRank":"3"
+    "arenaRank":3
 },{
     "name":"Shattered Sun Cleric",
-    "arenaRank":"4"
+    "arenaRank":4
 },{
     "name":"Acidic Swamp Ooze",
-    "arenaRank":"5"
+    "arenaRank":5
 },{
     "name":"Silver Hand Knight",
-    "arenaRank":"6"
+    "arenaRank":6
 },{
     "name":"Venture Co. Mercenary",
-    "arenaRank":"7"
+    "arenaRank":7
 },{
     "name":"Scarlet Crusader",
-    "arenaRank":"8"
+    "arenaRank":8
 },{
     "name":"Boulderfist Ogre",
-    "arenaRank":"9"
+    "arenaRank":9
 },{
     "name":"Gnomish Inventor",
-    "arenaRank":"10"
+    "arenaRank":10
 },{
     "name":"Earthen Ring Farseer",
-    "arenaRank":"11"
+    "arenaRank":11
 },{
     "name":"Sen'jin Shieldmasta",
-    "arenaRank":"12"
+    "arenaRank":12
 },{
     "name":"Cult Master",
-    "arenaRank":"13"
+    "arenaRank":13
 },{
     "name":"Stormwind Champion",
-    "arenaRank":"14"
+    "arenaRank":14
 },{
     "name":"Worgen Infiltrator",
-    "arenaRank":"15"
+    "arenaRank":15
 },{
     "name":"Loot Hoarder",
-    "arenaRank":"16"
+    "arenaRank":16
 },{
     "name":"Mad Bomber",
-    "arenaRank":"17"
+    "arenaRank":17
 },{
     "name":"Spellbreaker",
-    "arenaRank":"18"
+    "arenaRank":18
 },{
     "name":"Frostwolf Warlord",
-    "arenaRank":"19"
+    "arenaRank":19
 },{
     "name":"Faerie Dragon",
-    "arenaRank":"20"
+    "arenaRank":20
 },{
     "name":"Youthful Brewmaster",
-    "arenaRank":"21"
+    "arenaRank":21
 },{
     "name":"Bloodfen Raptor",
-    "arenaRank":"22"
+    "arenaRank":22
 },{
     "name":"Stranglethorn Tiger",
-    "arenaRank":"23"
+    "arenaRank":23
 },{
     "name":"Raging Worgen",
-    "arenaRank":"24"
+    "arenaRank":24
 },{
     "name":"Stormwind Knight",
-    "arenaRank":"25"
+    "arenaRank":25
 },{
     "name":"Jungle Panther",
-    "arenaRank":"26"
+    "arenaRank":26
 },{
     "name":"Dire Wolf Alpha",
-    "arenaRank":"27"
+    "arenaRank":27
 },{
     "name":"Ancient Brewmaster",
-    "arenaRank":"28"
+    "arenaRank":28
 },{
     "name":"Fen Creeper",
-    "arenaRank":"29"
+    "arenaRank":29
 },{
     "name":"Stormpike Commando",
-    "arenaRank":"30"
+    "arenaRank":30
 },{
     "name":"Darkscale Healer",
-    "arenaRank":"31"
+    "arenaRank":31
 },{
     "name":"Bluegill Warrior",
-    "arenaRank":"32"
+    "arenaRank":32
 },{
     "name":"Wolfrider",
-    "arenaRank":"33"
+    "arenaRank":33
 },{
     "name":"Spiteful Smith",
-    "arenaRank":"34"
+    "arenaRank":34
 },{
     "name":"Flesheating Ghoul",
-    "arenaRank":"35"
+    "arenaRank":35
 },{
     "name":"Frost Elemental",
-    "arenaRank":"36"
+    "arenaRank":36
 },{
     "name":"Oasis Snapjaw",
-    "arenaRank":"37"
+    "arenaRank":37
 },{
     "name":"Silvermoon Guardian",
-    "arenaRank":"38"
+    "arenaRank":38
 },{
     "name":"War Golem",
-    "arenaRank":"39"
+    "arenaRank":39
 },{
     "name":"Ironfur Grizzly",
-    "arenaRank":"40"
+    "arenaRank":40
 },{
     "name":"Razorfen Hunter",
-    "arenaRank":"41"
+    "arenaRank":41
 },{
     "name":"Amani Berserker",
-    "arenaRank":"42"
+    "arenaRank":42
 },{
     "name":"Acolyte of Pain",
-    "arenaRank":"43"
+    "arenaRank":43
 },{
     "name":"Lord of the Arena",
-    "arenaRank":"44"
+    "arenaRank":44
 },{
     "name":"Gurubashi Berserker",
-    "arenaRank":"45"
+    "arenaRank":45
 },{
     "name":"Archmage",
-    "arenaRank":"46"
+    "arenaRank":46
 },{
     "name":"Elven Archer",
-    "arenaRank":"47"
+    "arenaRank":47
 },{
     "name":"Dragonling Mechanic",
-    "arenaRank":"48"
+    "arenaRank":48
 },{
     "name":"Novice Engineer",
-    "arenaRank":"49"
+    "arenaRank":49
 },{
     "name":"Bloodsail Raider",
-    "arenaRank":"50"
+    "arenaRank":50
 },{
     "name":"River Crocolisk",
-    "arenaRank":"51"
+    "arenaRank":51
 },{
     "name":"Abusive Sergeant",
-    "arenaRank":"52"
+    "arenaRank":52
 },{
     "name":"Ironforge Rifleman",
-    "arenaRank":"53"
+    "arenaRank":53
 },{
     "name":"Ogre Magi",
-    "arenaRank":"54"
+    "arenaRank":54
 },{
     "name":"Priestess of Elune",
-    "arenaRank":"55"
+    "arenaRank":55
 },{
     "name":"Reckless Rocketeer",
-    "arenaRank":"56"
+    "arenaRank":56
 },{
     "name":"Booty Bay Bodyguard",
-    "arenaRank":"57"
+    "arenaRank":57
 },{
     "name":"Ironbeak Owl",
-    "arenaRank":"58"
+    "arenaRank":58
 },{
     "name":"Kobold Geomancer",
-    "arenaRank":"59"
+    "arenaRank":59
 },{
     "name":"Argent Squire",
-    "arenaRank":"60"
+    "arenaRank":60
 },{
     "name":"Murloc Tidehunter",
-    "arenaRank":"61"
+    "arenaRank":61
 },{
     "name":"Core Hound",
-    "arenaRank":"62"
+    "arenaRank":62
 },{
     "name":"Raid Leader",
-    "arenaRank":"63"
+    "arenaRank":63
 },{
     "name":"Leper Gnome",
-    "arenaRank":"64"
+    "arenaRank":64
 },{
     "name":"Thrallmar Farseer",
-    "arenaRank":"65"
+    "arenaRank":65
 },{
     "name":"Windfury Harpy",
-    "arenaRank":"66"
+    "arenaRank":66
 },{
     "name":"Nightblade",
-    "arenaRank":"67"
+    "arenaRank":67
 },{
     "name":"Frostwolf Grunt",
-    "arenaRank":"68"
+    "arenaRank":68
 },{
     "name":"Mogu'shan Warden",
-    "arenaRank":"69"
+    "arenaRank":69
 },{
     "name":"Dread Corsair",
-    "arenaRank":"70"
+    "arenaRank":70
 },{
     "name":"Tauren Warrior",
-    "arenaRank":"71"
+    "arenaRank":71
 },{
     "name":"Magma Rager",
-    "arenaRank":"72"
+    "arenaRank":72
 },{
     "name":"Dalaran Mage",
-    "arenaRank":"73"
+    "arenaRank":73
 },{
     "name":"Voodoo Doctor",
-    "arenaRank":"74"
+    "arenaRank":74
 },{
     "name":"Silverback Patriarch",
-    "arenaRank":"75"
+    "arenaRank":75
 },{
     "name":"Southsea Deckhand",
-    "arenaRank":"76"
+    "arenaRank":76
 },{
     "name":"Goldshire Footman",
-    "arenaRank":"77"
+    "arenaRank":77
 },{
     "name":"Shieldbearer",
-    "arenaRank":"78"
+    "arenaRank":78
 },{
     "name":"Stonetusk Boar",
-    "arenaRank":"79"
+    "arenaRank":79
 },{
     "name":"Murloc Raider",
-    "arenaRank":"80"
+    "arenaRank":80
 },{
     "name":"Young Dragonhawk",
-    "arenaRank":"81"
+    "arenaRank":81
 },{
     "name":"Wisp",
-    "arenaRank":"82"
+    "arenaRank":82
 },{
     "name":"Grimscale Oracle",
-    "arenaRank":"83"
+    "arenaRank":83
 }];
 
+/* RARE TIER LIST */
+http://www.liquidhearth.com/forum/viewmessage.php?topic_id=835
+var tierListRare = [{
+	"name":"Azure Drake",
+	"arenaRank":1
+},{
+    "name":"Argent Commander",
+    "arenaRank":2
+},{
+    "name":"Stampeding Kodo",
+    "arenaRank":3
+},{
+    "name":"Knife Juggler",
+    "arenaRank":4
+},{
+    "name":"Twilight Drake",
+    "arenaRank":5
+},{
+    "name":"Sunwalker",
+    "arenaRank":6
+},{
+    "name":"Mind Control Tech",
+    "arenaRank":7
+},{
+    "name":"Defender of Argus",
+    "arenaRank":8
+},{
+    "name":"Imp Master",
+    "arenaRank":9
+},{
+    "name":"Emperor Cobra",
+    "arenaRank":10
+},{
+    "name":"Wild Pyromancer",
+    "arenaRank":11
+},{
+    "name":"Injured Blademaster",
+    "arenaRank":12
+},{
+    "name":"Violet Teacher",
+    "arenaRank":13
+},{
+    "name":"Abomination",
+    "arenaRank":14
+},{
+    "name":"Ravenholdt Assassin",
+    "arenaRank":15
+},{
+    "name":"Gadgetzan Auctioneer",
+    "arenaRank":16
+},{
+    "name":"Sunfury Protector",
+    "arenaRank":17
+},{
+    "name":"Demolisher",
+    "arenaRank":18
+},{
+    "name":"Questing Adventurer",
+    "arenaRank":19
+},{
+    "name":"Crazed Alchemist",
+    "arenaRank":20
+},{
+    "name":"Arcane Golem",
+    "arenaRank":21
+},{
+    "name":"Mana Wraith",
+    "arenaRank":22
+},{
+    "name":"Master Swordsmith",
+    "arenaRank":23
+},{
+    "name":"Pint-Sized Summoner",
+    "arenaRank":24
+},{
+    "name":"Young Priestess",
+    "arenaRank":25
+},{
+    "name":"Bloodsail Corsair",
+    "arenaRank":26
+},{
+    "name":"Ancient Mage",
+    "arenaRank":27
+},{
+    "name":"Mana Addict",
+    "arenaRank":28
+},{
+    "name":"Coldlight Oracle",
+    "arenaRank":29
+},{
+    "name":"Coldlight Seer",
+    "arenaRank":30
+},{
+    "name":"Secretkeeper",
+    "arenaRank":31
+},{
+    "name":"Alarm-o-Bot",
+    "arenaRank":32
+},{
+    "name":"Lightwarden",
+    "arenaRank":33
+},{
+    "name":"Ancient Watcher",
+    "arenaRank":34
+},{
+    "name":"Murloc Tidecaller",
+    "arenaRank":35
+},{
+    "name":"Angry Chicken",
+    "arenaRank":36
+}];
+
+// add common cards tiers to the hearthstoneCards list
 var counter = 0;
-$.each(tierList, function(cardName, rank) {
+$.each(tierListCommon, function(cardName, rank) {
 	$.each(hearthstoneCards, function(index, value) {
-	   if (rank.name === value.name){
-	       value.arenaRank = rank.arenaRank;
+		if (rank.name === value.name){
+			value.arenaRank = rank.arenaRank;
+			if (0 < value.arenaRank && value.arenaRank <= 15){
+				value.arenaRankText = "Excellent";
+				value.arenaRankTier = "2";
+			}
+			else if (16 <= value.arenaRank && value.arenaRank <= 24){
+				value.arenaRankText = "Good";
+				value.arenaRankTier = "3";
+			}
+			else if (25 <= value.arenaRank && value.arenaRank <= 43){
+				value.arenaRankText = "Average";
+				value.arenaRankTier = "4";
+			}
+			else if (44 <= value.arenaRank && value.arenaRank <= 60){
+				value.arenaRankText = "Poor";
+				value.arenaRankTier = "5";
+			}
+			else if (61 <= value.arenaRank && value.arenaRank <= 83){
+				value.arenaRankText = "Terrible";
+				value.arenaRankTier = "6";
+			}
+			else{
+				value.arenaRankText = "";
+				value.arenaRankTier = "";
+			}
+			counter++;
+		}
+    });
+});
+
+
+// add rare cards tiers to the hearthstoneCards list
+var counter = 0;
+$.each(tierListRare, function(cardName, rank) {
+	$.each(hearthstoneCards, function(index, value) {
+		if (rank.name === value.name){
+			value.arenaRank = rank.arenaRank;
+			if (0 < value.arenaRank && value.arenaRank <= 2){
+				value.arenaRankText = "Best";
+				value.arenaRankTier = "1";
+			}
+			else if (3 <= value.arenaRank && value.arenaRank <= 10){
+				value.arenaRankText = "Excellent";
+				value.arenaRankTier = "2";
+			}
+			else if (11 <= value.arenaRank && value.arenaRank <= 14){
+				value.arenaRankText = "Good";
+				value.arenaRankTier = "3";
+			}
+			else if (15 <= value.arenaRank && value.arenaRank <= 21){
+				value.arenaRankText = "Average";
+				value.arenaRankTier = "4";
+			}
+			else if (22 <= value.arenaRank && value.arenaRank <= 25){
+				value.arenaRankText = "Poor";
+				value.arenaRankTier = "5";
+			}
+			else if (26 <= value.arenaRank <= 36){
+				value.arenaRankText = "Terrible";
+				value.arenaRankTier = "6";
+			}
+			else{
+				value.arenaRankText = "";
+				value.arenaRankTier = "";
+			}
 		   counter++;
 	   }
     });
 });
-//console.log(counter);
 
 var table = "";
 $.each(hearthstoneCards, function(i, value) {
@@ -7398,41 +7574,41 @@ $.each(hearthstoneCards, function(i, value) {
 	if (!(typeof value.classs === 'undefined')){
 		switch(value.classs)
 		{
-		case 1:
-		  classs = "warrior";
-		  break;
-		case 2:
-		  classs = "paladin";
-		  break;
-		case 3:
-		  classs = "hunter";
-		  break;
-		case 4:
-		  classs = "rogue";
-		  break;
-		case 5:
-		  classs = "priest";
-		  break;
-		case 6:
-		  classs = "neutral";
-		  break;
-		case 7:
-		  classs = "shaman";
-		  break;
-		case 8:
-		  classs = "mage";
-		  break;
-		case 9:
-		  classs = "warlock";
-		  break;
-		case 10:
-		  classs = "neutral";
-		  break;
-		case 11:
-		  classs = "druid";
-		  break;
-		default:
-		  classs = "neutral";
+			case 1:
+			  classs = "warrior";
+			  break;
+			case 2:
+			  classs = "paladin";
+			  break;
+			case 3:
+			  classs = "hunter";
+			  break;
+			case 4:
+			  classs = "rogue";
+			  break;
+			case 5:
+			  classs = "priest";
+			  break;
+			case 6:
+			  classs = "neutral";
+			  break;
+			case 7:
+			  classs = "shaman";
+			  break;
+			case 8:
+			  classs = "mage";
+			  break;
+			case 9:
+			  classs = "warlock";
+			  break;
+			case 10:
+			  classs = "neutral";
+			  break;
+			case 11:
+			  classs = "druid";
+			  break;
+			default:
+			  classs = "neutral";
 		}
 	}
 	
@@ -7441,23 +7617,23 @@ $.each(hearthstoneCards, function(i, value) {
 	if (!(typeof value.quality === 'undefined')){
 		switch(value.quality)
 		{
-		case 0:
-		  quality = "free";
-		  break;
-		case 1:
-		  quality = "common";
-		  break;
-		case 3:
-		  quality = "rare";
-		  break;
-		case 4:
-		  quality = "epic";
-		  break;
-		case 5:
-		  quality = "legendary";
-		  break;
-		default:
-		  quality = "common";
+			case 0:
+			  quality = "free";
+			  break;
+			case 1:
+			  quality = "common";
+			  break;
+			case 3:
+			  quality = "rare";
+			  break;
+			case 4:
+			  quality = "epic";
+			  break;
+			case 5:
+			  quality = "legendary";
+			  break;
+			default:
+			  quality = "common";
 		}
 	}
 
@@ -7490,10 +7666,20 @@ $.each(hearthstoneCards, function(i, value) {
 		attack = "";
 	}
 	
-	var arenaRank  = "";
+	var arenaRank = "";
 	if (!(typeof value.arenaRank === 'undefined')){
 		arenaRank = value.arenaRank;
-	} 
+	}
+	
+	var arenaRankText = "";
+	if (!(typeof value.arenaRankText === 'undefined')){
+		arenaRankText = value.arenaRankText;
+	}	
+	
+	var arenaRankTier = "";
+	if (!(typeof value.arenaRankTier === 'undefined')){
+		arenaRankTier = value.arenaRankTier;
+	}
 	
 	var description = "";
 	if (!(typeof value.description === 'undefined')){
@@ -7506,7 +7692,7 @@ $.each(hearthstoneCards, function(i, value) {
 	table += '<td><span class="mana">' + value.cost + '</span></td>';
 	table += '<td><span class="' + attackType + '">' + attack + '</span></td>';
 	table += '<td><span class="' + healthType + '">' + health + '</span></td>';
-	table += '<td><span class="arenaRank">' + arenaRank + '</span></td>';
+	table += '<td><span class="arenaRank">' + arenaRankText + '<div class="hidden">' + arenaRank + '</div><div class="arenaRankTier hidden">' + arenaRankTier + '</div></span></td>';
 	table += '<td class="description">' + description + '</td>';
 	table += '</tr>';
 });
