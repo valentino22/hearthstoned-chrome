@@ -1,3 +1,7 @@
+.hidden{
+	display:none;
+}
+
 .filter-table{
 	position: fixed;
 	top: 0px;
@@ -17,11 +21,16 @@
 	width:149px;
 }
 
+.filter-table input#tierListCheckbox{
+	width:14px;
+}
+
 label#tierListCheckboxWrapper{
-	float:left;
-	margin:8px 0 0 5px;
+	font-size:12px;
+	float:right;
+	margin:4px 0;
 	height:22px;
-	width: 210px;
+	width: 235px;
 }
 
 label#tierListCheckboxWrapper input{
@@ -48,7 +57,7 @@ html, body {
 	height:100.1%; /* This hack prevents fluid layout because of scrollbar by putting the scrollbar always there */
     background: none repeat scroll 0 0 #000;
     color: #fff;
-    font: 12px/1.3 "Lucida Sans Unicode",Arial,Helvetica,sans-serif;
+    font: 13px "Lucida Sans Unicode",Arial,Helvetica,sans-serif;
 }
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, em, img, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
