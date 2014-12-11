@@ -4,10 +4,11 @@
 
 .filter-table{
 	position: fixed;
+	color: #fff;
 	height: 31px;
 	top: 0px;
 	left: 0px;
-	width: 690px;
+	width: 700px;
 	background-color:#000;
 	border-bottom:1px solid #777;
 	padding-left: 10px;
@@ -26,6 +27,7 @@
 
 .filter-table input.search{
 	/*ox-shadow: inset 1px 1px 6px 0px black;*/
+	color:#000;
 	height: 20px;
 	padding-left:6px;
 	border: 0;
@@ -33,8 +35,8 @@
 }
 
 .filter-table #refreshButton{
-	width: 12px;
-	height: 12px;
+	width: 23px;
+	height: 22px;
 	margin-top: 5px;
 	padding: 4px 4px 4px 5px;
 }
@@ -89,7 +91,7 @@ a i {
 html, body {
 	width:700px;
 	height:100.1%; /* This hack prevents fluid layout because of scrollbar by putting the scrollbar always there */
-    background: none repeat scroll 0 0 #000;
+    background: none repeat scroll 0 0 #000 !important;
     color: #fff;
     font: 11px "Lucida Sans Unicode",Arial,Helvetica,sans-serif;
 }
@@ -143,6 +145,7 @@ table#hs-streams tr td{
 	display:block;
 	color:#ddd;
 	padding: 9px 10px 9px 0px;
+	text-decoration:none;
 }
 
 /* Setting the header widths for the streams table */
@@ -217,39 +220,39 @@ table#hs-streams tr td{
 }
 
 .txclass.priest {
-    color: #FFFE1F !important;
+    color: #B1B4B9 !important;
 }
 
 .txclass.paladin {
-    color: #FB920B !important;
+    color: #DBAB4A !important;
 }
 
 .txclass.warrior {
-    color: #FFD1A4 !important;
+    color: #761F13 !important;
 }
 
 .txclass.rogue {
-    color: #C62012 !important;
+    color: #343739 !important;
 }
 
 .txclass.druid {
-    color: #9260B3 !important;
+    color: #976231 !important;
 }
 
 .txclass.mage {
-    color: #68CCEF!important;
+    color: #737DA6!important;
 }
 
 .txclass.warlock {
-    color: #B8A6F1 !important;
+    color: #483050 !important;
 }
 
 .txclass.shaman {
-    color: #20678B !important;
+    color: #3F4488 !important;
 }
 
 .txclass.hunter {
-    color: #B16C1E !important;
+    color: #3E7739 !important;
 }
 
 .quality.free {
