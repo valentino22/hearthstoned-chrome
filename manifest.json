@@ -1,8 +1,8 @@
 {
-	"name": "Hearthstone Cards and Twitch.tv Streams",
+	"name": "Hearthstone Cards & Twitch.tv Streams",
 	"manifest_version": 2,
 	"description": "This add-on lists all Hearthstone cards and Twitch streams. It's useful to look up cards while watching a stream or reading a guide.",
-	"version": "2.0",
+	"version": "2.5",
 	"author": "Szabolcs Ferenczi",
 	"short_name": "Hearthstone Cards and Streams",
 	"browser_action": {
@@ -18,7 +18,10 @@
 	},
 	"permissions": [
 		"storage",
-		"https://api.twitch.tv/"
+		"https://api.twitch.tv/",
+		"https://www.hearthhead.com/",
+		"https://www.wowhead.com/",
+		"https://wow.zamimg.com/"
 	],
-   "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.hearthhead.com; object-src 'self'"
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.hearthhead.com https://www.wowhead.com https://wow.zamimg.com; object-src 'self'"
 }

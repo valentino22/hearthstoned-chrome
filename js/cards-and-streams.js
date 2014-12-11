@@ -8,6 +8,7 @@ $(document).ready(function() {
 			if(data.showStreams){
 				renderStreams();
 			} else {
+
 				renderCards();
 			}
 		} else {
@@ -190,4 +191,55 @@ $(document).ready(function() {
 			 sticky_navigation();
 		});
 	});
+	
+	// remove the &power part from the url to load the proper website on click
+	$("[rel=popover]").on('click', function(){
+		$(this).prop('href', this.href.substring(0, this.href.length - 6));
+	});
+	
+	$(function(){
+		$("[rel=popover]").popover({
+			html:true,
+			trigger: 'hover focus',
+			placement:get_popover_placement,
+			viewport:'#table-card-list',
+			content: function() {
+				$.ajax({
+					url: this.href,
+					cache: true,
+					dataType: 'html',
+					type: 'GET',
+					async: false,
+					success: function( data ) {
+						var imgTag = data.substring(data.indexOf("tooltip_enus: '")+15);
+						imgTag = imgTag.substring(0,imgTag.lastIndexOf("tooltip_premium_enus"));
+						if (imgTag.indexOf("<table>") > 1)
+						{
+							imgTag = imgTag.substring(0,imgTag.indexOf("<table>"));
+						}
+						imgTag = imgTag.substring(imgTag.indexOf('src="')+5);
+						imgTag = imgTag.substring(0,imgTag.indexOf('class="')-1);
+						imgTag = "https:" + imgTag;
+						document.imageUrl = imgTag;
+					}
+				});
+				return '<img style="width:auto;height:303px;" src="' + document.imageUrl + '" />';
+			}
+		});		
+	});
+	
+	// calculate the popover placement on the fly depending on the table cell position
+	function get_popover_placement(pop, dom_el) {
+		var elementPositionFromTop = $(dom_el).position().top;
+		var heightScrolledFromTop = $(window).scrollTop();
+		var relativeElementPosition = elementPositionFromTop - heightScrolledFromTop;
+		if (relativeElementPosition < 300)
+		{
+			return 'bottom';
+		}
+		else
+		{
+			return 'top';
+		}
+	}
 });

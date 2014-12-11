@@ -1,4 +1,4 @@
-// Get the list from the source of the http://www.hearthhead.com/cards page
+// Get the list from the source of the http://www.hearthhead.com/cards page. Then put it in a js beautifier
 // Also get the uncollectible list from the source after filtering the cards for uncollectible type
 
 /* Start of collectible card list */
@@ -18,7 +18,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Edwin VanCleef",
     "description": "Combo: Gain +2\/+2 for each card played earlier this turn.",
-    popularity: 416
+    popularity: 1561
 }, {
     "id": 391,
     "image": "EX1_133",
@@ -34,7 +34,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Perdition's Blade",
     "description": "Battlecry: Deal 1 damage. Combo: Deal 2 instead.",
-    popularity: 449
+    popularity: 1302
 }, {
     "id": 999,
     "image": "NEW1_018",
@@ -49,7 +49,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Bloodsail Raider",
     "description": "Battlecry: Gain Attack equal to the Attack of your weapon.",
-    popularity: 1006
+    popularity: 2599
 }, {
     "id": 749,
     "image": "EX1_012",
@@ -65,7 +65,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Bloodmage Thalnos",
     "description": "Spell Damage +1. Deathrattle: Draw a card.",
-    popularity: 1790
+    popularity: 7430
 }, {
     "id": 179,
     "image": "CS2_231",
@@ -79,7 +79,7 @@ var hearthstoneCards = [{
     "faction": 3,
     "collectible": 1,
     "name": "Wisp",
-    popularity: 198
+    popularity: 609
 }, {
     "id": 635,
     "image": "CS2_179",
@@ -94,7 +94,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Sen'jin Shieldmasta",
     "description": "Taunt",
-    popularity: 3217
+    popularity: 9965
 }, {
     "id": 830,
     "image": "EX1_244",
@@ -108,7 +108,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Totemic Might",
     "description": "Give your Totems +2 Health.",
-    popularity: 140
+    popularity: 317
 }, {
     "id": 523,
     "image": "EX1_025",
@@ -123,7 +123,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Dragonling Mechanic",
     "description": "Battlecry: Summon a 2\/1 Mechanical Dragonling.",
-    popularity: 728
+    popularity: 1409
 }, {
     "id": 700,
     "image": "EX1_396",
@@ -138,7 +138,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Mogu'shan Warden",
     "description": "Taunt",
-    popularity: 854
+    popularity: 1803
 }, {
     "id": 443,
     "image": "NEW1_017",
@@ -153,7 +153,7 @@ var hearthstoneCards = [{
     "race": 20,
     "name": "Hungry Crab",
     "description": "Battlecry: Destroy a Murloc and gain +2\/+2.",
-    popularity: 177
+    popularity: 496
 }, {
     "id": 1091,
     "image": "EX1_533",
@@ -167,7 +167,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Misdirection",
     "description": "Secret: When a character attacks your hero, instead he attacks another random character.",
-    popularity: 343
+    popularity: 1263
 }, {
     "id": 1133,
     "image": "EX1_522",
@@ -183,7 +183,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Patient Assassin",
     "description": "Stealth. Destroy any minion damaged by this minion.",
-    popularity: 123
+    popularity: 295
 }, {
     "id": 1029,
     "image": "NEW1_026",
@@ -197,7 +197,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Violet Teacher",
     "description": "Whenever you cast a spell, summon a 1\/1 Violet Apprentice.",
-    popularity: 480
+    popularity: 2051
 }, {
     "id": 538,
     "image": "EX1_398",
@@ -213,7 +213,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Arathi Weaponsmith",
     "description": "Battlecry: Equip a 2\/2 weapon.",
-    popularity: 791
+    popularity: 2025
 }, {
     "id": 1659,
     "image": "EX1_007",
@@ -227,7 +227,7 @@ var hearthstoneCards = [{
     "health": 3,
     "name": "Acolyte of Pain",
     "description": "Whenever this minion takes damage, draw a card.",
-    popularity: 1549
+    popularity: 6492
 }, {
     "id": 841,
     "image": "CS1_112",
@@ -240,8 +240,8 @@ var hearthstoneCards = [{
     "cost": 5,
     "collectible": 1,
     "name": "Holy Nova",
-    "description": "Deal 2 damage to all enemies.  Restore 2 Health to all  friendly characters.",
-    popularity: 1540
+    "description": "Deal 2 damage to all enemies. Restore 2 Health to all friendly characters.",
+    popularity: 5363
 }, {
     "id": 1026,
     "image": "NEW1_036",
@@ -253,8 +253,8 @@ var hearthstoneCards = [{
     "classs": 1,
     "collectible": 1,
     "name": "Commanding Shout",
-    "description": "Your minions can't be reduced below 1 Health this turn.  Draw a card.",
-    popularity: 377
+    "description": "Your minions can't be reduced below 1 Health this turn. Draw a card.",
+    popularity: 690
 }, {
     "id": 774,
     "image": "EX1_258",
@@ -270,7 +270,7 @@ var hearthstoneCards = [{
     "attack": 2,
     "name": "Unbound Elemental",
     "description": "Whenever you play a card with Overload, gain +1\/+1.",
-    popularity: 545
+    popularity: 2466
 }, {
     "id": 70,
     "image": "CS2_087",
@@ -284,7 +284,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Blessing of Might",
     "description": "Give a minion +3 Attack.",
-    popularity: 585
+    popularity: 1877
 }, {
     "id": 943,
     "image": "CS2_092",
@@ -298,7 +298,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Blessing of Kings",
     "description": "Give a minion +4\/+4. (+4 Attack\/+4 Health)",
-    popularity: 1188
+    popularity: 3134
 }, {
     "id": 77,
     "image": "CS2_022",
@@ -312,7 +312,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Polymorph",
     "description": "Transform a minion into a 1\/1 Sheep.",
-    popularity: 1347
+    popularity: 4589
 }, {
     "id": 348,
     "image": "EX1_046",
@@ -327,7 +327,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Dark Iron Dwarf",
     "description": "Battlecry: Give a minion +2 Attack this turn.",
-    popularity: 2227
+    popularity: 5272
 }, {
     "id": 344,
     "image": "CS2_103",
@@ -341,7 +341,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Charge",
     "description": "Give a friendly minion +2 Attack and Charge.",
-    popularity: 367
+    popularity: 769
 }, {
     "id": 1371,
     "image": "NEW1_041",
@@ -356,7 +356,7 @@ var hearthstoneCards = [{
     "race": 20,
     "name": "Stampeding Kodo",
     "description": "Battlecry: Destroy a random enemy minion with 2 or less Attack.",
-    popularity: 621
+    popularity: 2972
 }, {
     "id": 854,
     "image": "EX1_360",
@@ -370,7 +370,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Humility",
     "description": "Change a minion's Attack to 1.",
-    popularity: 330
+    popularity: 1221
 }, {
     "id": 526,
     "image": "NEW1_038",
@@ -385,7 +385,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Gruul",
     "description": "At the end of each turn, gain +1\/+1 .",
-    popularity: 244
+    popularity: 643
 }, {
     "id": 213,
     "image": "CS2_009",
@@ -399,7 +399,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Mark of the Wild",
     "description": "Give a minion Taunt and +2\/+2. (+2 Attack\/+2 Health)",
-    popularity: 537
+    popularity: 2341
 }, {
     "id": 994,
     "image": "EX1_010",
@@ -414,7 +414,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Worgen Infiltrator",
     "description": "Stealth",
-    popularity: 626
+    popularity: 1812
 }, {
     "id": 662,
     "image": "CS2_024",
@@ -428,7 +428,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Frostbolt",
     "description": "Deal 3 damage to a character and Freeze it.",
-    popularity: 1685
+    popularity: 5958
 }, {
     "id": 1008,
     "image": "EX1_565",
@@ -445,7 +445,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Flametongue Totem",
     "description": "Adjacent minions have +2 Attack.",
-    popularity: 1026
+    popularity: 4209
 }, {
     "id": 345,
     "image": "CS2_076",
@@ -459,7 +459,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Assassinate",
     "description": "Destroy an enemy minion.",
-    popularity: 762
+    popularity: 1897
 }, {
     "id": 157,
     "image": "CS2_162",
@@ -474,7 +474,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Lord of the Arena",
     "description": "Taunt",
-    popularity: 1055
+    popularity: 2285
 }, {
     "id": 1109,
     "image": "CS2_181",
@@ -489,7 +489,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Injured Blademaster",
     "description": "Battlecry: Deal 4 damage to HIMSELF.",
-    popularity: 762
+    popularity: 2946
 }, {
     "id": 1100,
     "image": "EX1_309",
@@ -503,7 +503,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Siphon Soul",
     "description": "Destroy a minion. Restore 3 Health to your hero.",
-    popularity: 590
+    popularity: 2347
 }, {
     "id": 594,
     "image": "EX1_354",
@@ -517,7 +517,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Lay on Hands",
     "description": "Restore 8 Health. Draw 3 cards.",
-    popularity: 607
+    popularity: 2049
 }, {
     "id": 34,
     "image": "EX1_023",
@@ -532,7 +532,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Silvermoon Guardian",
     "description": "Divine Shield",
-    popularity: 633
+    popularity: 1387
 }, {
     "id": 1099,
     "image": "CS2_003",
@@ -546,7 +546,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Mind Vision",
     "description": "Put a copy of a random card in your opponent's hand into your hand.",
-    popularity: 395
+    popularity: 1264
 }, {
     "id": 1687,
     "image": "CS2_201",
@@ -560,7 +560,7 @@ var hearthstoneCards = [{
     "health": 5,
     "race": 20,
     "name": "Core Hound",
-    popularity: 509
+    popularity: 983
 }, {
     "id": 510,
     "image": "EX1_508",
@@ -576,7 +576,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Grimscale Oracle",
     "description": "ALL other Murlocs have +1 Attack.",
-    popularity: 645
+    popularity: 1585
 }, {
     "id": 629,
     "image": "EX1_259",
@@ -590,7 +590,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Lightning Storm",
     "description": "Deal 2-3 damage to all enemy minions. Overload: (2)",
-    popularity: 1027
+    popularity: 4047
 }, {
     "id": 797,
     "image": "EX1_341",
@@ -606,7 +606,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Lightwell",
     "description": "At the start of your turn, restore 3 Health to a damaged friendly character.",
-    popularity: 485
+    popularity: 1436
 }, {
     "id": 453,
     "image": "EX1_103",
@@ -622,7 +622,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Coldlight Seer",
     "description": "Battlecry: Give ALL other Murlocs +2 Health.",
-    popularity: 548
+    popularity: 1344
 }, {
     "id": 810,
     "image": "EX1_411",
@@ -638,7 +638,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Gorehowl",
     "description": "Attacking a minion costs 1 Attack instead of 1 Durability.",
-    popularity: 559
+    popularity: 1744
 }, {
     "id": 818,
     "image": "CS2_053",
@@ -652,7 +652,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Far Sight",
     "description": "Draw a card. That card costs (3) less.",
-    popularity: 92
+    popularity: 256
 }, {
     "id": 90,
     "image": "CS2_182",
@@ -666,7 +666,7 @@ var hearthstoneCards = [{
     "health": 5,
     "collectible": 1,
     "name": "Chillwind Yeti",
-    popularity: 1780
+    popularity: 8021
 }, {
     "id": 467,
     "image": "CS2_008",
@@ -680,7 +680,7 @@ var hearthstoneCards = [{
     "cost": 0,
     "name": "Moonfire",
     "description": "Deal 1 damage.",
-    popularity: 191
+    popularity: 628
 }, {
     "id": 1064,
     "image": "CS2_233",
@@ -694,7 +694,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Blade Flurry",
     "description": "Destroy your weapon and deal its damage to all enemies.",
-    popularity: 383
+    popularity: 2590
 }, {
     "id": 1366,
     "image": "EX1_626",
@@ -707,7 +707,7 @@ var hearthstoneCards = [{
     "classs": 5,
     "name": "Mass Dispel",
     "description": "Silence all enemy minions. Draw a card.",
-    popularity: 293
+    popularity: 802
 }, {
     "id": 801,
     "image": "EX1_059",
@@ -722,7 +722,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Crazed Alchemist",
     "description": "Battlecry: Swap the Attack and Health of a minion.",
-    popularity: 329
+    popularity: 1246
 }, {
     "id": 220,
     "image": "EX1_334",
@@ -736,7 +736,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Shadow Madness",
     "description": "Gain control of an enemy minion with 3 or less Attack until end of turn.",
-    popularity: 447
+    popularity: 1794
 }, {
     "id": 756,
     "image": "EX1_619",
@@ -750,7 +750,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Equality",
     "description": "Change the Health of ALL minions to 1.",
-    popularity: 915
+    popularity: 3431
 }, {
     "id": 1658,
     "image": "EX1_006",
@@ -762,9 +762,10 @@ var hearthstoneCards = [{
     "cost": 3,
     "attack": 0,
     "health": 3,
+    "race": 17,
     "name": "Alarm-o-Bot",
     "description": "At the start of your turn, swap this minion with a random one in your hand.",
-    popularity: 218
+    popularity: 564
 }, {
     "id": 437,
     "image": "NEW1_031",
@@ -777,7 +778,7 @@ var hearthstoneCards = [{
     "classs": 3,
     "name": "Animal Companion",
     "description": "Summon a random Beast Companion.",
-    popularity: 1040
+    popularity: 4267
 }, {
     "id": 1634,
     "image": "EX1_004",
@@ -791,7 +792,7 @@ var hearthstoneCards = [{
     "health": 1,
     "name": "Young Priestess",
     "description": "At the end of your turn, give another random friendly minion +1 Health.",
-    popularity: 669
+    popularity: 2424
 }, {
     "id": 932,
     "image": "EX1_095",
@@ -800,13 +801,13 @@ var hearthstoneCards = [{
     "type": 4,
     "faction": 3,
     "quality": 3,
-    "cost": 5,
+    "cost": 6,
     "attack": 4,
     "health": 4,
     "collectible": 1,
     "name": "Gadgetzan Auctioneer",
     "description": "Whenever you cast a spell, draw a card.",
-    popularity: 1026
+    popularity: 4620
 }, {
     "id": 86,
     "image": "NEW1_007",
@@ -819,7 +820,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Starfall",
     "description": "Choose One - Deal 5 damage to a minion; or 2 damage to all enemy minions.",
-    popularity: 815
+    popularity: 2312
 }, {
     "id": 430,
     "image": "EX1_275",
@@ -833,7 +834,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Cone of Cold",
     "description": "Freeze a minion and the minions next to it, and deal 1 damage to them.",
-    popularity: 1041
+    popularity: 2148
 }, {
     "id": 767,
     "image": "EX1_245",
@@ -847,7 +848,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Earth Shock",
     "description": "Silence a minion, then deal 1 damage to it.",
-    popularity: 744
+    popularity: 3632
 }, {
     "id": 890,
     "image": "EX1_383",
@@ -864,7 +865,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Tirion Fordring",
     "description": "Divine Shield. Taunt. Deathrattle: Equip a 5\/3 Ashbringer.",
-    popularity: 829
+    popularity: 2463
 }, {
     "id": 1182,
     "image": "CS2_125",
@@ -880,7 +881,7 @@ var hearthstoneCards = [{
     "race": 20,
     "name": "Ironfur Grizzly",
     "description": "Taunt",
-    popularity: 1736
+    popularity: 4069
 }, {
     "id": 708,
     "image": "EX1_137",
@@ -894,7 +895,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Headcrack",
     "description": "Deal 2 damage to the enemy hero. Combo: Return this to your hand next turn.",
-    popularity: 324
+    popularity: 711
 }, {
     "id": 877,
     "image": "DS1_185",
@@ -908,7 +909,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Arcane Shot",
     "description": "Deal 2 damage.",
-    popularity: 691
+    popularity: 2286
 }, {
     "id": 1221,
     "image": "EX1_304",
@@ -924,7 +925,7 @@ var hearthstoneCards = [{
     "race": 15,
     "name": "Void Terror",
     "description": "Battlecry: Destroy the minions on either side of this minion and gain their Attack and Health.",
-    popularity: 313
+    popularity: 1188
 }, {
     "id": 1092,
     "image": "EX1_302",
@@ -938,7 +939,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Mortal Coil",
     "description": "Deal 1 damage to a minion. If that kills it, draw a card.",
-    popularity: 792
+    popularity: 3631
 }, {
     "id": 785,
     "image": "CS2_108",
@@ -952,7 +953,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Execute",
     "description": "Destroy a damaged enemy minion.",
-    popularity: 875
+    popularity: 3282
 }, {
     "id": 1171,
     "image": "CS2_046",
@@ -966,7 +967,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Bloodlust",
     "description": "Give your minions +3 Attack this turn.",
-    popularity: 827
+    popularity: 2357
 }, {
     "id": 287,
     "image": "NEW1_005",
@@ -981,7 +982,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Kidnapper",
     "description": "Combo: Return a minion to its owner's hand.",
-    popularity: 61
+    popularity: 177
 }, {
     "id": 736,
     "image": "EX1_062",
@@ -998,7 +999,22 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Old Murk-Eye",
     "description": "Charge. Has +1 Attack for each other Murloc on the battlefield.",
-    popularity: 528
+    popularity: 1357
+}, {
+    "id": 1796,
+    "image": "FP1_014",
+    "collectible": 1,
+    "set": 12,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "attack": 7,
+    "health": 4,
+    "elite": 1,
+    "name": "Stalagg",
+    "description": "Deathrattle: If Feugen also died this game, summon Thaddius.",
+    popularity: 878
 }, {
     "id": 180,
     "image": "CS2_072",
@@ -1012,7 +1028,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Backstab",
     "description": "Deal 2 damage to an undamaged minion.",
-    popularity: 1085
+    popularity: 4139
 }, {
     "id": 1063,
     "image": "EX1_507",
@@ -1028,7 +1044,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Murloc Warleader",
     "description": "ALL other Murlocs have +2\/+1.",
-    popularity: 561
+    popularity: 1367
 }, {
     "id": 365,
     "image": "EX1_144",
@@ -1042,7 +1058,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Shadowstep",
     "description": "Return a friendly minion to your hand. It costs (2) less.",
-    popularity: 493
+    popularity: 2269
 }, {
     "id": 404,
     "image": "CS2_038",
@@ -1055,8 +1071,8 @@ var hearthstoneCards = [{
     "cost": 2,
     "collectible": 1,
     "name": "Ancestral Spirit",
-    "description": "Choose a minion. When that minion is destroyed, return it to the battlefield.",
-    popularity: 291
+    "description": "Give a minion \"Deathrattle: Resummon this minion.\"",
+    popularity: 977
 }, {
     "id": 763,
     "image": "EX1_093",
@@ -1071,7 +1087,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Defender of Argus",
     "description": "Battlecry: Give adjacent minions +1\/+1 and Taunt.",
-    popularity: 4021
+    popularity: 14891
 }, {
     "id": 421,
     "image": "CS2_080",
@@ -1086,7 +1102,7 @@ var hearthstoneCards = [{
     "durability": 4,
     "collectible": 1,
     "name": "Assassin's Blade",
-    popularity: 479
+    popularity: 1927
 }, {
     "id": 1657,
     "image": "EX1_005",
@@ -1100,7 +1116,7 @@ var hearthstoneCards = [{
     "health": 2,
     "name": "Big Game Hunter",
     "description": "Battlecry: Destroy a minion with an Attack of 7 or more.",
-    popularity: 928
+    popularity: 4663
 }, {
     "id": 1167,
     "image": "EX1_382",
@@ -1116,7 +1132,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Aldor Peacekeeper",
     "description": "Battlecry: Change an enemy minion's Attack to 1.",
-    popularity: 1099
+    popularity: 3382
 }, {
     "id": 457,
     "image": "CS2_028",
@@ -1130,7 +1146,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Blizzard",
     "description": "Deal 2 damage to all enemy minions and Freeze them.",
-    popularity: 1208
+    popularity: 3095
 }, {
     "id": 1243,
     "image": "EX1_538",
@@ -1139,11 +1155,11 @@ var hearthstoneCards = [{
     "quality": 1,
     "icon": "inv_misc_ticket_tarot_elemental02",
     "type": 5,
-    "cost": 2,
+    "cost": 3,
     "classs": 3,
     "name": "Unleash the Hounds",
     "description": "For each enemy minion, summon a 1\/1 Hound with Charge.",
-    popularity: 836
+    popularity: 3866
 }, {
     "id": 461,
     "image": "EX1_581",
@@ -1157,7 +1173,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Sap",
     "description": "Return an enemy minion to your opponent's hand.",
-    popularity: 343
+    popularity: 2465
 }, {
     "id": 308,
     "image": "CS2_147",
@@ -1172,7 +1188,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Gnomish Inventor",
     "description": "Battlecry: Draw a card.",
-    popularity: 1262
+    popularity: 3526
 }, {
     "id": 8,
     "image": "CS1_113",
@@ -1186,7 +1202,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Mind Control",
     "description": "Take control of an enemy minion.",
-    popularity: 1344
+    popularity: 3472
 }, {
     "id": 134,
     "image": "CS2_161",
@@ -1201,7 +1217,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Ravenholdt Assassin",
     "description": "Stealth",
-    popularity: 425
+    popularity: 922
 }, {
     "id": 172,
     "image": "CS2_031",
@@ -1215,7 +1231,7 @@ var hearthstoneCards = [{
     "cost": 1,
     "name": "Ice Lance",
     "description": "Freeze a character. If it was already Frozen, deal 4 damage instead.",
-    popularity: 652
+    popularity: 2296
 }, {
     "id": 906,
     "image": "EX1_066",
@@ -1230,7 +1246,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Acidic Swamp Ooze",
     "description": "Battlecry: Destroy your opponent's weapon.",
-    popularity: 2760
+    popularity: 7986
 }, {
     "id": 1522,
     "image": "EX1_355",
@@ -1243,7 +1259,7 @@ var hearthstoneCards = [{
     "classs": 2,
     "name": "Blessed Champion",
     "description": "Double a minion's Attack.",
-    popularity: 280
+    popularity: 647
 }, {
     "id": 1261,
     "image": "EX1_534",
@@ -1259,7 +1275,7 @@ var hearthstoneCards = [{
     "race": 20,
     "name": "Savannah Highmane",
     "description": "Deathrattle: Summon two 2\/2 Hyenas.",
-    popularity: 637
+    popularity: 2852
 }, {
     "id": 985,
     "image": "EX1_162",
@@ -1275,7 +1291,7 @@ var hearthstoneCards = [{
     "race": 20,
     "name": "Dire Wolf Alpha",
     "description": "Adjacent minions have +1 Attack.",
-    popularity: 1278
+    popularity: 4670
 }, {
     "id": 1373,
     "image": "EX1_363",
@@ -1287,8 +1303,8 @@ var hearthstoneCards = [{
     "cost": 1,
     "classs": 2,
     "name": "Blessing of Wisdom",
-    "description": "Choose a minion.  Whenever it attacks, draw a card.",
-    popularity: 423
+    "description": "Choose a minion. Whenever it attacks, draw a card.",
+    popularity: 1132
 }, {
     "id": 242,
     "image": "CS2_188",
@@ -1303,7 +1319,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Abusive Sergeant",
     "description": "Battlecry: Give a minion +2 Attack this turn.",
-    popularity: 1051
+    popularity: 4694
 }, {
     "id": 1721,
     "image": "EX1_016",
@@ -1318,7 +1334,7 @@ var hearthstoneCards = [{
     "elite": 1,
     "name": "Sylvanas Windrunner",
     "description": "Deathrattle: Take control of a random enemy minion.",
-    popularity: 1812
+    popularity: 5768
 }, {
     "id": 285,
     "image": "EX1_603",
@@ -1334,7 +1350,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Cruel Taskmaster",
     "description": "Battlecry: Deal 1 damage to a minion and give it +2 Attack.",
-    popularity: 814
+    popularity: 2974
 }, {
     "id": 505,
     "image": "EX1_238",
@@ -1348,7 +1364,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Lightning Bolt",
     "description": "Deal 3 damage. Overload: (1)",
-    popularity: 932
+    popularity: 3734
 }, {
     "id": 601,
     "image": "EX1_166",
@@ -1364,7 +1380,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Keeper of the Grove",
     "description": "Choose One - Deal 2 damage; or Silence a minion.",
-    popularity: 890
+    popularity: 4386
 }, {
     "id": 292,
     "image": "DS1_183",
@@ -1378,7 +1394,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Multi-Shot",
     "description": "Deal 3 damage to two random enemy minions.",
-    popularity: 852
+    popularity: 2040
 }, {
     "id": 37,
     "image": "EX1_076",
@@ -1393,7 +1409,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Pint-Sized Summoner",
     "description": "The first minion you play each turn costs (1) less.",
-    popularity: 499
+    popularity: 925
 }, {
     "id": 754,
     "image": "EX1_048",
@@ -1408,7 +1424,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Spellbreaker",
     "description": "Battlecry: Silence a minion.",
-    popularity: 2576
+    popularity: 5737
 }, {
     "id": 459,
     "image": "CS2_074",
@@ -1422,7 +1438,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Deadly Poison",
     "description": "Give your weapon +2 Attack.",
-    popularity: 902
+    popularity: 3858
 }, {
     "id": 667,
     "image": "EX1_129",
@@ -1436,7 +1452,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Fan of Knives",
     "description": "Deal 1 damage to all enemy minions. Draw a card.",
-    popularity: 619
+    popularity: 2566
 }, {
     "id": 866,
     "image": "EX1_405",
@@ -1451,7 +1467,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Shieldbearer",
     "description": "Taunt",
-    popularity: 728
+    popularity: 2567
 }, {
     "id": 860,
     "image": "EX1_317",
@@ -1465,7 +1481,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Sense Demons",
     "description": "Put 2 random Demons from your deck into your hand.",
-    popularity: 298
+    popularity: 677
 }, {
     "id": 1023,
     "image": "EX1_606",
@@ -1478,8 +1494,8 @@ var hearthstoneCards = [{
     "classs": 1,
     "collectible": 1,
     "name": "Shield Block",
-    "description": "Gain 5 Armor.  Draw a card.",
-    popularity: 602
+    "description": "Gain 5 Armor. Draw a card.",
+    popularity: 2534
 }, {
     "id": 920,
     "image": "NEW1_008",
@@ -1494,7 +1510,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Ancient of Lore",
     "description": "Choose One - Draw 2 cards; or Restore 5 Health.",
-    popularity: 587
+    popularity: 3357
 }, {
     "id": 1370,
     "image": "CS2_119",
@@ -1508,7 +1524,7 @@ var hearthstoneCards = [{
     "health": 7,
     "race": 20,
     "name": "Oasis Snapjaw",
-    popularity: 402
+    popularity: 1204
 }, {
     "id": 41,
     "image": "CS2_121",
@@ -1523,7 +1539,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Frostwolf Grunt",
     "description": "Taunt",
-    popularity: 579
+    popularity: 1371
 }, {
     "id": 1014,
     "image": "NEW1_020",
@@ -1537,7 +1553,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Wild Pyromancer",
     "description": "After you cast a spell, deal 1 damage to ALL minions.",
-    popularity: 888
+    popularity: 4446
 }, {
     "id": 257,
     "image": "CS2_196",
@@ -1552,7 +1568,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Razorfen Hunter",
     "description": "Battlecry: Summon a 1\/1 Boar.",
-    popularity: 946
+    popularity: 2071
 }, {
     "id": 859,
     "image": "EX1_312",
@@ -1566,7 +1582,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Twisting Nether",
     "description": "Destroy all minions.",
-    popularity: 201
+    popularity: 463
 }, {
     "id": 436,
     "image": "EX1_563",
@@ -1583,7 +1599,7 @@ var hearthstoneCards = [{
     "race": 24,
     "name": "Malygos",
     "description": "Spell Damage +5",
-    popularity: 469
+    popularity: 1434
 }, {
     "id": 855,
     "image": "NEW1_029",
@@ -1598,7 +1614,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Millhouse Manastorm",
     "description": "Battlecry: Enemy spells cost (0) next turn.",
-    popularity: 95
+    popularity: 368
 }, {
     "id": 376,
     "image": "CS1_129",
@@ -1612,7 +1628,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Inner Fire",
     "description": "Change a minion's Attack to be equal to its Health.",
-    popularity: 617
+    popularity: 1811
 }, {
     "id": 381,
     "image": "EX1_158",
@@ -1626,7 +1642,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Soul of the Forest",
     "description": "Give your minions \"Deathrattle: Summon a 2\/2 Treant.\"",
-    popularity: 310
+    popularity: 775
 }, {
     "id": 997,
     "image": "NEW1_025",
@@ -1641,7 +1657,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Bloodsail Corsair",
     "description": "Battlecry: Remove 1 Durability from your opponent's weapon.",
-    popularity: 205
+    popularity: 632
 }, {
     "id": 570,
     "image": "EX1_083",
@@ -1651,13 +1667,13 @@ var hearthstoneCards = [{
     "faction": 2,
     "quality": 5,
     "cost": 3,
-    "attack": 2,
-    "health": 2,
+    "attack": 3,
+    "health": 3,
     "elite": 1,
     "collectible": 1,
     "name": "Tinkmaster Overspark",
-    "description": "Battlecry: Transform a minion into a 5\/5 Devilsaur or a 1\/1 Squirrel at random.",
-    popularity: 779
+    "description": "Battlecry: Transform another random minion into a 5\/5 Devilsaur or a 1\/1 Squirrel.",
+    popularity: 1937
 }, {
     "id": 192,
     "image": "EX1_295",
@@ -1671,7 +1687,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Ice Block",
     "description": "Secret: When your hero takes fatal damage, prevent it and become Immune this turn.",
-    popularity: 475
+    popularity: 1706
 }, {
     "id": 75,
     "image": "EX1_407",
@@ -1684,8 +1700,8 @@ var hearthstoneCards = [{
     "cost": 5,
     "collectible": 1,
     "name": "Brawl",
-    "description": "Destroy all minions except one.  (chosen randomly)",
-    popularity: 308
+    "description": "Destroy all minions except one. (chosen randomly)",
+    popularity: 1547
 }, {
     "id": 196,
     "image": "NEW1_004",
@@ -1698,7 +1714,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Vanish",
     "description": "Return all minions to their owner's hand.",
-    popularity: 127
+    popularity: 387
 }, {
     "id": 1693,
     "image": "EX1_014",
@@ -1714,7 +1730,7 @@ var hearthstoneCards = [{
     "race": 20,
     "name": "King Mukla",
     "description": "Battlecry: Give your opponent 2 Bananas.",
-    popularity: 273
+    popularity: 1136
 }, {
     "id": 847,
     "image": "CS2_097",
@@ -1730,7 +1746,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Truesilver Champion",
     "description": "Whenever your hero attacks, restore 2 Health to it.",
-    popularity: 1569
+    popularity: 4946
 }, {
     "id": 912,
     "image": "EX1_558",
@@ -1746,7 +1762,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Harrison Jones",
     "description": "Battlecry: Destroy your opponent's weapon and draw cards equal to its Durability.",
-    popularity: 166
+    popularity: 1239
 }, {
     "id": 712,
     "image": "CS2_186",
@@ -1760,7 +1776,7 @@ var hearthstoneCards = [{
     "health": 7,
     "collectible": 1,
     "name": "War Golem",
-    popularity: 285
+    popularity: 733
 }, {
     "id": 1009,
     "image": "EX1_084",
@@ -1776,7 +1792,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Warsong Commander",
     "description": "Whenever you summon a minion with 3 or less Attack, give it Charge.",
-    popularity: 941
+    popularity: 1859
 }, {
     "id": 405,
     "image": "NEW1_012",
@@ -1791,7 +1807,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Mana Wyrm",
     "description": "Whenever you cast a spell, gain +1 Attack.",
-    popularity: 1124
+    popularity: 3899
 }, {
     "id": 481,
     "image": "EX1_578",
@@ -1805,7 +1821,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Savagery",
     "description": "Deal damage equal to your hero's Attack to a minion.",
-    popularity: 93
+    popularity: 222
 }, {
     "id": 61,
     "image": "CS2_221",
@@ -1820,7 +1836,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Spiteful Smith",
     "description": "Enrage: Your weapon has +2 Attack.",
-    popularity: 536
+    popularity: 1443
 }, {
     "id": 608,
     "image": "EX1_019",
@@ -1835,7 +1851,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Shattered Sun Cleric",
     "description": "Battlecry: Give a friendly minion +1\/+1.",
-    popularity: 3648
+    popularity: 8565
 }, {
     "id": 462,
     "image": "EX1_132",
@@ -1849,7 +1865,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Eye for an Eye",
     "description": "Secret: When your hero takes damage, deal that much damage to the enemy hero.",
-    popularity: 157
+    popularity: 376
 }, {
     "id": 825,
     "image": "EX1_284",
@@ -1865,7 +1881,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Azure Drake",
     "description": "Spell Damage +1. Battlecry: Draw a card.",
-    popularity: 2785
+    popularity: 12596
 }, {
     "id": 993,
     "image": "EX1_105",
@@ -1880,7 +1896,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Mountain Giant",
     "description": "Costs (1) less for each other card in your hand.",
-    popularity: 419
+    popularity: 1945
 }, {
     "id": 28,
     "image": "NEW1_011",
@@ -1895,7 +1911,7 @@ var hearthstoneCards = [{
     "classs": 1,
     "name": "Kor'kron Elite",
     "description": "Charge",
-    popularity: 687
+    popularity: 2359
 }, {
     "id": 921,
     "image": "EX1_017",
@@ -1911,7 +1927,7 @@ var hearthstoneCards = [{
     "race": 20,
     "name": "Jungle Panther",
     "description": "Stealth",
-    popularity: 797
+    popularity: 1900
 }, {
     "id": 336,
     "image": "EX1_249",
@@ -1927,7 +1943,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Baron Geddon",
     "description": "At the end of your turn, deal 2 damage to ALL other characters.",
-    popularity: 170
+    popularity: 1120
 }, {
     "id": 783,
     "image": "EX1_313",
@@ -1944,7 +1960,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Pit Lord",
     "description": "Battlecry: Deal 5 damage to your hero.",
-    popularity: 146
+    popularity: 399
 }, {
     "id": 401,
     "image": "CS2_106",
@@ -1959,7 +1975,7 @@ var hearthstoneCards = [{
     "durability": 2,
     "collectible": 1,
     "name": "Fiery War Axe",
-    popularity: 1169
+    popularity: 4065
 }, {
     "id": 545,
     "image": "DS1_233",
@@ -1973,7 +1989,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Mind Blast",
     "description": "Deal 5 damage to the enemy hero.",
-    popularity: 395
+    popularity: 1474
 }, {
     "id": 606,
     "image": "DS1_175",
@@ -1990,7 +2006,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Timber Wolf",
     "description": "Your other Beasts have +1 Attack.",
-    popularity: 944
+    popularity: 3376
 }, {
     "id": 456,
     "image": "NEW1_024",
@@ -2006,7 +2022,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Captain Greenskin",
     "description": "Battlecry: Give your weapon +1\/+1.",
-    popularity: 345
+    popularity: 881
 }, {
     "id": 389,
     "image": "CS2_189",
@@ -2021,7 +2037,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Elven Archer",
     "description": "Battlecry: Deal 1 damage.",
-    popularity: 857
+    popularity: 2887
 }, {
     "id": 351,
     "image": "NEW1_037",
@@ -2035,7 +2051,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Master Swordsmith",
     "description": "At the end of your turn, give another random friendly minion +1 Attack.",
-    popularity: 523
+    popularity: 1186
 }, {
     "id": 338,
     "image": "EX1_414",
@@ -2051,8 +2067,8 @@ var hearthstoneCards = [{
     "elite": 1,
     "collectible": 1,
     "name": "Grommash Hellscream",
-    "description": "Charge.  Enrage: +6 Attack",
-    popularity: 486
+    "description": "Charge Enrage: +6 Attack",
+    popularity: 1976
 }, {
     "id": 211,
     "image": "EX1_586",
@@ -2067,7 +2083,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Sea Giant",
     "description": "Costs (1) less for each other minion on the battlefield.",
-    popularity: 410
+    popularity: 1276
 }, {
     "id": 631,
     "image": "EX1_310",
@@ -2084,7 +2100,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Doomguard",
     "description": "Charge. Battlecry: Discard two random cards.",
-    popularity: 257
+    popularity: 2237
 }, {
     "id": 32,
     "image": "NEW1_010",
@@ -2100,7 +2116,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Al'Akir the Windlord",
     "description": "Windfury, Charge, Divine Shield, Taunt",
-    popularity: 193
+    popularity: 1217
 }, {
     "id": 654,
     "image": "EX1_604",
@@ -2116,7 +2132,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Frothing Berserker",
     "description": "Whenever a minion takes damage, gain +1 Attack.",
-    popularity: 753
+    popularity: 2529
 }, {
     "id": 503,
     "image": "EX1_160",
@@ -2130,7 +2146,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Power of the Wild",
     "description": "Choose One - Give your minions +1\/+1; or Summon a 3\/2 Panther.",
-    popularity: 510
+    popularity: 2118
 }, {
     "id": 950,
     "image": "CS2_062",
@@ -2144,7 +2160,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Hellfire",
     "description": "Deal 3 damage to ALL characters.",
-    popularity: 630
+    popularity: 2650
 }, {
     "id": 525,
     "image": "CS2_155",
@@ -2159,7 +2175,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Archmage",
     "description": "Spell Damage +1",
-    popularity: 626
+    popularity: 1484
 }, {
     "id": 445,
     "image": "CS2_213",
@@ -2174,7 +2190,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Reckless Rocketeer",
     "description": "Charge",
-    popularity: 463
+    popularity: 1328
 }, {
     "id": 613,
     "image": "CS2_004",
@@ -2188,7 +2204,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Power Word: Shield",
     "description": "Give a minion +2 Health. Draw a card.",
-    popularity: 1434
+    popularity: 5150
 }, {
     "id": 555,
     "image": "CS2_023",
@@ -2202,7 +2218,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Arcane Intellect",
     "description": "Draw 2 cards.",
-    popularity: 1333
+    popularity: 4563
 }, {
     "id": 95,
     "image": "EX1_164",
@@ -2216,7 +2232,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Nourish",
     "description": "Choose One - Gain 2 Mana Crystals; or Draw 3 cards.",
-    popularity: 499
+    popularity: 1587
 }, {
     "id": 1688,
     "image": "EX1_009",
@@ -2231,7 +2247,7 @@ var hearthstoneCards = [{
     "race": 20,
     "name": "Angry Chicken",
     "description": "Enrage: +5 Attack.",
-    popularity: 236
+    popularity: 543
 }, {
     "id": 145,
     "image": "EX1_345",
@@ -2245,7 +2261,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Mindgames",
     "description": "Put a copy of a random minion from your opponent's deck into the battlefield.",
-    popularity: 176
+    popularity: 571
 }, {
     "id": 559,
     "image": "EX1_116",
@@ -2254,14 +2270,14 @@ var hearthstoneCards = [{
     "type": 4,
     "faction": 2,
     "quality": 5,
-    "cost": 4,
+    "cost": 5,
     "attack": 6,
     "health": 2,
     "elite": 1,
     "collectible": 1,
     "name": "Leeroy Jenkins",
     "description": "Charge. Battlecry: Summon two 1\/1 Whelps for your opponent.",
-    popularity: 986
+    popularity: 6797
 }, {
     "id": 768,
     "image": "EX1_399",
@@ -2276,7 +2292,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Gurubashi Berserker",
     "description": "Whenever this minion takes damage, gain +3 Attack.",
-    popularity: 1348
+    popularity: 3188
 }, {
     "id": 178,
     "image": "EX1_587",
@@ -2292,7 +2308,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Windspeaker",
     "description": "Battlecry: Give a friendly minion Windfury.",
-    popularity: 489
+    popularity: 1149
 }, {
     "id": 493,
     "image": "EX1_571",
@@ -2306,7 +2322,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Force of Nature",
     "description": "Summon three 2\/2 Treants with Charge that die at the end of the turn.",
-    popularity: 204
+    popularity: 2409
 }, {
     "id": 886,
     "image": "EX1_335",
@@ -2322,7 +2338,7 @@ var hearthstoneCards = [{
     "health": 5,
     "name": "Lightspawn",
     "description": "This minion's Attack is always equal to its Health.",
-    popularity: 709
+    popularity: 1709
 }, {
     "id": 512,
     "image": "EX1_283",
@@ -2337,7 +2353,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Frost Elemental",
     "description": "Battlecry: Freeze a character.",
-    popularity: 522
+    popularity: 1331
 }, {
     "id": 30,
     "image": "EX1_339",
@@ -2351,7 +2367,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Thoughtsteal",
     "description": "Copy 2 cards from your opponent's deck and put them into your hand.",
-    popularity: 720
+    popularity: 3239
 }, {
     "id": 1281,
     "image": "EX1_531",
@@ -2367,7 +2383,7 @@ var hearthstoneCards = [{
     "race": 20,
     "name": "Scavenging Hyena",
     "description": "Whenever a friendly Beast dies, gain +2\/+1.",
-    popularity: 763
+    popularity: 2506
 }, {
     "id": 1117,
     "image": "EX1_134",
@@ -2383,7 +2399,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "SI:7 Agent",
     "description": "Combo: Deal 2 damage.",
-    popularity: 806
+    popularity: 3481
 }, {
     "id": 9,
     "image": "EX1_350",
@@ -2400,7 +2416,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Prophet Velen",
     "description": "Double the damage and healing of your spells and Hero Power.",
-    popularity: 431
+    popularity: 1094
 }, {
     "id": 974,
     "image": "EX1_308",
@@ -2410,11 +2426,11 @@ var hearthstoneCards = [{
     "faction": 3,
     "classs": 9,
     "quality": 1,
-    "cost": 0,
+    "cost": 1,
     "collectible": 1,
     "name": "Soulfire",
     "description": "Deal 4 damage. Discard a random card.",
-    popularity: 969
+    popularity: 4854
 }, {
     "id": 995,
     "image": "CS2_197",
@@ -2429,7 +2445,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Ogre Magi",
     "description": "Spell Damage +1",
-    popularity: 887
+    popularity: 2045
 }, {
     "id": 475,
     "image": "EX1_509",
@@ -2445,7 +2461,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Murloc Tidecaller",
     "description": "Whenever a Murloc is summoned, gain +1 Attack.",
-    popularity: 600
+    popularity: 1518
 }, {
     "id": 748,
     "image": "EX1_612",
@@ -2461,7 +2477,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Kirin Tor Mage",
     "description": "Battlecry: The next Secret you play this turn costs (0).",
-    popularity: 362
+    popularity: 1310
 }, {
     "id": 765,
     "image": "EX1_021",
@@ -2476,7 +2492,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Thrallmar Farseer",
     "description": "Windfury",
-    popularity: 380
+    popularity: 754
 }, {
     "id": 496,
     "image": "CS2_226",
@@ -2491,7 +2507,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Frostwolf Warlord",
     "description": "Battlecry: Gain +1\/+1 for each other friendly minion on the battlefield.",
-    popularity: 1130
+    popularity: 2579
 }, {
     "id": 614,
     "image": "EX1_608",
@@ -2507,7 +2523,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Sorcerer's Apprentice",
     "description": "Your spells cost (1) less.",
-    popularity: 981
+    popularity: 3035
 }, {
     "id": 1365,
     "image": "EX1_624",
@@ -2519,8 +2535,8 @@ var hearthstoneCards = [{
     "cost": 6,
     "classs": 5,
     "name": "Holy Fire",
-    "description": "Deal 5 damage.  Restore 5 Health to your hero.",
-    popularity: 654
+    "description": "Deal 5 damage. Restore 5 Health to your hero.",
+    popularity: 2995
 }, {
     "id": 715,
     "image": "EX1_616",
@@ -2535,7 +2551,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Mana Wraith",
     "description": "ALL minions cost (1) more.",
-    popularity: 159
+    popularity: 350
 }, {
     "id": 757,
     "image": "EX1_008",
@@ -2550,7 +2566,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Argent Squire",
     "description": "Divine Shield",
-    popularity: 1601
+    popularity: 7299
 }, {
     "id": 605,
     "image": "EX1_045",
@@ -2565,7 +2581,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Ancient Watcher",
     "description": "Can't Attack.",
-    popularity: 446
+    popularity: 2797
 }, {
     "id": 284,
     "image": "EX1_015",
@@ -2580,7 +2596,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Novice Engineer",
     "description": "Battlecry: Draw a card.",
-    popularity: 3952
+    popularity: 6361
 }, {
     "id": 648,
     "image": "CS2_171",
@@ -2596,7 +2612,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Stonetusk Boar",
     "description": "Charge",
-    popularity: 533
+    popularity: 2114
 }, {
     "id": 149,
     "image": "CS2_041",
@@ -2610,7 +2626,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Ancestral Healing",
     "description": "Restore a minion to full Health and give it Taunt.",
-    popularity: 270
+    popularity: 700
 }, {
     "id": 990,
     "image": "EX1_128",
@@ -2624,7 +2640,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Conceal",
     "description": "Give your minions Stealth until your next turn.",
-    popularity: 243
+    popularity: 1669
 }, {
     "id": 304,
     "image": "CS2_112",
@@ -2639,7 +2655,7 @@ var hearthstoneCards = [{
     "durability": 2,
     "collectible": 1,
     "name": "Arcanite Reaper",
-    popularity: 936
+    popularity: 2453
 }, {
     "id": 1155,
     "image": "EX1_412",
@@ -2654,7 +2670,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Raging Worgen",
     "description": "Enrage: Windfury and +1 Attack",
-    popularity: 1526
+    popularity: 3483
 }, {
     "id": 1651,
     "image": "CS2_117",
@@ -2668,7 +2684,7 @@ var hearthstoneCards = [{
     "health": 3,
     "name": "Earthen Ring Farseer",
     "description": "Battlecry: Restore 3 Health.",
-    popularity: 1218
+    popularity: 6706
 }, {
     "id": 363,
     "image": "EX1_562",
@@ -2685,7 +2701,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Onyxia",
     "description": "Battlecry: Summon 1\/1 Whelps until your side of the battlefield is full.",
-    popularity: 246
+    popularity: 729
 }, {
     "id": 12,
     "image": "EX1_055",
@@ -2700,7 +2716,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Mana Addict",
     "description": "Whenever you cast a spell, gain +2 Attack this turn.",
-    popularity: 330
+    popularity: 811
 }, {
     "id": 573,
     "image": "EX1_278",
@@ -2714,7 +2730,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Shiv",
     "description": "Deal 1 damage. Draw a card.",
-    popularity: 530
+    popularity: 2372
 }, {
     "id": 755,
     "image": "EX1_590",
@@ -2729,7 +2745,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Blood Knight",
     "description": "Battlecry: All minions lose Divine Shield. Gain +3\/+3 for each Shield lost.",
-    popularity: 488
+    popularity: 1877
 }, {
     "id": 279,
     "image": "CS1_130",
@@ -2743,7 +2759,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Holy Smite",
     "description": "Deal 2 damage.",
-    popularity: 998
+    popularity: 3387
 }, {
     "id": 435,
     "image": "EX1_365",
@@ -2757,7 +2773,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Holy Wrath",
     "description": "Draw a card and deal damage equal to its cost.",
-    popularity: 171
+    popularity: 353
 }, {
     "id": 339,
     "image": "CS2_141",
@@ -2772,7 +2788,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Ironforge Rifleman",
     "description": "Battlecry: Deal 1 damage.",
-    popularity: 359
+    popularity: 819
 }, {
     "id": 739,
     "image": "CS2_173",
@@ -2788,7 +2804,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Bluegill Warrior",
     "description": "Charge",
-    popularity: 992
+    popularity: 3401
 }, {
     "id": 400,
     "image": "EX1_392",
@@ -2802,7 +2818,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Battle Rage",
     "description": "Draw a card for each damaged friendly character.",
-    popularity: 492
+    popularity: 1033
 }, {
     "id": 670,
     "image": "EX1_593",
@@ -2817,7 +2833,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Nightblade",
     "description": "Battlecry: Deal 3 damage to the enemy hero.",
-    popularity: 494
+    popularity: 1354
 }, {
     "id": 415,
     "image": "EX1_049",
@@ -2832,7 +2848,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Youthful Brewmaster",
     "description": "Battlecry: Return a friendly minion from the battlefield to your hand.",
-    popularity: 1025
+    popularity: 2386
 }, {
     "id": 1656,
     "image": "EX1_002",
@@ -2847,7 +2863,7 @@ var hearthstoneCards = [{
     "elite": 1,
     "name": "The Black Knight",
     "description": "Battlecry: Destroy an enemy minion with Taunt.",
-    popularity: 823
+    popularity: 4603
 }, {
     "id": 1142,
     "image": "EX1_596",
@@ -2860,8 +2876,8 @@ var hearthstoneCards = [{
     "classs": 9,
     "collectible": 1,
     "name": "Demonfire",
-    "description": "Deal 2 damage to a minion.   If it\u2019s a friendly Demon, give it +2\/+2 instead.",
-    popularity: 777
+    "description": "Deal 2 damage to a minion. If it\u2019s a friendly Demon, give it +2\/+2 instead.",
+    popularity: 1497
 }, {
     "id": 140,
     "image": "EX1_136",
@@ -2875,7 +2891,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Redemption",
     "description": "Secret: When one of your minions dies, return it to life with 1 Health.",
-    popularity: 462
+    popularity: 1099
 }, {
     "id": 777,
     "image": "EX1_323",
@@ -2891,8 +2907,8 @@ var hearthstoneCards = [{
     "elite": 1,
     "collectible": 1,
     "name": "Lord Jaraxxus",
-    "description": "Battlecry: Destroy your hero and replace him with Lord Jaraxxus.",
-    popularity: 557
+    "description": "Battlecry: Destroy your hero and replace it with Lord Jaraxxus.",
+    popularity: 1738
 }, {
     "id": 268,
     "image": "CS2_073",
@@ -2906,7 +2922,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Cold Blood",
     "description": "Give a minion +2 Attack. Combo: +4 Attack instead.",
-    popularity: 578
+    popularity: 2696
 }, {
     "id": 1655,
     "image": "EX1_001",
@@ -2920,7 +2936,7 @@ var hearthstoneCards = [{
     "health": 2,
     "name": "Lightwarden",
     "description": "Whenever a character is healed, gain +2 Attack.",
-    popularity: 428
+    popularity: 1070
 }, {
     "id": 791,
     "image": "EX1_044",
@@ -2935,7 +2951,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Questing Adventurer",
     "description": "Whenever you play a card, gain +1\/+1.",
-    popularity: 931
+    popularity: 2160
 }, {
     "id": 672,
     "image": "CS2_142",
@@ -2950,7 +2966,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Kobold Geomancer",
     "description": "Spell Damage +1",
-    popularity: 1228
+    popularity: 3169
 }, {
     "id": 36,
     "image": "EX1_573",
@@ -2967,7 +2983,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Cenarius",
     "description": "Choose One - Give your other minions +2\/+2; or Summon two 2\/2 Treants with Taunt.",
-    popularity: 358
+    popularity: 1540
 }, {
     "id": 45,
     "image": "EX1_390",
@@ -2982,7 +2998,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Tauren Warrior",
     "description": "Taunt. Enrage: +3 Attack",
-    popularity: 699
+    popularity: 1516
 }, {
     "id": 585,
     "image": "EX1_610",
@@ -2996,7 +3012,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Explosive Trap",
     "description": "Secret: When your hero is attacked, deal 2 damage to all enemies.",
-    popularity: 901
+    popularity: 3375
 }, {
     "id": 640,
     "image": "NEW1_040",
@@ -3011,7 +3027,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Hogger",
     "description": "At the end of your turn, summon a 2\/2 Gnoll with Taunt.",
-    popularity: 617
+    popularity: 1423
 }, {
     "id": 811,
     "image": "EX1_595",
@@ -3026,7 +3042,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Cult Master",
     "description": "Whenever one of your other minions dies, draw a card.",
-    popularity: 1000
+    popularity: 2368
 }, {
     "id": 1124,
     "image": "CS2_013",
@@ -3040,7 +3056,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Wild Growth",
     "description": "Gain an empty Mana Crystal.",
-    popularity: 400
+    popularity: 2262
 }, {
     "id": 630,
     "image": "CS2_077",
@@ -3054,7 +3070,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Sprint",
     "description": "Draw 4 cards.",
-    popularity: 315
+    popularity: 953
 }, {
     "id": 887,
     "image": "NEW1_014",
@@ -3069,7 +3085,7 @@ var hearthstoneCards = [{
     "classs": 4,
     "name": "Master of Disguise",
     "description": "Battlecry: Give a friendly minion Stealth.",
-    popularity: 156
+    popularity: 376
 }, {
     "id": 692,
     "image": "EX1_165",
@@ -3085,7 +3101,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Druid of the Claw",
     "description": "Choose One - Charge; or +2 Health and Taunt.",
-    popularity: 990
+    popularity: 4597
 }, {
     "id": 237,
     "image": "EX1_591",
@@ -3101,7 +3117,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Auchenai Soulpriest",
     "description": "Your cards and powers that restore Health now deal damage instead.",
-    popularity: 458
+    popularity: 2627
 }, {
     "id": 903,
     "image": "EX1_549",
@@ -3114,8 +3130,8 @@ var hearthstoneCards = [{
     "classs": 3,
     "collectible": 1,
     "name": "Bestial Wrath",
-    "description": "Give a Beast +2 Attack and Immune this turn.",
-    popularity: 183
+    "description": "Give a friendly Beast +2 Attack and Immune this turn.",
+    popularity: 444
 }, {
     "id": 239,
     "image": "CS2_045",
@@ -3129,7 +3145,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Rockbiter Weapon",
     "description": "Give a friendly character +3 Attack this turn.",
-    popularity: 946
+    popularity: 3971
 }, {
     "id": 1241,
     "image": "CS2_237",
@@ -3138,14 +3154,14 @@ var hearthstoneCards = [{
     "quality": 1,
     "icon": "inv_misc_ticket_tarot_beasts_01",
     "type": 4,
-    "cost": 2,
-    "attack": 2,
-    "health": 1,
+    "cost": 5,
+    "attack": 3,
+    "health": 2,
     "classs": 3,
     "race": 20,
     "name": "Starving Buzzard",
     "description": "Whenever you summon a Beast, draw a card.",
-    popularity: 1012
+    popularity: 3643
 }, {
     "id": 1084,
     "image": "CS2_027",
@@ -3159,7 +3175,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Mirror Image",
     "description": "Summon two 0\/2 minions with Taunt.",
-    popularity: 1080
+    popularity: 3676
 }, {
     "id": 982,
     "image": "CS2_063",
@@ -3172,8 +3188,8 @@ var hearthstoneCards = [{
     "cost": 1,
     "collectible": 1,
     "name": "Corruption",
-    "description": "Choose an enemy minion.   At the start of your turn, destroy it.",
-    popularity: 278
+    "description": "Choose an enemy minion. At the start of your turn, destroy it.",
+    popularity: 608
 }, {
     "id": 1158,
     "image": "EX1_145",
@@ -3187,7 +3203,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Preparation",
     "description": "The next spell you cast this turn costs (3) less.",
-    popularity: 306
+    popularity: 1652
 }, {
     "id": 420,
     "image": "EX1_110",
@@ -3203,7 +3219,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Cairne Bloodhoof",
     "description": "Deathrattle: Summon a 4\/5 Baine Bloodhoof.",
-    popularity: 685
+    popularity: 5458
 }, {
     "id": 804,
     "image": "EX1_408",
@@ -3216,8 +3232,8 @@ var hearthstoneCards = [{
     "cost": 4,
     "collectible": 1,
     "name": "Mortal Strike",
-    "description": "Deal 4 damage.  If your hero has 12 or less Health, deal 6 damage instead.",
-    popularity: 226
+    "description": "Deal 4 damage. If you have 12 or less Health, deal 6 instead.",
+    popularity: 1010
 }, {
     "id": 896,
     "image": "EX1_544",
@@ -3225,13 +3241,13 @@ var hearthstoneCards = [{
     "quality": 3,
     "icon": "inv_misc_ticket_tarot_elemental02",
     "type": 5,
-    "cost": 1,
+    "cost": 2,
     "faction": 3,
     "classs": 3,
     "collectible": 1,
     "name": "Flare",
     "description": "All minions lose Stealth. Destroy all enemy Secrets. Draw a card.",
-    popularity: 320
+    popularity: 1899
 }, {
     "id": 69,
     "image": "CS2_151",
@@ -3246,7 +3262,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Silver Hand Knight",
     "description": "Battlecry: Summon a 2\/2 Squire.",
-    popularity: 1199
+    popularity: 2726
 }, {
     "id": 1068,
     "image": "CS2_088",
@@ -3262,7 +3278,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Guardian of Kings",
     "description": "Battlecry: Restore 6 Health to your hero.",
-    popularity: 841
+    popularity: 3083
 }, {
     "id": 186,
     "image": "EX1_057",
@@ -3277,7 +3293,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Ancient Brewmaster",
     "description": "Battlecry: Return a friendly minion from the battlefield to your hand.",
-    popularity: 640
+    popularity: 1361
 }, {
     "id": 641,
     "image": "CS2_169",
@@ -3293,7 +3309,7 @@ var hearthstoneCards = [{
     "race": 20,
     "name": "Young Dragonhawk",
     "description": "Windfury",
-    popularity: 475
+    popularity: 895
 }, {
     "id": 971,
     "image": "CS2_037",
@@ -3307,7 +3323,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Frost Shock",
     "description": "Deal 1 damage to an enemy character and Freeze it.",
-    popularity: 224
+    popularity: 506
 }, {
     "id": 773,
     "image": "CS2_007",
@@ -3321,7 +3337,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Healing Touch",
     "description": "Restore 8 Health.",
-    popularity: 463
+    popularity: 1545
 }, {
     "id": 1122,
     "image": "CS2_227",
@@ -3336,7 +3352,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Venture Co. Mercenary",
     "description": "Your minions cost (3) more.",
-    popularity: 742
+    popularity: 1718
 }, {
     "id": 163,
     "image": "NEW1_003",
@@ -3349,7 +3365,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Sacrificial Pact",
     "description": "Destroy a Demon. Restore 5 Health to your hero.",
-    popularity: 187
+    popularity: 492
 }, {
     "id": 23,
     "image": "EX1_320",
@@ -3362,8 +3378,8 @@ var hearthstoneCards = [{
     "cost": 5,
     "collectible": 1,
     "name": "Bane of Doom",
-    "description": "Deal 2 damage to a character.  If that kills it, summon a random Demon.",
-    popularity: 195
+    "description": "Deal 2 damage to a character. If that kills it, summon a random Demon.",
+    popularity: 468
 }, {
     "id": 440,
     "image": "EX1_097",
@@ -3378,7 +3394,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Abomination",
     "description": "Taunt. Deathrattle: Deal 2 damage to ALL characters.",
-    popularity: 839
+    popularity: 1931
 }, {
     "id": 397,
     "image": "tt_004",
@@ -3393,7 +3409,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Flesheating Ghoul",
     "description": "Whenever a minion dies, gain +1 Attack.",
-    popularity: 781
+    popularity: 1761
 }, {
     "id": 251,
     "image": "EX1_096",
@@ -3408,7 +3424,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Loot Hoarder",
     "description": "Deathrattle: Draw a card.",
-    popularity: 2190
+    popularity: 8230
 }, {
     "id": 282,
     "image": "EX1_126",
@@ -3421,8 +3437,8 @@ var hearthstoneCards = [{
     "classs": 4,
     "collectible": 1,
     "name": "Betrayal",
-    "description": "An enemy minion deals its damage to the minions next to it.",
-    popularity: 292
+    "description": "Force an enemy minion to deal its damage to the minions next to it.",
+    popularity: 714
 }, {
     "id": 962,
     "image": "EX1_577",
@@ -3439,7 +3455,7 @@ var hearthstoneCards = [{
     "race": 20,
     "name": "The Beast",
     "description": "Deathrattle: Summon a 3\/3 Finkle Einhorn for your opponent.",
-    popularity: 190
+    popularity: 585
 }, {
     "id": 1090,
     "image": "EX1_319",
@@ -3456,7 +3472,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Flame Imp",
     "description": "Battlecry: Deal 3 damage to your hero.",
-    popularity: 878
+    popularity: 3267
 }, {
     "id": 519,
     "image": "EX1_611",
@@ -3470,7 +3486,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Freezing Trap",
     "description": "Secret: When an enemy minion attacks, return it to its owner's hand and it costs (2) more.",
-    popularity: 374
+    popularity: 1974
 }, {
     "id": 724,
     "image": "CS2_146",
@@ -3486,7 +3502,7 @@ var hearthstoneCards = [{
     "race": 23,
     "name": "Southsea Deckhand",
     "description": "Has Charge while you have a weapon equipped.",
-    popularity: 407
+    popularity: 1318
 }, {
     "id": 216,
     "image": "CS2_172",
@@ -3501,7 +3517,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "race": 20,
     "name": "Bloodfen Raptor",
-    popularity: 853
+    popularity: 2161
 }, {
     "id": 940,
     "image": "CS2_114",
@@ -3515,7 +3531,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Cleave",
     "description": "Deal 2 damage to two random enemy minions.",
-    popularity: 627
+    popularity: 1677
 }, {
     "id": 602,
     "image": "CS1_069",
@@ -3530,7 +3546,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Fen Creeper",
     "description": "Taunt",
-    popularity: 807
+    popularity: 1802
 }, {
     "id": 823,
     "image": "EX1_173",
@@ -3543,8 +3559,8 @@ var hearthstoneCards = [{
     "cost": 6,
     "collectible": 1,
     "name": "Starfire",
-    "description": "Deal 5 damage.  Draw a card.",
-    popularity: 608
+    "description": "Deal 5 damage. Draw a card.",
+    popularity: 1728
 }, {
     "id": 922,
     "image": "CS1_042",
@@ -3559,7 +3575,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Goldshire Footman",
     "description": "Taunt",
-    popularity: 678
+    popularity: 1661
 }, {
     "id": 374,
     "image": "EX1_298",
@@ -3574,8 +3590,8 @@ var hearthstoneCards = [{
     "elite": 1,
     "collectible": 1,
     "name": "Ragnaros the Firelord",
-    "description": "Can't Attack.  At the end of your turn, deal 8 damage to a random enemy.",
-    popularity: 1866
+    "description": "Can't Attack. At the end of your turn, deal 8 damage to a random enemy.",
+    popularity: 7988
 }, {
     "id": 1108,
     "image": "CS2_104",
@@ -3589,7 +3605,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Rampage",
     "description": "Give a damaged minion +3\/+3.",
-    popularity: 464
+    popularity: 975
 }, {
     "id": 530,
     "image": "NEW1_016",
@@ -3604,7 +3620,7 @@ var hearthstoneCards = [{
     "race": 20,
     "name": "Captain's Parrot",
     "description": "Battlecry: Put a random Pirate from your deck into your hand.",
-    popularity: 118
+    popularity: 328
 }, {
     "id": 567,
     "image": "EX1_033",
@@ -3619,7 +3635,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Windfury Harpy",
     "description": "Windfury",
-    popularity: 431
+    popularity: 833
 }, {
     "id": 68,
     "image": "EX1_028",
@@ -3635,7 +3651,7 @@ var hearthstoneCards = [{
     "quality": 1,
     "name": "Stranglethorn Tiger",
     "description": "Stealth",
-    popularity: 886
+    popularity: 2205
 }, {
     "id": 1362,
     "image": "EX1_621",
@@ -3648,7 +3664,7 @@ var hearthstoneCards = [{
     "classs": 5,
     "name": "Circle of Healing",
     "description": "Restore 4 Health to ALL minions.",
-    popularity: 391
+    popularity: 2615
 }, {
     "id": 455,
     "image": "EX1_554",
@@ -3662,7 +3678,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Snake Trap",
     "description": "Secret: When one of your minions is attacked, summon three 1\/1 Snakes.",
-    popularity: 414
+    popularity: 1264
 }, {
     "id": 272,
     "image": "EX1_091",
@@ -3678,7 +3694,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Cabal Shadow Priest",
     "description": "Battlecry: Take control of an enemy minion that has 2 or less Attack.",
-    popularity: 239
+    popularity: 1968
 }, {
     "id": 511,
     "image": "EX1_409",
@@ -3691,8 +3707,8 @@ var hearthstoneCards = [{
     "cost": 1,
     "collectible": 1,
     "name": "Upgrade!",
-    "description": "If you have a weapon, give it +1\/+1.  Otherwise equip a 1\/3 weapon.",
-    popularity: 393
+    "description": "If you have a weapon, give it +1\/+1. Otherwise equip a 1\/3 weapon.",
+    popularity: 900
 }, {
     "id": 546,
     "image": "EX1_410",
@@ -3706,7 +3722,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Shield Slam",
     "description": "Deal 1 damage to a minion for each Armor you have.",
-    popularity: 205
+    popularity: 1552
 }, {
     "id": 51,
     "image": "CS2_039",
@@ -3720,7 +3736,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Windfury",
     "description": "Give a minion Windfury.",
-    popularity: 365
+    popularity: 1183
 }, {
     "id": 1147,
     "image": "EX1_557",
@@ -3735,8 +3751,8 @@ var hearthstoneCards = [{
     "elite": 1,
     "collectible": 1,
     "name": "Nat Pagle",
-    "description": "At the end of your turn, you have a 50% chance to draw a card.",
-    popularity: 663
+    "description": "At the start of your turn, you have a 50% chance to draw an extra card.",
+    popularity: 2517
 }, {
     "id": 1003,
     "image": "DS1_070",
@@ -3752,7 +3768,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Houndmaster",
     "description": "Battlecry: Give a friendly Beast +2\/+2 and Taunt.",
-    popularity: 784
+    popularity: 3097
 }, {
     "id": 395,
     "image": "CS2_033",
@@ -3768,7 +3784,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Water Elemental",
     "description": "Freeze any character damaged by this minion.",
-    popularity: 792
+    popularity: 3517
 }, {
     "id": 1662,
     "image": "EX1_536",
@@ -3782,8 +3798,8 @@ var hearthstoneCards = [{
     "durability": 2,
     "classs": 3,
     "name": "Eaglehorn Bow",
-    "description": "Whenever a Secret is revealed, gain +1 Durability.",
-    popularity: 606
+    "description": "Whenever a friendly Secret is revealed, gain +1 Durability.",
+    popularity: 2716
 }, {
     "id": 1080,
     "image": "EX1_559",
@@ -3799,8 +3815,8 @@ var hearthstoneCards = [{
     "elite": 1,
     "collectible": 1,
     "name": "Archmage Antonidas",
-    "description": "Whenever you cast a spell, put a 'Fireball' spell into your hand.",
-    popularity: 499
+    "description": "Whenever you cast a spell, add a 'Fireball' spell to your hand.",
+    popularity: 1542
 }, {
     "id": 296,
     "image": "EX1_539",
@@ -3813,8 +3829,8 @@ var hearthstoneCards = [{
     "classs": 3,
     "collectible": 1,
     "name": "Kill Command",
-    "description": "Deal 3 damage.  If you have a Beast, deal 5 damage instead.",
-    popularity: 1006
+    "description": "Deal 3 damage. If you have a Beast, deal 5 damage instead.",
+    popularity: 4156
 }, {
     "id": 513,
     "image": "EX1_575",
@@ -3831,7 +3847,7 @@ var hearthstoneCards = [{
     "race": 21,
     "name": "Mana Tide Totem",
     "description": "At the end of your turn, draw a card.",
-    popularity: 614
+    popularity: 2867
 }, {
     "id": 919,
     "image": "CS2_061",
@@ -3845,7 +3861,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Drain Life",
     "description": "Deal 2 damage. Restore 2 Health to your hero.",
-    popularity: 556
+    popularity: 1309
 }, {
     "id": 138,
     "image": "NEW1_021",
@@ -3859,7 +3875,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Doomsayer",
     "description": "At the start of your turn, destroy ALL minions.",
-    popularity: 355
+    popularity: 1275
 }, {
     "id": 582,
     "image": "DS1_055",
@@ -3874,7 +3890,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Darkscale Healer",
     "description": "Battlecry: Restore 2 Health to all friendly characters.",
-    popularity: 927
+    popularity: 2366
 }, {
     "id": 1368,
     "image": "EX1_625",
@@ -3887,7 +3903,7 @@ var hearthstoneCards = [{
     "classs": 5,
     "name": "Shadowform",
     "description": "Your Hero Power becomes 'Deal 2 damage'. If already in Shadowform: 3 damage.",
-    popularity: 241
+    popularity: 586
 }, {
     "id": 587,
     "image": "CS2_026",
@@ -3901,7 +3917,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Frost Nova",
     "description": "Freeze all enemy minions.",
-    popularity: 740
+    popularity: 2038
 }, {
     "id": 195,
     "image": "EX1_294",
@@ -3915,7 +3931,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Mirror Entity",
     "description": "Secret: When your opponent plays a minion, summon a copy of it.",
-    popularity: 537
+    popularity: 1787
 }, {
     "id": 113,
     "image": "EX1_287",
@@ -3929,7 +3945,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Counterspell",
     "description": "Secret: When your opponent casts a spell, Counter it.",
-    popularity: 460
+    popularity: 1556
 }, {
     "id": 1653,
     "image": "CS2_118",
@@ -3942,7 +3958,7 @@ var hearthstoneCards = [{
     "attack": 5,
     "health": 1,
     "name": "Magma Rager",
-    popularity: 140
+    popularity: 278
 }, {
     "id": 289,
     "image": "CS2_124",
@@ -3957,7 +3973,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Wolfrider",
     "description": "Charge",
-    popularity: 846
+    popularity: 3176
 }, {
     "id": 858,
     "image": "EX1_112",
@@ -3973,7 +3989,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Gelbin Mekkatorque",
     "description": "Battlecry: Summon an AWESOME invention.",
-    popularity: 212
+    popularity: 541
 }, {
     "id": 22,
     "image": "EX1_607",
@@ -3987,7 +4003,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Inner Rage",
     "description": "Deal 1 damage to a minion and give it +2 Attack.",
-    popularity: 744
+    popularity: 1750
 }, {
     "id": 1007,
     "image": "CS2_105",
@@ -4001,7 +4017,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Heroic Strike",
     "description": "Give your hero +4 Attack this turn.",
-    popularity: 423
+    popularity: 1411
 }, {
     "id": 352,
     "image": "EX1_567",
@@ -4017,7 +4033,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Doomhammer",
     "description": "Windfury, Overload: (2)",
-    popularity: 330
+    popularity: 1533
 }, {
     "id": 1047,
     "image": "DS1_184",
@@ -4031,7 +4047,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Tracking",
     "description": "Look at the top three cards of your deck. Draw one and discard the others.",
-    popularity: 511
+    popularity: 2246
 }, {
     "id": 315,
     "image": "CS2_029",
@@ -4045,7 +4061,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Fireball",
     "description": "Deal 6 damage.",
-    popularity: 1790
+    popularity: 6086
 }, {
     "id": 1140,
     "image": "CS2_187",
@@ -4060,7 +4076,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Booty Bay Bodyguard",
     "description": "Taunt",
-    popularity: 751
+    popularity: 1467
 }, {
     "id": 642,
     "image": "EX1_020",
@@ -4075,7 +4091,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Scarlet Crusader",
     "description": "Divine Shield",
-    popularity: 1076
+    popularity: 3214
 }, {
     "id": 132,
     "image": "EX1_011",
@@ -4090,7 +4106,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Voodoo Doctor",
     "description": "Battlecry: Restore 2 Health.",
-    popularity: 719
+    popularity: 2031
 }, {
     "id": 914,
     "image": "CS2_057",
@@ -4104,7 +4120,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Shadow Bolt",
     "description": "Deal 4 damage to a minion.",
-    popularity: 793
+    popularity: 2049
 }, {
     "id": 1737,
     "image": "EX1_274",
@@ -4120,7 +4136,7 @@ var hearthstoneCards = [{
     "elite": 0,
     "name": "Ethereal Arcanist",
     "description": "If you control a Secret at the end of your turn, gain +2\/+2.",
-    popularity: 262
+    popularity: 887
 }, {
     "id": 592,
     "image": "EX1_306",
@@ -4137,7 +4153,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Succubus",
     "description": "Battlecry: Discard a random card.",
-    popularity: 300
+    popularity: 621
 }, {
     "id": 1098,
     "image": "EX1_170",
@@ -4153,7 +4169,7 @@ var hearthstoneCards = [{
     "attack": 2,
     "name": "Emperor Cobra",
     "description": "Destroy any minion damaged by this minion.",
-    popularity: 706
+    popularity: 1637
 }, {
     "id": 1093,
     "image": "EX1_617",
@@ -4167,7 +4183,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Deadly Shot",
     "description": "Destroy a random enemy minion.",
-    popularity: 772
+    popularity: 2493
 }, {
     "id": 1050,
     "image": "CS2_005",
@@ -4181,7 +4197,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Claw",
     "description": "Give your hero +2 Attack this turn and 2 Armor.",
-    popularity: 848
+    popularity: 2477
 }, {
     "id": 394,
     "image": "EX1_537",
@@ -4195,7 +4211,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Explosive Shot",
     "description": "Deal 5 damage to a minion and 2 damage to adjacent ones.",
-    popularity: 674
+    popularity: 1491
 }, {
     "id": 1174,
     "image": "EX1_384",
@@ -4209,7 +4225,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Avenging Wrath",
     "description": "Deal 8 damage randomly split among enemy characters.",
-    popularity: 702
+    popularity: 2383
 }, {
     "id": 1022,
     "image": "EX1_362",
@@ -4225,7 +4241,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Argent Protector",
     "description": "Battlecry: Give a friendly minion Divine Shield.",
-    popularity: 1334
+    popularity: 3408
 }, {
     "id": 517,
     "image": "EX1_301",
@@ -4242,7 +4258,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Felguard",
     "description": "Taunt. Battlecry: Destroy one of your Mana Crystals.",
-    popularity: 168
+    popularity: 462
 }, {
     "id": 1650,
     "image": "CS2_235",
@@ -4257,7 +4273,7 @@ var hearthstoneCards = [{
     "classs": 5,
     "name": "Northshire Cleric",
     "description": "Whenever a minion is healed, draw a card.",
-    popularity: 1367
+    popularity: 4995
 }, {
     "id": 658,
     "image": "EX1_029",
@@ -4272,7 +4288,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Leper Gnome",
     "description": "Deathrattle: Deal 2 damage to the enemy hero.",
-    popularity: 1613
+    popularity: 7217
 }, {
     "id": 189,
     "image": "CS2_042",
@@ -4288,7 +4304,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Fire Elemental",
     "description": "Battlecry: Deal 3 damage.",
-    popularity: 1043
+    popularity: 4003
 }, {
     "id": 814,
     "image": "EX1_609",
@@ -4302,7 +4318,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Snipe",
     "description": "Secret: When your opponent plays a minion, deal 4 damage to it.",
-    popularity: 482
+    popularity: 1164
 }, {
     "id": 680,
     "image": "NEW1_027",
@@ -4317,7 +4333,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Southsea Captain",
     "description": "Your other Pirates have +1\/+1.",
-    popularity: 185
+    popularity: 461
 }, {
     "id": 577,
     "image": "EX1_570",
@@ -4331,7 +4347,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Bite",
     "description": "Give your hero +4 Attack this turn and 4 Armor.",
-    popularity: 258
+    popularity: 605
 }, {
     "id": 201,
     "image": "EX1_131",
@@ -4347,7 +4363,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Defias Ringleader",
     "description": "Combo: Summon a 2\/1 Defias Bandit.",
-    popularity: 873
+    popularity: 2107
 }, {
     "id": 778,
     "image": "EX1_556",
@@ -4360,9 +4376,10 @@ var hearthstoneCards = [{
     "health": 3,
     "faction": 3,
     "collectible": 1,
+    "race": 17,
     "name": "Harvest Golem",
     "description": "Deathrattle: Summon a 2\/1 Damaged Golem.",
-    popularity: 2851
+    popularity: 12735
 }, {
     "id": 1144,
     "image": "EX1_543",
@@ -4380,7 +4397,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "King Krush",
     "description": "Charge",
-    popularity: 345
+    popularity: 812
 }, {
     "id": 1135,
     "image": "EX1_100",
@@ -4396,7 +4413,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Lorewalker Cho",
     "description": "Whenever a player casts a spell, put a copy into the other player\u2019s hand.",
-    popularity: 169
+    popularity: 609
 }, {
     "id": 141,
     "image": "CS2_084",
@@ -4410,7 +4427,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Hunter's Mark",
     "description": "Change a minion's Health to 1.",
-    popularity: 556
+    popularity: 3149
 }, {
     "id": 175,
     "image": "EX1_582",
@@ -4425,7 +4442,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Dalaran Mage",
     "description": "Spell Damage +1",
-    popularity: 693
+    popularity: 1409
 }, {
     "id": 1037,
     "image": "EX1_043",
@@ -4441,7 +4458,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Twilight Drake",
     "description": "Battlecry: Gain +1 Health for each card in your hand.",
-    popularity: 808
+    popularity: 2873
 }, {
     "id": 1016,
     "image": "EX1_050",
@@ -4457,7 +4474,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Coldlight Oracle",
     "description": "Battlecry: Each player draws 2 cards.",
-    popularity: 561
+    popularity: 2052
 }, {
     "id": 1372,
     "image": "EX1_620",
@@ -4471,7 +4488,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Molten Giant",
     "description": "Costs (1) less for each damage your hero has taken.",
-    popularity: 803
+    popularity: 2962
 }, {
     "id": 147,
     "image": "EX1_303",
@@ -4485,7 +4502,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Shadowflame",
     "description": "Destroy a friendly minion and deal its Attack damage to all enemy minions.",
-    popularity: 552
+    popularity: 2288
 }, {
     "id": 281,
     "image": "EX1_067",
@@ -4500,7 +4517,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Argent Commander",
     "description": "Charge, Divine Shield",
-    popularity: 3394
+    popularity: 9128
 }, {
     "id": 564,
     "image": "EX1_277",
@@ -4514,7 +4531,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Arcane Missiles",
     "description": "Deal 3 damage randomly split among enemy characters.",
-    popularity: 1172
+    popularity: 3662
 }, {
     "id": 1035,
     "image": "EX1_178",
@@ -4529,8 +4546,8 @@ var hearthstoneCards = [{
     "health": 5,
     "collectible": 1,
     "name": "Ancient of War",
-    "description": "Choose One - Taunt and +5 Health; or +5 Attack.",
-    popularity: 526
+    "description": "Choose One - +5 Attack; or +5 Health and Taunt.",
+    popularity: 1855
 }, {
     "id": 753,
     "image": "CS2_222",
@@ -4545,7 +4562,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Stormwind Champion",
     "description": "Your other minions have +1\/+1.",
-    popularity: 1657
+    popularity: 4092
 }, {
     "id": 64,
     "image": "CS2_012",
@@ -4559,7 +4576,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Swipe",
     "description": "Deal 4 damage to an enemy and 1 damage to all other enemies.",
-    popularity: 1178
+    popularity: 5331
 }, {
     "id": 766,
     "image": "EX1_246",
@@ -4573,7 +4590,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Hex",
     "description": "Transform a minion into a 0\/1 Frog with Taunt.",
-    popularity: 1215
+    popularity: 4619
 }, {
     "id": 1186,
     "image": "EX1_572",
@@ -4590,7 +4607,7 @@ var hearthstoneCards = [{
     "race": 24,
     "name": "Ysera",
     "description": "At the end of your turn, draw a Dream Card.",
-    popularity: 990
+    popularity: 3819
 }, {
     "id": 466,
     "image": "EX1_089",
@@ -4605,7 +4622,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Arcane Golem",
     "description": "Charge. Battlecry: Give your opponent a Mana Crystal.",
-    popularity: 348
+    popularity: 2304
 }, {
     "id": 469,
     "image": "CS2_059",
@@ -4622,7 +4639,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Blood Imp",
     "description": "Stealth. At the end of your turn, give another random friendly minion +1 Health.",
-    popularity: 1081
+    popularity: 1892
 }, {
     "id": 1087,
     "image": "EX1_279",
@@ -4636,7 +4653,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "description": "Deal 10 damage.",
     "name": "Pyroblast",
-    popularity: 1075
+    popularity: 2628
 }, {
     "id": 191,
     "image": "CS2_168",
@@ -4651,7 +4668,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "race": 14,
     "name": "Murloc Raider",
-    popularity: 632
+    popularity: 1471
 }, {
     "id": 366,
     "image": "tt_010",
@@ -4665,7 +4682,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Spellbender",
     "description": "Secret: When an enemy casts a spell on a minion, summon a 1\/3 as the new target.",
-    popularity: 240
+    popularity: 651
 }, {
     "id": 609,
     "image": "NEW1_023",
@@ -4679,8 +4696,8 @@ var hearthstoneCards = [{
     "collectible": 1,
     "race": 24,
     "name": "Faerie Dragon",
-    "description": "Can't be targeted by Spells or Hero Powers.",
-    popularity: 2178
+    "description": "Can't be targeted by spells or Hero Powers.",
+    popularity: 5422
 }, {
     "id": 710,
     "image": "CS2_075",
@@ -4694,7 +4711,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Sinister Strike",
     "description": "Deal 3 damage to the enemy hero.",
-    popularity: 320
+    popularity: 1075
 }, {
     "id": 846,
     "image": "EX1_316",
@@ -4708,7 +4725,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Power Overwhelming",
     "description": "Give a friendly minion +4\/+4 until end of turn. Then, it dies. Horribly.",
-    popularity: 792
+    popularity: 3172
 }, {
     "id": 447,
     "image": "CS2_025",
@@ -4722,7 +4739,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Arcane Explosion",
     "description": "Deal 1 damage to all enemy minions.",
-    popularity: 677
+    popularity: 1847
 }, {
     "id": 1367,
     "image": "CS2_234",
@@ -4735,7 +4752,7 @@ var hearthstoneCards = [{
     "classs": 5,
     "name": "Shadow Word: Pain",
     "description": "Destroy a minion with 3 or less Attack.",
-    popularity: 1482
+    popularity: 4493
 }, {
     "id": 584,
     "image": "EX1_130",
@@ -4749,7 +4766,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Noble Sacrifice",
     "description": "Secret: When an enemy attacks, summon a 2\/1 Defender as the new target.",
-    popularity: 554
+    popularity: 1612
 }, {
     "id": 1019,
     "image": "CS2_064",
@@ -4766,7 +4783,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Dread Infernal",
     "description": "Battlecry: Deal 1 damage to ALL other characters.",
-    popularity: 302
+    popularity: 961
 }, {
     "id": 233,
     "image": "EX1_161",
@@ -4780,7 +4797,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Naturalize",
     "description": "Destroy a minion. Your opponent draws 2 cards.",
-    popularity: 273
+    popularity: 859
 }, {
     "id": 836,
     "image": "EX1_154",
@@ -4794,7 +4811,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Wrath",
     "description": "Choose One - Deal 3 damage to a minion; or 1 damage and draw a card.",
-    popularity: 1026
+    popularity: 4807
 }, {
     "id": 158,
     "image": "EX1_080",
@@ -4809,7 +4826,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Secretkeeper",
     "description": "Whenever a Secret is played, gain +1\/+1.",
-    popularity: 244
+    popularity: 704
 }, {
     "id": 878,
     "image": "NEW1_022",
@@ -4824,7 +4841,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Dread Corsair",
     "description": "Taunt. Costs (1) less per Attack of your weapon.",
-    popularity: 617
+    popularity: 1352
 }, {
     "id": 299,
     "image": "EX1_251",
@@ -4838,7 +4855,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Forked Lightning",
     "description": "Deal 2 damage to 2 random enemy minions. Overload: (2)",
-    popularity: 739
+    popularity: 1620
 }, {
     "id": 727,
     "image": "EX1_371",
@@ -4852,7 +4869,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Hand of Protection",
     "description": "Give a minion Divine Shield.",
-    popularity: 592
+    popularity: 1400
 }, {
     "id": 286,
     "image": "EX1_594",
@@ -4866,7 +4883,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Vaporize",
     "description": "Secret: When a minion attacks your hero, destroy it.",
-    popularity: 363
+    popularity: 1146
 }, {
     "id": 411,
     "image": "EX1_560",
@@ -4883,7 +4900,7 @@ var hearthstoneCards = [{
     "race": 24,
     "name": "Nozdormu",
     "description": "Players only have 15 seconds to take their turns.",
-    popularity: 131
+    popularity: 357
 }, {
     "id": 1361,
     "image": "CS2_236",
@@ -4896,7 +4913,7 @@ var hearthstoneCards = [{
     "classs": 5,
     "name": "Divine Spirit",
     "description": "Double a minion's Health.",
-    popularity: 762
+    popularity: 2119
 }, {
     "id": 596,
     "image": "EX1_402",
@@ -4912,7 +4929,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Armorsmith",
     "description": "Whenever a friendly minion takes damage, gain 1 Armor.",
-    popularity: 268
+    popularity: 1861
 }, {
     "id": 976,
     "image": "EX1_506",
@@ -4928,7 +4945,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Murloc Tidehunter",
     "description": "Battlecry: Summon a 1\/1 Murloc Scout.",
-    popularity: 1114
+    popularity: 2576
 }, {
     "id": 699,
     "image": "DS1_178",
@@ -4945,7 +4962,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Tundra Rhino",
     "description": "Your Beasts have Charge.",
-    popularity: 604
+    popularity: 1755
 }, {
     "id": 969,
     "image": "EX1_315",
@@ -4961,7 +4978,7 @@ var hearthstoneCards = [{
     "attack": 0,
     "name": "Summoning Portal",
     "description": "Your minions cost (2) less, but not less than (1).",
-    popularity: 313
+    popularity: 628
 }, {
     "id": 250,
     "image": "CS2_094",
@@ -4974,8 +4991,8 @@ var hearthstoneCards = [{
     "cost": 4,
     "collectible": 1,
     "name": "Hammer of Wrath",
-    "description": "Deal 3 damage.  Draw a card.",
-    popularity: 1238
+    "description": "Deal 3 damage. Draw a card.",
+    popularity: 3244
 }, {
     "id": 622,
     "image": "CS2_131",
@@ -4990,7 +5007,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Stormwind Knight",
     "description": "Charge",
-    popularity: 505
+    popularity: 1380
 }, {
     "id": 762,
     "image": "EX1_082",
@@ -5005,7 +5022,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Mad Bomber",
     "description": "Battlecry: Deal 3 damage randomly split between all other characters.",
-    popularity: 706
+    popularity: 1954
 }, {
     "id": 476,
     "image": "CS2_093",
@@ -5019,7 +5036,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Consecration",
     "description": "Deal 2 damage to all enemies.",
-    popularity: 1662
+    popularity: 5123
 }, {
     "id": 1073,
     "image": "NEW1_019",
@@ -5033,7 +5050,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Knife Juggler",
     "description": "After you summon a minion, deal 1 damage to a random enemy.",
-    popularity: 2283
+    popularity: 7934
 }, {
     "id": 621,
     "image": "EX1_289",
@@ -5046,8 +5063,8 @@ var hearthstoneCards = [{
     "cost": 3,
     "collectible": 1,
     "name": "Ice Barrier",
-    "description": "Secret: As soon as your hero is attacked, gain 8 Armor.",
-    popularity: 545
+    "description": "Secret: When your hero is attacked, gain 8 Armor.",
+    popularity: 1874
 }, {
     "id": 383,
     "image": "CS2_091",
@@ -5062,7 +5079,7 @@ var hearthstoneCards = [{
     "durability": 4,
     "collectible": 1,
     "name": "Light's Justice",
-    popularity: 233
+    popularity: 487
 }, {
     "id": 864,
     "image": "EX1_241",
@@ -5076,7 +5093,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Lava Burst",
     "description": "Deal 5 damage. Overload: (2)",
-    popularity: 532
+    popularity: 1367
 }, {
     "id": 734,
     "image": "EX1_085",
@@ -5091,7 +5108,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Mind Control Tech",
     "description": "Battlecry: If your opponent has 4 or more minions, take control of one at random.",
-    popularity: 422
+    popularity: 1566
 }, {
     "id": 1686,
     "image": "CS2_200",
@@ -5104,7 +5121,7 @@ var hearthstoneCards = [{
     "attack": 6,
     "health": 7,
     "name": "Boulderfist Ogre",
-    popularity: 746
+    popularity: 2775
 }, {
     "id": 424,
     "image": "EX1_583",
@@ -5119,7 +5136,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Priestess of Elune",
     "description": "Battlecry: Restore 4 Health to your hero.",
-    popularity: 335
+    popularity: 811
 }, {
     "id": 915,
     "image": "EX1_584",
@@ -5134,7 +5151,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Ancient Mage",
     "description": "Battlecry: Give adjacent minions Spell Damage +1.",
-    popularity: 358
+    popularity: 779
 }, {
     "id": 151,
     "image": "EX1_155",
@@ -5148,7 +5165,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Mark of Nature",
     "description": "Choose One - Give a minion +4 Attack; or +4 Health and Taunt.",
-    popularity: 442
+    popularity: 1112
 }, {
     "id": 1363,
     "image": "EX1_622",
@@ -5161,7 +5178,7 @@ var hearthstoneCards = [{
     "classs": 5,
     "name": "Shadow Word: Death",
     "description": "Destroy a minion with an Attack of 5 or more.",
-    popularity: 1444
+    popularity: 5102
 }, {
     "id": 290,
     "image": "CS2_203",
@@ -5177,7 +5194,7 @@ var hearthstoneCards = [{
     "race": 20,
     "name": "Ironbeak Owl",
     "description": "Battlecry: Silence a minion.",
-    popularity: 2219
+    popularity: 8098
 }, {
     "id": 904,
     "image": "EX1_124",
@@ -5191,7 +5208,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Eviscerate",
     "description": "Deal 2 damage. Combo: Deal 4 damage instead.",
-    popularity: 1054
+    popularity: 4107
 }, {
     "id": 232,
     "image": "EX1_379",
@@ -5205,7 +5222,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Repentance",
     "description": "Secret: When your opponent plays a minion, reduce its Health to 1.",
-    popularity: 199
+    popularity: 442
 }, {
     "id": 759,
     "image": "EX1_032",
@@ -5220,7 +5237,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Sunwalker",
     "description": "Taunt. Divine Shield",
-    popularity: 1568
+    popularity: 5265
 }, {
     "id": 1074,
     "image": "EX1_391",
@@ -5233,8 +5250,8 @@ var hearthstoneCards = [{
     "cost": 2,
     "collectible": 1,
     "name": "Slam",
-    "description": "Deal 2 damage to a minion.  If it survives, draw a card.",
-    popularity: 588
+    "description": "Deal 2 damage to a minion. If it survives, draw a card.",
+    popularity: 2087
 }, {
     "id": 643,
     "image": "EX1_366",
@@ -5250,7 +5267,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Sword of Justice",
     "description": "Whenever you summon a minion, give it +1\/+1 and this loses 1 Durability.",
-    popularity: 792
+    popularity: 2016
 }, {
     "id": 636,
     "image": "EX1_400",
@@ -5264,7 +5281,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Whirlwind",
     "description": "Deal 1 damage to ALL minions.",
-    popularity: 601
+    popularity: 2400
 }, {
     "id": 556,
     "image": "EX1_614",
@@ -5281,7 +5298,7 @@ var hearthstoneCards = [{
     "race": 15,
     "name": "Illidan Stormrage",
     "description": "Whenever you play a card, summon a 2\/1 Flame of Azzinoth.",
-    popularity: 387
+    popularity: 1066
 }, {
     "id": 581,
     "image": "EX1_561",
@@ -5298,7 +5315,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Alexstrasza",
     "description": "Battlecry: Set a hero's remaining Health to 15.",
-    popularity: 528
+    popularity: 3435
 }, {
     "id": 1189,
     "image": "EX1_332",
@@ -5312,7 +5329,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Silence",
     "description": "Silence a minion.",
-    popularity: 323
+    popularity: 1282
 }, {
     "id": 48,
     "image": "CS2_065",
@@ -5329,7 +5346,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Voidwalker",
     "description": "Taunt",
-    popularity: 1035
+    popularity: 4052
 }, {
     "id": 1004,
     "image": "CS2_032",
@@ -5343,7 +5360,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Flamestrike",
     "description": "Deal 4 damage to all enemy minions.",
-    popularity: 1400
+    popularity: 5045
 }, {
     "id": 1369,
     "image": "CS2_120",
@@ -5357,7 +5374,7 @@ var hearthstoneCards = [{
     "health": 3,
     "race": 20,
     "name": "River Crocolisk",
-    popularity: 708
+    popularity: 2179
 }, {
     "id": 960,
     "image": "EX1_247",
@@ -5373,7 +5390,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Stormforged Axe",
     "description": "Overload: (1)",
-    popularity: 788
+    popularity: 2399
 }, {
     "id": 1364,
     "image": "EX1_623",
@@ -5388,7 +5405,7 @@ var hearthstoneCards = [{
     "health": 6,
     "name": "Temple Enforcer",
     "description": "Battlecry: Give a friendly minion +3 Health.",
-    popularity: 646
+    popularity: 1495
 }, {
     "id": 926,
     "image": "EX1_597",
@@ -5403,7 +5420,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Imp Master",
     "description": "At the end of your turn, deal 1 damage to this minion and summon a 1\/1 Imp.",
-    popularity: 832
+    popularity: 1992
 }, {
     "id": 742,
     "image": "CS2_011",
@@ -5417,7 +5434,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Savage Roar",
     "description": "Give your characters +2 Attack this turn.",
-    popularity: 409
+    popularity: 3059
 }, {
     "id": 254,
     "image": "EX1_169",
@@ -5431,7 +5448,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Innervate",
     "description": "Gain 2 Mana Crystals this turn only.",
-    popularity: 967
+    popularity: 4865
 }, {
     "id": 1141,
     "image": "EX1_250",
@@ -5447,7 +5464,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Earth Elemental",
     "description": "Taunt. Overload: (3)",
-    popularity: 555
+    popularity: 1324
 }, {
     "id": 531,
     "image": "EX1_564",
@@ -5462,7 +5479,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Faceless Manipulator",
     "description": "Battlecry: Choose a minion and become a copy of it.",
-    popularity: 1535
+    popularity: 7456
 }, {
     "id": 679,
     "image": "EX1_349",
@@ -5476,7 +5493,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Divine Favor",
     "description": "Draw cards until you have as many in hand as your opponent.",
-    popularity: 457
+    popularity: 1412
 }, {
     "id": 979,
     "image": "EX1_102",
@@ -5489,9 +5506,10 @@ var hearthstoneCards = [{
     "attack": 1,
     "health": 4,
     "collectible": 1,
+    "race": 17,
     "name": "Demolisher",
     "description": "At the start of your turn, deal 2 damage to a random enemy.",
-    popularity: 560
+    popularity: 1355
 }, {
     "id": 891,
     "image": "EX1_058",
@@ -5506,7 +5524,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Sunfury Protector",
     "description": "Battlecry: Give adjacent minions Taunt.",
-    popularity: 1104
+    popularity: 5526
 }, {
     "id": 618,
     "image": "EX1_243",
@@ -5522,7 +5540,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Dust Devil",
     "description": "Windfury. Overload: (2)",
-    popularity: 163
+    popularity: 340
 }, {
     "id": 291,
     "image": "CS2_089",
@@ -5536,7 +5554,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Holy Light",
     "description": "Restore 6 Health.",
-    popularity: 420
+    popularity: 1669
 }, {
     "id": 238,
     "image": "EX1_248",
@@ -5550,7 +5568,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Feral Spirit",
     "description": "Summon two 2\/3 Spirit Wolves with Taunt. Overload: (2)",
-    popularity: 950
+    popularity: 3826
 }, {
     "id": 1401,
     "image": "CS2_122",
@@ -5564,7 +5582,7 @@ var hearthstoneCards = [{
     "health": 2,
     "name": "Raid Leader",
     "description": "Your other minions have +1 Attack.",
-    popularity: 1073
+    popularity: 2267
 }, {
     "id": 790,
     "image": "EX1_393",
@@ -5579,7 +5597,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Amani Berserker",
     "description": "Enrage: +3 Attack",
-    popularity: 1565
+    popularity: 4366
 }, {
     "id": 205,
     "image": "CS2_232",
@@ -5595,7 +5613,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Ironbark Protector",
     "description": "Taunt",
-    popularity: 474
+    popularity: 1538
 }, {
     "id": 834,
     "image": "NEW1_030",
@@ -5611,7 +5629,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Deathwing",
     "description": "Battlecry: Destroy all other minions and discard your hand.",
-    popularity: 243
+    popularity: 834
 }, {
     "id": 413,
     "image": "CS2_150",
@@ -5626,7 +5644,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Stormpike Commando",
     "description": "Battlecry: Deal 2 damage.",
-    popularity: 543
+    popularity: 1247
 }, {
     "id": 67,
     "image": "CS2_127",
@@ -5642,7 +5660,7 @@ var hearthstoneCards = [{
     "race": 20,
     "name": "Silverback Patriarch",
     "description": "Taunt",
-    popularity: 490
+    popularity: 1072
 }, {
     "id": 311,
     "image": "DS1_188",
@@ -5658,7 +5676,7 @@ var hearthstoneCards = [{
     "collectible": 1,
     "name": "Gladiator's Longbow",
     "description": "Your hero is Immune while attacking.",
-    popularity: 281
+    popularity: 710
 }, {
     "id": 1754,
     "image": "PRO_001",
@@ -5673,9 +5691,2263 @@ var hearthstoneCards = [{
     "elite": 1,
     "name": "Elite Tauren Chieftain",
     "description": "Battlecry: Give both players the power to ROCK! (with a Power Chord card)",
+    popularity: 273
+}, {
+    "id": 1807,
+    "image": "FP1_023",
+    "collectible": 1,
+    "set": 12,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 3,
+    "health": 4,
+    "classs": 5,
+    "name": "Dark Cultist",
+    "description": "Deathrattle: Give a random friendly minion +3 Health.",
+    popularity: 925
+}, {
+    "id": 1783,
+    "image": "FP1_004",
+    "collectible": 1,
+    "set": 12,
+    "quality": 1,
+    "cost": 2,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "attack": 2,
+    "health": 2,
+    "name": "Mad Scientist",
+    "description": "Deathrattle: Put a Secret from your deck into the battlefield.",
+    popularity: 1396
+}, {
+    "id": 1805,
+    "image": "FP1_021",
+    "collectible": 1,
+    "set": 12,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_swords",
+    "type": 7,
+    "cost": 4,
+    "attack": 4,
+    "durability": 2,
+    "classs": 1,
+    "name": "Death's Bite",
+    "description": "Deathrattle: Deal 1 damage to all minions.",
+    popularity: 759
+}, {
+    "id": 1799,
+    "image": "FP1_016",
+    "collectible": 1,
+    "set": 12,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 4,
+    "attack": 3,
+    "health": 5,
+    "name": "Wailing Soul",
+    "description": "Battlecry: Silence your other minions.",
+    popularity: 123
+}, {
+    "id": 1791,
+    "image": "FP1_010",
+    "collectible": 1,
+    "set": 12,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 6,
+    "attack": 2,
+    "health": 8,
+    "elite": 1,
+    "race": 20,
+    "name": "Maexxna",
+    "description": "Destroy any minion damaged by this minion.",
+    popularity: 690
+}, {
+    "id": 1810,
+    "image": "FP1_026",
+    "collectible": 1,
+    "set": 12,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 4,
+    "classs": 4,
+    "attack": 5,
+    "health": 5,
+    "name": "Anub'ar Ambusher",
+    "description": "Deathrattle: Return a random friendly minion to your hand.",
+    popularity: 177
+}, {
+    "id": 1861,
+    "image": "FP1_027",
+    "set": 12,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 1,
+    "health": 4,
+    "name": "Stoneskin Gargoyle",
+    "description": "At the start of your turn, restore this minion to full Health.",
+    popularity: 256
+}, {
+    "id": 1806,
+    "image": "FP1_022",
+    "collectible": 1,
+    "set": 12,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 4,
+    "classs": 9,
+    "attack": 3,
+    "health": 4,
+    "race": 15,
+    "name": "Voidcaller",
+    "description": "Deathrattle: Put a random Demon from your hand into the battlefield.",
+    popularity: 433
+}, {
+    "id": 1915,
+    "image": "FP1_031",
+    "set": 12,
+    "collectible": 1,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 4,
+    "attack": 1,
+    "health": 7,
+    "elite": 1,
+    "name": "Baron Rivendare",
+    "description": "Your minions trigger their Deathrattles twice.",
+    popularity: 939
+}, {
+    "id": 1802,
+    "image": "FP1_019",
+    "collectible": 1,
+    "set": 12,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 4,
+    "classs": 11,
+    "name": "Poison Seeds",
+    "description": "Destroy all minions and summon 2\/2 Treants to replace them.",
+    popularity: 254
+}, {
+    "id": 1801,
+    "image": "FP1_018",
+    "collectible": 1,
+    "set": 12,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 3,
+    "classs": 8,
+    "name": "Duplicate",
+    "description": "Secret: When a friendly minion dies, put 2 copies of it into your hand.",
+    popularity: 738
+}, {
+    "id": 1910,
+    "image": "FP1_028",
+    "set": 12,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 1,
+    "health": 2,
+    "name": "Undertaker",
+    "description": "Whenever you summon a minion with Deathrattle, gain +1\/+1.",
+    popularity: 2108
+}, {
+    "id": 1786,
+    "image": "FP1_007",
+    "collectible": 1,
+    "set": 12,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "attack": 0,
+    "health": 2,
+    "name": "Nerubian Egg",
+    "description": "Deathrattle: Summon a 4\/4 Nerubian.",
+    popularity: 2534
+}, {
+    "id": 1794,
+    "image": "FP1_013",
+    "collectible": 1,
+    "set": 12,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 8,
+    "attack": 6,
+    "health": 8,
+    "elite": 1,
+    "name": "Kel'Thuzad",
+    "description": "At the end of each turn, summon all friendly minions that died this turn.",
+    popularity: 973
+}, {
+    "id": 1793,
+    "image": "FP1_012",
+    "collectible": 1,
+    "set": 12,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "attack": 3,
+    "health": 5,
+    "name": "Sludge Belcher",
+    "description": "Taunt. Deathrattle: Summon a 1\/2 Slime with Taunt.",
+    popularity: 4284
+}, {
+    "id": 1790,
+    "image": "FP1_009",
+    "collectible": 1,
+    "set": 12,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 2,
+    "health": 8,
+    "name": "Deathlord",
+    "description": "Taunt. Deathrattle: Your opponent puts a minion from their deck into the battlefield.",
+    popularity: 913
+}, {
+    "id": 1804,
+    "image": "FP1_020",
+    "collectible": 1,
+    "set": 12,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 1,
+    "classs": 2,
+    "name": "Avenge",
+    "description": "Secret: When one of your minions dies, give a random friendly minion +3\/+2.",
+    popularity: 359
+}, {
+    "id": 1753,
+    "image": "FP1_001",
+    "collectible": 1,
+    "set": 12,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 2,
+    "health": 3,
+    "name": "Zombie Chow",
+    "description": "Deathrattle: Restore 5 Health to the enemy hero.",
+    popularity: 1015
+}, {
+    "id": 1800,
+    "image": "FP1_017",
+    "collectible": 1,
+    "set": 12,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "attack": 1,
+    "health": 4,
+    "name": "Nerub'ar Weblord",
+    "description": "Minions with Battlecry cost (2) more.",
+    popularity: 255
+}, {
+    "id": 1860,
+    "image": "FP1_011",
+    "set": 12,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "classs": 3,
+    "race": 20,
+    "description": "Deathrattle: Add a random Beast card to your hand.",
+    "name": "Webspinner",
+    popularity: 1077
+}, {
+    "id": 1858,
+    "image": "FP1_003",
+    "set": 12,
+    "collectible": 1,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "attack": 1,
+    "health": 2,
+    "name": "Echoing Ooze",
+    "description": "Battlecry: Summon an exact copy of this minion at the end of the turn.",
+    popularity: 486
+}, {
+    "id": 1781,
+    "image": "FP1_002",
+    "collectible": 1,
+    "set": 12,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "attack": 1,
+    "health": 2,
+    "race": 20,
+    "name": "Haunted Creeper",
+    "description": "Deathrattle: Summon two 1\/1 Spectral Spiders.",
+    popularity: 3577
+}, {
+    "id": 1789,
+    "image": "FP1_008",
+    "collectible": 1,
+    "set": 12,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "attack": 4,
+    "health": 6,
+    "name": "Spectral Knight",
+    "description": "Can't be targeted by spells or Hero Powers.",
+    popularity: 850
+}, {
+    "id": 1797,
+    "image": "FP1_015",
+    "collectible": 1,
+    "set": 12,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "attack": 4,
+    "health": 7,
+    "elite": 1,
+    "name": "Feugen",
+    "description": "Deathrattle: If Stalagg also died this game, summon Thaddius.",
+    popularity: 888
+}, {
+    "id": 1784,
+    "image": "FP1_005",
+    "collectible": 1,
+    "set": 12,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "name": "Shade of Naxxramas",
+    "description": "Stealth. At the start of your turn, gain +1\/+1.",
+    popularity: 786
+}, {
+    "id": 1808,
+    "image": "FP1_024",
+    "collectible": 1,
+    "set": 12,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "attack": 1,
+    "health": 3,
+    "name": "Unstable Ghoul",
+    "description": "Taunt. Deathrattle: Deal 1 damage to all minions.",
+    popularity: 1110
+}, {
+    "id": 1914,
+    "image": "FP1_030",
+    "set": 12,
+    "collectible": 1,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "elite": 1,
+    "name": "Loatheb",
+    "description": "Battlecry: Enemy spells cost (5) more next turn.",
+    popularity: 3867
+}, {
+    "id": 1809,
+    "image": "FP1_025",
+    "collectible": 1,
+    "set": 12,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 2,
+    "classs": 7,
+    "name": "Reincarnate",
+    "description": "Destroy a minion, then return it to life with full Health.",
+    popularity: 493
+}, {
+    "id": 1913,
+    "image": "FP1_029",
+    "set": 12,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 4,
+    "health": 4,
+    "name": "Dancing Swords",
+    "description": "Deathrattle: Your opponent draws a card.",
+    popularity: 452
+}, {
+    "id": 1927,
+    "image": "GVG_001",
+    "set": 13,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 2,
+    "classs": 8,
+    "name": "Flamecannon",
+    "description": "Deal 4 damage to a random enemy minion.",
+    popularity: 61
+}, {
+    "id": 1928,
+    "image": "GVG_002",
+    "set": 13,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "classs": 8,
+    "race": 17,
+    "name": "Snowchugger",
+    "description": "Freeze any character damaged by this minion.",
+    popularity: 65
+}, {
+    "id": 1929,
+    "image": "GVG_003",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 2,
+    "classs": 8,
+    "name": "Unstable Portal",
+    "description": "Add a random minion to your hand. It costs (3) less.",
+    popularity: 52
+}, {
+    "id": 1934,
+    "image": "GVG_004",
+    "set": 13,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 4,
+    "attack": 5,
+    "health": 4,
+    "classs": 8,
+    "collectible": 1,
+    "name": "Goblin Blastmage",
+    "description": "Battlecry: If you have a Mech, deal 4 damage randomly split among all enemies.",
+    popularity: 57
+}, {
+    "id": 1941,
+    "image": "GVG_005",
+    "set": 13,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 4,
+    "classs": 8,
+    "collectible": 1,
+    "name": "Echo of Medivh",
+    "description": "Put a copy of each friendly minion into your hand.",
+    popularity: 43
+}, {
+    "id": 1940,
+    "image": "GVG_006",
+    "set": 13,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "collectible": 1,
+    "race": 17,
+    "name": "Mechwarper",
+    "description": "Your Mechs cost (1) less.",
+    popularity: 280
+}, {
+    "id": 1939,
+    "image": "GVG_007",
+    "set": 13,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 7,
+    "attack": 7,
+    "health": 7,
+    "classs": 8,
+    "elite": 1,
+    "collectible": 1,
+    "race": 17,
+    "name": "Flame Leviathan",
+    "description": "When you draw this, deal 2 damage to all characters.",
+    popularity: 6
+}, {
+    "id": 1938,
+    "image": "GVG_008",
+    "set": 13,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 6,
+    "classs": 5,
+    "collectible": 1,
+    "name": "Lightbomb",
+    "description": "Deal damage to each minion equal to its Attack.",
+    popularity: 40
+}, {
+    "id": 1937,
+    "image": "GVG_009",
+    "set": 13,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 2,
+    "health": 1,
+    "classs": 5,
+    "collectible": 1,
+    "name": "Shadowbomber",
+    "description": "Battlecry: Deal 3 damage to each hero.",
+    popularity: 19
+}, {
+    "id": 1935,
+    "image": "GVG_010",
+    "set": 13,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 3,
+    "classs": 5,
+    "collectible": 1,
+    "name": "Velen's Chosen",
+    "description": "Give a minion +2\/+4 and Spell Damage +1.",
+    popularity: 56
+}, {
+    "id": 1936,
+    "image": "GVG_011",
+    "set": 13,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "classs": 5,
+    "attack": 3,
+    "health": 2,
+    "collectible": 1,
+    "name": "Shrinkmeister",
+    "description": "Battlecry: Give a minion -2 Attack this turn.",
+    popularity: 97
+}, {
+    "id": 1933,
+    "image": "GVG_012",
+    "set": 13,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 1,
+    "classs": 5,
+    "collectible": 1,
+    "name": "Light of the Naaru",
+    "description": "Restore 3 Health. If the target is still damaged, summon a Lightwarden.",
+    popularity: 70
+}, {
+    "id": 1932,
+    "image": "GVG_013",
+    "set": 13,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 1,
+    "health": 2,
+    "collectible": 1,
+    "name": "Cogmaster",
+    "description": "Has +2 Attack while you have a Mech.",
+    popularity: 119
+}, {
+    "id": 1931,
+    "image": "GVG_014",
+    "set": 13,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "attack": 6,
+    "health": 2,
+    "classs": 5,
+    "collectible": 1,
+    "elite": 1,
+    "name": "Vol'jin",
+    "description": "Battlecry: Swap Health with another minion.",
+    popularity: 101
+}, {
+    "id": 2093,
+    "image": "GVG_015",
+    "set": 13,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 2,
+    "classs": 9,
+    "name": "Darkbomb",
+    "description": "Deal 3 damage.",
+    popularity: 104
+}, {
+    "id": 1982,
+    "image": "GVG_016",
+    "set": 13,
+    "collectible": 1,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "attack": 8,
+    "health": 8,
+    "race": 17,
+    "name": "Fel Reaver",
+    "description": "Whenever your opponent plays a card, discard the top 3 cards of your deck.",
+    popularity: 41
+}, {
+    "id": 2094,
+    "image": "GVG_017",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 2,
+    "classs": 3,
+    "name": "Call Pet",
+    "description": "Draw a card. If it's a Beast, it costs (4) less.",
+    popularity: 24
+}, {
+    "id": 2172,
+    "image": "GVG_018",
+    "set": 13,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "attack": 1,
+    "health": 4,
+    "classs": 9,
+    "collectible": 1,
+    "race": 15,
+    "name": "Mistress of Pain",
+    "description": "Whenever this minion deals damage, restore that much Health to your hero.",
+    popularity: 69
+}, {
+    "id": 1985,
+    "image": "GVG_019",
+    "set": 13,
+    "collectible": 1,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "classs": 9,
+    "cost": 5,
+    "name": "Demonheart",
+    "description": "Deal 5 damage to a minion.  If it's a friendly Demon, give it +5\/+5 instead.",
+    popularity: 65
+}, {
+    "id": 1997,
+    "image": "GVG_020",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "classs": 9,
+    "cost": 4,
+    "attack": 3,
+    "health": 5,
+    "race": 17,
+    "name": "Fel Cannon",
+    "description": "At the end of your turn, deal 2 damage to a non-Mech minion.",
+    popularity: 27
+}, {
+    "id": 1986,
+    "image": "GVG_021",
+    "set": 13,
+    "collectible": 1,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "classs": 9,
+    "cost": 9,
+    "attack": 9,
+    "health": 7,
+    "elite": 1,
+    "race": 15,
+    "name": "Mal'Ganis",
+    "description": "Your other Demons have +2\/+2. Your hero is Immune.",
+    popularity: 89
+}, {
+    "id": 2095,
+    "image": "GVG_022",
+    "set": 13,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 4,
+    "classs": 4,
+    "name": "Tinker's Sharpsword Oil",
+    "description": "Give your weapon +3 Attack. Combo: Give a random friendly minion +3 Attack.",
+    popularity: 73
+}, {
+    "id": 1988,
+    "image": "GVG_023",
+    "set": 13,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "classs": 4,
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "race": 17,
+    "name": "Goblin Auto-Barber",
+    "description": "Battlecry: Give your weapon +1 Attack.",
+    popularity: 92
+}, {
+    "id": 1989,
+    "image": "GVG_024",
+    "set": 13,
+    "collectible": 1,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_swords",
+    "type": 7,
+    "classs": 4,
+    "cost": 3,
+    "attack": 1,
+    "durability": 3,
+    "name": "Cogmaster's Wrench",
+    "description": "Has +2 Attack while you have a Mech.",
+    popularity: 45
+}, {
+    "id": 1990,
+    "image": "GVG_025",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "classs": 4,
+    "cost": 2,
+    "attack": 4,
+    "health": 1,
+    "race": 23,
+    "name": "One-eyed Cheat",
+    "description": "Whenever you summon a Pirate, gain Stealth.",
+    popularity: 26
+}, {
+    "id": 1991,
+    "image": "GVG_026",
+    "set": 13,
+    "collectible": 1,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "classs": 3,
+    "cost": 2,
+    "name": "Feign Death",
+    "description": "Trigger all Deathrattles on your minions.",
+    popularity: 44
+}, {
+    "id": 1992,
+    "image": "GVG_027",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "classs": 4,
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "race": 17,
+    "name": "Iron Sensei",
+    "description": "At the end of your turn, give another friendly Mech +2\/+2.",
+    popularity: 54
+}, {
+    "id": 1993,
+    "image": "GVG_028",
+    "set": 13,
+    "collectible": 1,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "classs": 4,
+    "elite": 1,
+    "cost": 6,
+    "attack": 5,
+    "health": 8,
+    "name": "Trade Prince Gallywix",
+    "description": "Whenever your opponent casts a spell, gain a copy of it and give them a Coin.",
+    popularity: 42
+}, {
+    "id": 1998,
+    "image": "GVG_029",
+    "set": 13,
+    "collectible": 1,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "classs": 7,
+    "cost": 4,
+    "name": "Ancestor's Call",
+    "description": "Put a random minion from each player's hand into the battlefield.",
+    popularity: 13
+}, {
+    "id": 2096,
+    "image": "GVG_030",
+    "set": 13,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "classs": 11,
+    "attack": 2,
+    "health": 2,
+    "race": 17,
+    "elite": 0,
+    "name": "Anodized Robo Cub",
+    "description": "Taunt. Choose One - +1 Attack; or +1 Health.",
+    popularity: 44
+}, {
+    "id": 1995,
+    "image": "GVG_031",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "classs": 11,
+    "cost": 6,
+    "name": "Recycle",
+    "description": "Shuffle an enemy minion into your opponent's deck.",
+    popularity: 7
+}, {
+    "id": 2225,
+    "image": "GVG_032",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "classs": 11,
+    "name": "Grove Tender",
+    "description": "Choose One - Give each player a Mana Crystal; or Each player draws a card.",
+    popularity: 44
+}, {
+    "id": 2001,
+    "image": "GVG_033",
+    "set": 13,
+    "collectible": 1,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 9,
+    "classs": 11,
+    "name": "Tree of Life",
+    "description": "Restore all characters to full Health.",
+    popularity: 23
+}, {
+    "id": 2002,
+    "image": "GVG_034",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 6,
+    "classs": 11,
+    "attack": 7,
+    "health": 6,
+    "race": 17,
+    "name": "Mech-Bear-Cat",
+    "description": "Whenever this minion takes damage, add a Spare Part card to your hand.",
+    popularity: 24
+}, {
+    "id": 2003,
+    "image": "GVG_035",
+    "set": 13,
+    "collectible": 1,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 7,
+    "classs": 11,
+    "elite": 1,
+    "attack": 9,
+    "health": 7,
+    "race": 20,
+    "name": "Malorne",
+    "description": "Deathrattle: Shuffle this minion into your deck.",
     popularity: 47
+}, {
+    "id": 2004,
+    "image": "GVG_036",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_swords",
+    "type": 7,
+    "cost": 3,
+    "classs": 7,
+    "attack": 3,
+    "durability": 2,
+    "name": "Powermace",
+    "description": "Deathrattle: Give a random friendly Mech +2\/+2.",
+    popularity: 37
+}, {
+    "id": 2005,
+    "image": "GVG_037",
+    "set": 13,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "classs": 7,
+    "attack": 3,
+    "health": 2,
+    "race": 17,
+    "name": "Whirling Zap-o-matic",
+    "description": "Windfury",
+    popularity: 53
+}, {
+    "id": 2006,
+    "image": "GVG_038",
+    "set": 13,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 2,
+    "classs": 7,
+    "name": "Crackle",
+    "description": "Deal 3-6 damage. Overload: (1)",
+    popularity: 73
+}, {
+    "id": 2007,
+    "image": "GVG_039",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "classs": 7,
+    "attack": 0,
+    "health": 3,
+    "race": 21,
+    "name": "Vitality Totem",
+    "description": "At the end of your turn, restore 4 Health to your hero.",
+    popularity: 24
+}, {
+    "id": 2008,
+    "image": "GVG_040",
+    "set": 13,
+    "collectible": 1,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 4,
+    "classs": 7,
+    "attack": 2,
+    "health": 5,
+    "race": 14,
+    "name": "Siltfin Spiritwalker",
+    "description": "Whenever another friendly Murloc dies, draw a card. Overload: (1)",
+    popularity: 68
+}, {
+    "id": 2009,
+    "image": "GVG_041",
+    "set": 13,
+    "collectible": 1,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 6,
+    "classs": 11,
+    "name": "Dark Wispers",
+    "description": "Choose One - Summon 5 Wisps; or Give a minion +5\/+5 and Taunt.",
+    popularity: 15
+}, {
+    "id": 2010,
+    "image": "GVG_042",
+    "set": 13,
+    "collectible": 1,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 7,
+    "classs": 7,
+    "elite": 1,
+    "attack": 7,
+    "health": 7,
+    "name": "Neptulon",
+    "description": "Battlecry: Add 4 random Murlocs to your hand. Overload: (3)",
+    popularity: 68
+}, {
+    "id": 2011,
+    "image": "GVG_043",
+    "set": 13,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_swords",
+    "type": 7,
+    "cost": 2,
+    "classs": 3,
+    "attack": 2,
+    "durability": 2,
+    "name": "Glaivezooka",
+    "description": "Battlecry: Give a random friendly minion +1 Attack.",
+    popularity: 22
+}, {
+    "id": 2012,
+    "image": "GVG_044",
+    "set": 13,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "race": 17,
+    "attack": 3,
+    "health": 4,
+    "name": "Spider Tank",
+    popularity: 181
+}, {
+    "id": 2013,
+    "image": "GVG_045",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 4,
+    "classs": 9,
+    "name": "Imp-losion",
+    "description": "Deal 2-4 damage to a minion. Summon a 1\/1 Imp for each damage dealt.",
+    popularity: 52
+}, {
+    "id": 2014,
+    "image": "GVG_046",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "classs": 3,
+    "attack": 2,
+    "health": 6,
+    "race": 20,
+    "name": "King of Beasts",
+    "description": "Taunt. Battlecry: Gain +1 Attack for each other Beast you have.",
+    popularity: 26
+}, {
+    "id": 2015,
+    "image": "GVG_047",
+    "set": 13,
+    "collectible": 1,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 4,
+    "classs": 4,
+    "name": "Sabotage",
+    "description": "Destroy a random enemy minion. Combo: And your opponent's weapon.",
+    popularity: 38
+}, {
+    "id": 2016,
+    "image": "GVG_048",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "classs": 3,
+    "race": 17,
+    "attack": 3,
+    "health": 3,
+    "name": "Metaltooth Leaper",
+    "description": "Battlecry: Give your other Mechs +2 Attack.",
+    popularity: 14
+}, {
+    "id": 2017,
+    "image": "GVG_049",
+    "set": 13,
+    "collectible": 1,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 7,
+    "classs": 3,
+    "elite": 1,
+    "attack": 6,
+    "health": 9,
+    "race": 20,
+    "name": "Gahz'rilla",
+    "description": "Whenever this minion takes damage, double its Attack.",
+    popularity: 47
+}, {
+    "id": 2018,
+    "image": "GVG_050",
+    "set": 13,
+    "collectible": 1,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 3,
+    "classs": 1,
+    "name": "Bouncing Blade",
+    "description": "Deal 1 damage to a random minion. Repeat until a minion dies.",
+    popularity: 37
+}, {
+    "id": 2019,
+    "image": "GVG_051",
+    "set": 13,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "classs": 1,
+    "attack": 1,
+    "health": 3,
+    "race": 17,
+    "name": "Warbot",
+    "description": "Enrage: +1 Attack.",
+    popularity: 33
+}, {
+    "id": 2020,
+    "image": "GVG_052",
+    "set": 13,
+    "collectible": 1,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 7,
+    "classs": 1,
+    "name": "Crush",
+    "description": "Destroy a minion. If you have a damaged minion, this costs (4) less.",
+    popularity: 30
+}, {
+    "id": 2021,
+    "image": "GVG_053",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 6,
+    "classs": 1,
+    "attack": 5,
+    "health": 5,
+    "name": "Shieldmaiden",
+    "description": "Battlecry: Gain 5 Armor.",
+    popularity: 30
+}, {
+    "id": 2022,
+    "image": "GVG_054",
+    "set": 13,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_swords",
+    "type": 7,
+    "cost": 3,
+    "classs": 1,
+    "attack": 4,
+    "durability": 2,
+    "name": "Ogre Warmaul",
+    "description": "50% chance to attack the wrong enemy.",
+    popularity: 8
+}, {
+    "id": 2023,
+    "image": "GVG_055",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 4,
+    "classs": 1,
+    "attack": 2,
+    "health": 5,
+    "race": 17,
+    "name": "Screwjank Clunker",
+    "description": "Battlecry: Give a friendly Mech +2\/+2.",
+    popularity: 30
+}, {
+    "id": 2024,
+    "image": "GVG_056",
+    "set": 13,
+    "collectible": 1,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 6,
+    "classs": 1,
+    "elite": 1,
+    "attack": 6,
+    "health": 5,
+    "race": 17,
+    "name": "Iron Juggernaut",
+    "description": "Battlecry: Shuffle a Mine into your opponent's deck. When drawn, it explodes for 10 damage.",
+    popularity: 64
+}, {
+    "id": 2025,
+    "image": "GVG_057",
+    "set": 13,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 2,
+    "classs": 2,
+    "name": "Seal of Light",
+    "description": "Restore 4 Health to your hero and gain +2 Attack this turn.",
+    popularity: 36
+}, {
+    "id": 2026,
+    "image": "GVG_058",
+    "set": 13,
+    "collectible": 1,
+    "quality": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "classs": 2,
+    "attack": 2,
+    "health": 2,
+    "race": 17,
+    "name": "Shielded Minibot",
+    "description": "Divine Shield",
+    popularity: 65
+}, {
+    "id": 2027,
+    "image": "GVG_059",
+    "set": 13,
+    "collectible": 1,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_swords",
+    "type": 7,
+    "cost": 3,
+    "classs": 2,
+    "attack": 2,
+    "durability": 3,
+    "name": "Coghammer",
+    "description": "Battlecry: Give a random friendly minion Divine Shield and Taunt.",
+    popularity: 53
+}, {
+    "id": 2028,
+    "image": "GVG_060",
+    "set": 13,
+    "collectible": 1,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "classs": 2,
+    "attack": 2,
+    "health": 5,
+    "name": "Quartermaster",
+    "description": "Battlecry: Give your Silver Hand Recruits +2\/+2.",
+    popularity: 43
+}, {
+    "id": 2029,
+    "image": "GVG_061",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 3,
+    "classs": 2,
+    "name": "Muster for Battle",
+    "description": "Summon three 1\/1 Silver Hand Recruits. Equip a 1\/4 Weapon.",
+    popularity: 60
+}, {
+    "id": 2030,
+    "image": "GVG_062",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "classs": 2,
+    "attack": 6,
+    "health": 3,
+    "race": 17,
+    "name": "Cobalt Guardian",
+    "description": "Whenever you summon a Mech, gain Divine Shield.",
+    popularity: 20
+}, {
+    "id": 2031,
+    "image": "GVG_063",
+    "set": 13,
+    "collectible": 1,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "classs": 2,
+    "elite": 1,
+    "attack": 1,
+    "health": 7,
+    "name": "Bolvar Fordragon",
+    "description": "Whenever a friendly minion dies while this is in your hand, gain +1 Attack.",
+    popularity: 45
+}, {
+    "id": 2032,
+    "image": "GVG_064",
+    "set": 13,
+    "collectible": 1,
+    "cost": 2,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 3,
+    "health": 2,
+    "race": 14,
+    "name": "Puddlestomper",
+    popularity: 82
+}, {
+    "id": 2033,
+    "image": "GVG_065",
+    "set": 13,
+    "collectible": 1,
+    "cost": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 4,
+    "health": 4,
+    "name": "Ogre Brute",
+    "description": "50% chance to attack the wrong enemy.",
+    popularity: 37
+}, {
+    "id": 2034,
+    "image": "GVG_066",
+    "set": 13,
+    "collectible": 1,
+    "cost": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 3,
+    "attack": 5,
+    "health": 4,
+    "classs": 7,
+    "name": "Dunemaul Shaman",
+    "description": "Windfury, Overload: (1) 50% chance to attack the wrong enemy.",
+    popularity: 21
+}, {
+    "id": 2035,
+    "image": "GVG_067",
+    "set": 13,
+    "collectible": 1,
+    "cost": 2,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 2,
+    "health": 3,
+    "name": "Stonesplinter Trogg",
+    "description": "Whenever your opponent casts a spell, gain +1 Attack.",
+    popularity: 29
+}, {
+    "id": 2036,
+    "image": "GVG_068",
+    "set": 13,
+    "collectible": 1,
+    "cost": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 3,
+    "health": 5,
+    "name": "Burly Rockjaw Trogg",
+    "description": "Whenever your opponent casts a spell, gain +2 Attack.",
+    popularity: 35
+}, {
+    "id": 2037,
+    "image": "GVG_069",
+    "set": 13,
+    "collectible": 1,
+    "cost": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 3,
+    "health": 3,
+    "race": 17,
+    "name": "Antique Healbot",
+    "description": "Battlecry: Restore 8 Health to your hero.",
+    popularity: 88
+}, {
+    "id": 2038,
+    "image": "GVG_070",
+    "set": 13,
+    "collectible": 1,
+    "cost": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 7,
+    "health": 4,
+    "race": 23,
+    "name": "Salty Dog",
+    popularity: 24
+}, {
+    "id": 2039,
+    "image": "GVG_071",
+    "set": 13,
+    "collectible": 1,
+    "cost": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 5,
+    "health": 4,
+    "race": 20,
+    "name": "Lost Tallstrider",
+    popularity: 27
+}, {
+    "id": 2040,
+    "image": "GVG_072",
+    "set": 13,
+    "collectible": 1,
+    "cost": 2,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 3,
+    "attack": 2,
+    "health": 3,
+    "race": 17,
+    "classs": 5,
+    "name": "Shadowboxer",
+    "description": "Whenever a character is healed, deal 1 damage to a random enemy.",
+    popularity: 54
+}, {
+    "id": 2041,
+    "image": "GVG_073",
+    "set": 13,
+    "collectible": 1,
+    "cost": 5,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "quality": 1,
+    "classs": 3,
+    "name": "Cobra Shot",
+    "description": "Deal 3 damage to a minion and the enemy hero.",
+    popularity: 10
+}, {
+    "id": 2042,
+    "image": "GVG_074",
+    "set": 13,
+    "collectible": 1,
+    "cost": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 3,
+    "attack": 4,
+    "health": 3,
+    "name": "Kezan Mystic",
+    "description": "Battlecry: Take control of a random enemy Secret.",
+    popularity: 43
+}, {
+    "id": 2043,
+    "image": "GVG_075",
+    "set": 13,
+    "collectible": 1,
+    "cost": 2,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 2,
+    "health": 3,
+    "name": "Ship's Cannon",
+    "description": "Whenever you summon a Pirate, deal 2 damage to a random enemy.",
+    popularity: 34
+}, {
+    "id": 2044,
+    "image": "GVG_076",
+    "set": 13,
+    "collectible": 1,
+    "cost": 2,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 1,
+    "health": 1,
+    "race": 17,
+    "name": "Explosive Sheep",
+    "description": "Deathrattle: Deal 2 damage to all minions.",
+    popularity: 64
+}, {
+    "id": 2045,
+    "image": "GVG_077",
+    "set": 13,
+    "collectible": 1,
+    "cost": 6,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 4,
+    "health": 9,
+    "attack": 9,
+    "race": 17,
+    "classs": 9,
+    "name": "Anima Golem",
+    "description": "At the end of each turn, destroy this minion if it's your only one.",
+    popularity: 29
+}, {
+    "id": 2046,
+    "image": "GVG_078",
+    "set": 13,
+    "collectible": 1,
+    "cost": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 4,
+    "health": 5,
+    "race": 17,
+    "name": "Mechanical Yeti",
+    "description": "Deathrattle: Give each player a Spare Part.",
+    popularity: 242
+}, {
+    "id": 2047,
+    "image": "GVG_079",
+    "set": 13,
+    "collectible": 1,
+    "cost": 8,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 7,
+    "health": 7,
+    "race": 17,
+    "name": "Force-Tank MAX",
+    "description": "Divine Shield",
+    popularity: 33
+}, {
+    "id": 2048,
+    "image": "GVG_080",
+    "set": 13,
+    "collectible": 1,
+    "cost": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 4,
+    "health": 4,
+    "classs": 11,
+    "name": "Druid of the Fang",
+    "description": "Battlecry: If you have a Beast, transform this minion into a 7\/7.",
+    popularity: 16
+}, {
+    "id": 2049,
+    "image": "GVG_081",
+    "set": 13,
+    "collectible": 1,
+    "cost": 2,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 2,
+    "health": 3,
+    "name": "Gilblin Stalker",
+    "description": "Stealth",
+    popularity: 17
+}, {
+    "id": 2050,
+    "image": "GVG_082",
+    "set": 13,
+    "collectible": 1,
+    "cost": 1,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 2,
+    "health": 1,
+    "race": 17,
+    "name": "Clockwork Gnome",
+    "description": "Deathrattle: Add a Spare Part card to your hand.",
+    popularity: 249
+}, {
+    "id": 2051,
+    "image": "GVG_083",
+    "set": 13,
+    "collectible": 1,
+    "cost": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 3,
+    "attack": 5,
+    "health": 5,
+    "race": 17,
+    "classs": 5,
+    "name": "Upgraded Repair Bot",
+    "description": "Battlecry: Give a friendly Mech +4 Health.",
+    popularity: 21
+}, {
+    "id": 2052,
+    "image": "GVG_084",
+    "set": 13,
+    "collectible": 1,
+    "cost": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "race": 17,
+    "attack": 1,
+    "health": 4,
+    "name": "Flying Machine",
+    "description": "Windfury",
+    popularity: 40
+}, {
+    "id": 2053,
+    "image": "GVG_085",
+    "set": 13,
+    "collectible": 1,
+    "cost": 2,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 1,
+    "health": 2,
+    "race": 17,
+    "name": "Annoy-o-Tron",
+    "description": "Taunt Divine Shield",
+    popularity: 163
+}, {
+    "id": 2054,
+    "image": "GVG_086",
+    "set": 13,
+    "collectible": 1,
+    "cost": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 3,
+    "classs": 1,
+    "attack": 5,
+    "health": 5,
+    "race": 17,
+    "name": "Siege Engine",
+    "description": "Whenever you gain Armor, give this minion +1 Attack.",
+    popularity: 30
+}, {
+    "id": 2055,
+    "image": "GVG_087",
+    "set": 13,
+    "collectible": 1,
+    "cost": 2,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 4,
+    "classs": 3,
+    "attack": 2,
+    "health": 3,
+    "name": "Steamwheedle Sniper",
+    "description": "Your Hero Power can target minions.",
+    popularity: 51
+}, {
+    "id": 2056,
+    "image": "GVG_088",
+    "set": 13,
+    "collectible": 1,
+    "cost": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 3,
+    "attack": 6,
+    "health": 6,
+    "classs": 4,
+    "name": "Ogre Ninja",
+    "description": "Stealth 50% chance to attack the wrong enemy.",
+    popularity: 12
+}, {
+    "id": 2057,
+    "image": "GVG_089",
+    "set": 13,
+    "collectible": 1,
+    "cost": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 3,
+    "attack": 2,
+    "health": 4,
+    "name": "Illuminator",
+    "description": "If you control a Secret at the end of your turn, restore 4 health to your hero.",
+    popularity: 22
+}, {
+    "id": 2058,
+    "image": "GVG_090",
+    "set": 13,
+    "collectible": 1,
+    "cost": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 3,
+    "attack": 5,
+    "health": 4,
+    "name": "Madder Bomber",
+    "description": "Battlecry: Deal 6 damage randomly split between all other characters.",
+    popularity: 32
+}, {
+    "id": 2059,
+    "image": "GVG_091",
+    "set": 13,
+    "collectible": 1,
+    "cost": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 3,
+    "attack": 2,
+    "health": 5,
+    "race": 17,
+    "name": "Arcane Nullifier X-21",
+    "description": "Taunt Can't be targeted by spells or Hero Powers.",
+    popularity: 97
+}, {
+    "id": 2060,
+    "image": "GVG_092",
+    "set": 13,
+    "collectible": 1,
+    "cost": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 3,
+    "attack": 3,
+    "health": 2,
+    "name": "Gnomish Experimenter",
+    "description": "Battlecry: Draw a card. If it's a minion, transform it into a Chicken.",
+    popularity: 7
+}, {
+    "id": 2061,
+    "image": "GVG_093",
+    "set": 13,
+    "collectible": 1,
+    "cost": 0,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 3,
+    "attack": 0,
+    "health": 2,
+    "race": 17,
+    "name": "Target Dummy",
+    "description": "Taunt",
+    popularity: 25
+}, {
+    "id": 2062,
+    "image": "GVG_094",
+    "set": 13,
+    "collectible": 1,
+    "cost": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 3,
+    "attack": 1,
+    "health": 4,
+    "race": 17,
+    "name": "Jeeves",
+    "description": "At the end of each player's turn, that player draws until they have 3 cards.",
+    popularity: 153
+}, {
+    "id": 2063,
+    "image": "GVG_095",
+    "set": 13,
+    "collectible": 1,
+    "cost": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 3,
+    "attack": 2,
+    "health": 4,
+    "name": "Goblin Sapper",
+    "description": "Has +4 Attack while your opponent has 6 or more cards in hand.",
+    popularity: 35
+}, {
+    "id": 2064,
+    "image": "GVG_096",
+    "set": 13,
+    "collectible": 1,
+    "cost": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 4,
+    "health": 3,
+    "race": 17,
+    "name": "Piloted Shredder",
+    "description": "Deathrattle: Summon a random 2-Cost minion.",
+    popularity: 238
+}, {
+    "id": 2065,
+    "image": "GVG_097",
+    "set": 13,
+    "collectible": 1,
+    "cost": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 3,
+    "attack": 2,
+    "health": 3,
+    "name": "Lil' Exorcist",
+    "description": "Taunt Battlecry: Gain +1\/+1 for each enemy Deathrattle minion.",
+    popularity: 32
+}, {
+    "id": 2066,
+    "image": "GVG_098",
+    "set": 13,
+    "collectible": 1,
+    "cost": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 1,
+    "health": 4,
+    "name": "Gnomeregan Infantry",
+    "description": "Charge Taunt",
+    popularity: 16
+}, {
+    "id": 2067,
+    "image": "GVG_099",
+    "set": 13,
+    "collectible": 1,
+    "cost": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 3,
+    "attack": 3,
+    "health": 3,
+    "name": "Bomb Lobber",
+    "description": "Battlecry: Deal 4 damage to a random enemy minion.",
+    popularity: 41
+}, {
+    "id": 2068,
+    "image": "GVG_100",
+    "set": 13,
+    "collectible": 1,
+    "cost": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 4,
+    "health": 4,
+    "classs": 9,
+    "race": 15,
+    "name": "Floating Watcher",
+    "description": "Whenever your hero takes damage on your turn, gain +2\/+2.",
+    popularity: 94
+}, {
+    "id": 2069,
+    "image": "GVG_101",
+    "set": 13,
+    "collectible": 1,
+    "cost": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 3,
+    "classs": 2,
+    "attack": 4,
+    "health": 3,
+    "name": "Scarlet Purifier",
+    "description": "Battlecry: Deal 2 damage to all minions with Deathrattle.",
+    popularity: 22
+}, {
+    "id": 2070,
+    "image": "GVG_102",
+    "set": 13,
+    "collectible": 1,
+    "cost": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 3,
+    "health": 3,
+    "name": "Tinkertown Technician",
+    "description": "Battlecry: If you have a Mech, gain +1\/+1 and add a Spare Part to your hand.",
+    popularity: 224
+}, {
+    "id": 2071,
+    "image": "GVG_103",
+    "set": 13,
+    "collectible": 1,
+    "cost": 2,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 1,
+    "attack": 1,
+    "health": 2,
+    "race": 17,
+    "name": "Micro Machine",
+    "description": "At the start of each turn, gain +1 Attack.",
+    popularity: 167
+}, {
+    "id": 2072,
+    "image": "GVG_104",
+    "set": 13,
+    "collectible": 1,
+    "cost": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 4,
+    "attack": 2,
+    "health": 3,
+    "name": "Hobgoblin",
+    "description": "Whenever you play a 1-Attack minion, give it +2\/+2.",
+    popularity: 73
+}, {
+    "id": 2073,
+    "image": "GVG_105",
+    "set": 13,
+    "collectible": 1,
+    "cost": 6,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 4,
+    "attack": 6,
+    "health": 4,
+    "race": 17,
+    "name": "Piloted Sky Golem",
+    "description": "Deathrattle: Summon a random 4-Cost minion.",
+    popularity: 140
+}, {
+    "id": 2074,
+    "image": "GVG_106",
+    "set": 13,
+    "collectible": 1,
+    "cost": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 4,
+    "attack": 1,
+    "health": 5,
+    "race": 17,
+    "name": "Junkbot",
+    "description": "Whenever a friendly Mech dies, gain +2\/+2.",
+    popularity: 47
+}, {
+    "id": 2075,
+    "image": "GVG_107",
+    "set": 13,
+    "collectible": 1,
+    "cost": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 4,
+    "attack": 3,
+    "health": 2,
+    "race": 17,
+    "name": "Enhance-o Mechano",
+    "description": "Battlecry: Give your other minions Windfury, Taunt, or Divine Shield. (at random)",
+    popularity: 153
+}, {
+    "id": 2076,
+    "image": "GVG_108",
+    "set": 13,
+    "collectible": 1,
+    "cost": 2,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 4,
+    "attack": 3,
+    "health": 2,
+    "name": "Recombobulator",
+    "description": "Battlecry: Transform a friendly minion into a random minion with the same Cost.",
+    popularity: 58
+}, {
+    "id": 2077,
+    "image": "GVG_109",
+    "set": 13,
+    "collectible": 1,
+    "cost": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 4,
+    "health": 1,
+    "attack": 4,
+    "name": "Mini-Mage",
+    "description": "Stealth Spell Damage +1",
+    popularity: 10
+}, {
+    "id": 2078,
+    "image": "GVG_110",
+    "set": 13,
+    "collectible": 1,
+    "cost": 7,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 5,
+    "elite": 1,
+    "attack": 7,
+    "health": 7,
+    "name": "Dr. Boom",
+    "description": "Battlecry: Summon two 1\/1 Boom Bots. WARNING: Bots may explode.",
+    popularity: 22
+}, {
+    "id": 2079,
+    "image": "GVG_111",
+    "set": 13,
+    "collectible": 1,
+    "cost": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 5,
+    "elite": 1,
+    "attack": 4,
+    "health": 5,
+    "race": 17,
+    "name": "Mimiron's Head",
+    "description": "At the start of your turn, if you have at least 3 Mechs, destroy them all and form V-07-TR-0N.",
+    popularity: 82
+}, {
+    "id": 2080,
+    "image": "GVG_112",
+    "set": 13,
+    "collectible": 1,
+    "cost": 6,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 5,
+    "elite": 1,
+    "attack": 7,
+    "health": 6,
+    "name": "Mogor the Ogre",
+    "description": "All minions have a 50% chance to attack the wrong enemy.",
+    popularity: 13
+}, {
+    "id": 2081,
+    "image": "GVG_113",
+    "set": 13,
+    "collectible": 1,
+    "cost": 8,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 5,
+    "elite": 1,
+    "attack": 6,
+    "health": 9,
+    "race": 17,
+    "name": "Foe Reaper 4000",
+    "description": "Also damages the minions next to whomever he attacks.",
+    popularity: 33
+}, {
+    "id": 2082,
+    "image": "GVG_114",
+    "set": 13,
+    "collectible": 1,
+    "cost": 8,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 5,
+    "elite": 1,
+    "attack": 5,
+    "health": 7,
+    "race": 17,
+    "name": "Sneed's Old Shredder",
+    "description": "Deathrattle: Summon a random legendary minion.",
+    popularity: 108
+}, {
+    "id": 2083,
+    "image": "GVG_115",
+    "set": 13,
+    "collectible": 1,
+    "cost": 6,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 5,
+    "elite": 1,
+    "attack": 5,
+    "health": 7,
+    "name": "Toshley",
+    "description": "Battlecry and Deathrattle: Add a Spare Part card to your hand.",
+    popularity: 54
+}, {
+    "id": 2084,
+    "image": "GVG_116",
+    "set": 13,
+    "collectible": 1,
+    "cost": 9,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 5,
+    "elite": 1,
+    "attack": 9,
+    "health": 7,
+    "race": 17,
+    "name": "Mekgineer Thermaplugg",
+    "description": "Whenever an enemy minion dies, summon a Leper Gnome.",
+    popularity: 13
+}, {
+    "id": 2085,
+    "image": "GVG_117",
+    "set": 13,
+    "collectible": 1,
+    "cost": 6,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 5,
+    "elite": 1,
+    "attack": 3,
+    "health": 6,
+    "name": "Gazlowe",
+    "description": "Whenever you cast a 1-mana spell, add a random Mech to your hand.",
+    popularity: 73
+}, {
+    "id": 2086,
+    "image": "GVG_118",
+    "set": 13,
+    "collectible": 1,
+    "cost": 7,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 5,
+    "elite": 1,
+    "attack": 6,
+    "health": 6,
+    "name": "Troggzor the Earthinator",
+    "description": "Whenever your opponent casts a spell, summon a Burly Rockjaw Trogg.",
+    popularity: 55
+}, {
+    "id": 2087,
+    "image": "GVG_119",
+    "set": 13,
+    "collectible": 1,
+    "cost": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 5,
+    "elite": 1,
+    "attack": 3,
+    "health": 4,
+    "race": 17,
+    "name": "Blingtron 3000",
+    "description": "Battlecry: Equip a random weapon for each player.",
+    popularity: 36
+}, {
+    "id": 2088,
+    "image": "GVG_120",
+    "set": 13,
+    "collectible": 1,
+    "cost": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "quality": 5,
+    "elite": 1,
+    "attack": 6,
+    "health": 3,
+    "name": "Hemet Nesingwary",
+    "description": "Battlecry: Destroy a Beast.",
+    popularity: 4
+}, {
+    "id": 2233,
+    "image": "GVG_121",
+    "set": 13,
+    "collectible": 1,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 12,
+    "attack": 8,
+    "health": 8,
+    "race": 17,
+    "name": "Clockwork Giant",
+    "description": "Costs (1) less for each card in your opponent's hand.",
+    popularity: 34
+}, {
+    "id": 2234,
+    "image": "GVG_122",
+    "set": 13,
+    "collectible": 1,
+    "quality": 4,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 4,
+    "attack": 2,
+    "health": 5,
+    "classs": 8,
+    "name": "Wee Spellstopper",
+    "description": "Adjacent minions can't be targeted by spells or Hero Powers.",
+    popularity: 13
+}, {
+    "id": 2249,
+    "image": "GVG_123",
+    "set": 13,
+    "collectible": 1,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "classs": 8,
+    "race": 17,
+    "name": "Soot Spewer",
+    "description": "Spell Damage +1",
+    popularity: 27
 }];
 /* End of collectible card list */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
@@ -5975,7 +8247,7 @@ var uncollectibleCards = [{
     "cost": 0,
     "quality": 2,
     "name": "Nightmare",
-    "description": "Give a minion +5\/+5.  At the start of your next turn, destroy it.",
+    "description": "Give a minion +5\/+5. At the start of your next turn, destroy it.",
     popularity: 0
 }, {
     "id": 318,
@@ -5989,6 +8261,20 @@ var uncollectibleCards = [{
     "health": 5,
     "elite": 1,
     "name": "Baine Bloodhoof",
+    popularity: 0
+}, {
+    "id": 1769,
+    "image": "CRED_09",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 6,
+    "attack": 4,
+    "health": 7,
+    "elite": 1,
+    "name": "Ben Thompson",
+    "description": "Battlecry: Draw some cards. With a pen.",
     popularity: 0
 }, {
     "id": 600,
@@ -6049,6 +8335,7 @@ var uncollectibleCards = [{
     "health": 1,
     "cost": 1,
     "attack": 0,
+    "race": 17,
     "name": "Homing Chicken",
     "description": "At the start of your turn, destroy this minion and draw 3 cards.",
     popularity: 0
@@ -6064,7 +8351,6 @@ var uncollectibleCards = [{
     "classs": 8,
     "cost": 0,
     "name": "Spellbender",
-    "description": "",
     popularity: 0
 }, {
     "id": 1190,
@@ -6231,7 +8517,7 @@ var uncollectibleCards = [{
     "quality": 2,
     "cost": 0,
     "name": "Leader of the Pack",
-    "description": "Give all of your minions +1\/+1.",
+    "description": "Give your minions +1\/+1.",
     popularity: 0
 }, {
     "id": 262,
@@ -6315,6 +8601,7 @@ var uncollectibleCards = [{
     "attack": 4,
     "health": 4,
     "classs": 11,
+    "race": 20,
     "name": "Druid of the Claw",
     "description": "Charge",
     popularity: 0
@@ -6384,6 +8671,20 @@ var uncollectibleCards = [{
     "description": "Draw 3 cards.",
     popularity: 0
 }, {
+    "id": 1773,
+    "image": "CRED_13",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 10,
+    "attack": 10,
+    "health": 10,
+    "elite": 1,
+    "name": "Brian Schwab",
+    "description": "At the end of your turn, give a random minion +1 Attack.",
+    popularity: 0
+}, {
     "id": 471,
     "image": "skele21",
     "set": 3,
@@ -6394,6 +8695,7 @@ var uncollectibleCards = [{
     "health": 1,
     "faction": 3,
     "cost": 1,
+    "race": 17,
     "name": "Damaged Golem",
     popularity: 0
 }, {
@@ -6481,6 +8783,7 @@ var uncollectibleCards = [{
     "health": 3,
     "cost": 1,
     "attack": 0,
+    "race": 17,
     "name": "Poultryizer",
     "description": "At the start of your turn, transform a random minion into a 1\/1 Chicken.",
     popularity: 0
@@ -6535,7 +8838,7 @@ var uncollectibleCards = [{
     "health": 5,
     "quality": 2,
     "name": "Laughing Sister",
-    "description": "Can't be targeted by Spells or Hero Powers.",
+    "description": "Can't be targeted by spells or Hero Powers.",
     popularity: 0
 }, {
     "id": 1733,
@@ -6666,6 +8969,7 @@ var uncollectibleCards = [{
     "attack": 4,
     "health": 6,
     "classs": 11,
+    "race": 20,
     "name": "Druid of the Claw",
     "description": "Taunt",
     popularity: 0
@@ -6737,6 +9041,7 @@ var uncollectibleCards = [{
     "cost": 1,
     "attack": 0,
     "health": 4,
+    "race": 17,
     "name": "Emboldener 3000",
     "description": "At the end of your turn, give a random minion +1\/+1.",
     popularity: 0
@@ -6776,17 +9081,6 @@ var uncollectibleCards = [{
     "faction": 3,
     "name": "Stomp",
     "description": "Deal 2 damage to all enemies.",
-    popularity: 0
-}, {
-    "id": 1641,
-    "image": "TU4e_006",
-    "set": 5,
-    "quality": 1,
-    "icon": "inv_misc_ticket_tarot_elemental02",
-    "type": 5,
-    "cost": 6,
-    "name": "Metamorphosis",
-    "description": "Do something crazy.",
     popularity: 0
 }, {
     "id": 1746,
@@ -6890,6 +9184,7 @@ var uncollectibleCards = [{
     "cost": 1,
     "attack": 0,
     "health": 3,
+    "race": 17,
     "name": "Repair Bot",
     "description": "At the end of your turn, restore 6 Health to a damaged character.",
     popularity: 0
@@ -6945,6 +9240,19 @@ var uncollectibleCards = [{
     "name": "Flame of Azzinoth",
     popularity: 0
 }, {
+    "id": 2142,
+    "image": "NAX12_03H",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_swords",
+    "type": 7,
+    "cost": 1,
+    "attack": 3,
+    "durability": 5,
+    "quality": 2,
+    "name": "Jaws",
+    "description": "Whenever a minion with Deathrattle dies, gain +2 Attack.",
+    popularity: 0
+}, {
     "id": 59,
     "image": "EX1_025t",
     "icon": "inv_misc_ticket_tarot_beasts_01",
@@ -6955,6 +9263,7 @@ var uncollectibleCards = [{
     "health": 1,
     "set": 2,
     "cost": 1,
+    "race": 17,
     "name": "Mechanical Dragonling",
     popularity: 0
 }, {
@@ -7075,6 +9384,34 @@ var uncollectibleCards = [{
     "name": "Panther",
     popularity: 0
 }, {
+    "id": 1772,
+    "image": "CRED_12",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "attack": 1,
+    "health": 2,
+    "elite": 1,
+    "name": "Rachelle Davis",
+    "description": "Battlecry: Draw TWO cards. She's not a novice engineer.",
+    popularity: 0
+}, {
+    "id": 1777,
+    "image": "CRED_17",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 9,
+    "attack": 9,
+    "health": 9,
+    "elite": 1,
+    "name": "Rob Pardo",
+    "description": "You can't start a game without this minion in your deck.",
+    popularity: 0
+}, {
     "id": 1845,
     "image": "PRO_001b",
     "set": 11,
@@ -7097,6 +9434,34 @@ var uncollectibleCards = [{
     "description": "Summon three, four, or five 1\/1 Murlocs.",
     popularity: 0
 }, {
+    "id": 1767,
+    "image": "CRED_07",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "elite": 1,
+    "name": "Zwick",
+    "description": "Battlecry: Complain about bacon prices.",
+    popularity: 0
+}, {
+    "id": 1771,
+    "image": "CRED_11",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 4,
+    "attack": 1,
+    "health": 4,
+    "elite": 1,
+    "name": "Jay Baxter",
+    "description": "Battlecry: Summon FIVE random Inventions.",
+    popularity: 0
+}, {
     "id": 1844,
     "image": "PRO_001at",
     "set": 11,
@@ -7110,6 +9475,146 @@ var uncollectibleCards = [{
     "name": "Murloc",
     popularity: 0
 }, {
+    "id": 1764,
+    "image": "CRED_04",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 3,
+    "health": 3,
+    "elite": 1,
+    "name": "Steven Gabriel",
+    "description": "Battlecry: Summon a frothy beverage.",
+    popularity: 0
+}, {
+    "id": 1770,
+    "image": "CRED_10",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "elite": 1,
+    "name": "Michael Schweitzer",
+    "description": "C-C-C-COMBO: Destroy a minion.",
+    popularity: 0
+}, {
+    "id": 1776,
+    "image": "CRED_16",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 7,
+    "attack": 9,
+    "health": 5,
+    "elite": 1,
+    "name": "Hamilton Chu",
+    "description": "Was successfully NOT part of the problem! ...most of the time.",
+    popularity: 0
+}, {
+    "id": 1775,
+    "image": "CRED_15",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 1,
+    "health": 3,
+    "elite": 1,
+    "name": "Andy Brock",
+    "description": "Can't be Silenced. Divine Shield, Stealth.",
+    popularity: 0
+}, {
+    "id": 1766,
+    "image": "CRED_06",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 3,
+    "health": 1,
+    "elite": 1,
+    "name": "Derek Sakamoto",
+    "description": "The notorious Footclapper.",
+    popularity: 0
+}, {
+    "id": 1765,
+    "image": "CRED_05",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 5,
+    "health": 4,
+    "elite": 1,
+    "name": "Kyle Harrison",
+    "description": "3 for a 5\/4? That's a good deal!",
+    popularity: 0
+}, {
+    "id": 1762,
+    "image": "CRED_01",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 6,
+    "attack": 7,
+    "health": 6,
+    "elite": 1,
+    "name": "Jason Chayes",
+    "description": "Enrage: Just kidding! He never Enrages.",
+    popularity: 0
+}, {
+    "id": 1768,
+    "image": "CRED_08",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 4,
+    "health": 1,
+    "elite": 1,
+    "name": "Ben Brode",
+    "description": "Your volume can't be reduced below maximum.",
+    popularity: 0
+}, {
+    "id": 1774,
+    "image": "CRED_14",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "attack": 3,
+    "health": 2,
+    "elite": 1,
+    "name": "Yong Woo",
+    "description": "Your other minions have +3 Attack and Charge.",
+    popularity: 0
+}, {
+    "id": 1761,
+    "image": "CRED_02",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 6,
+    "attack": 5,
+    "health": 5,
+    "elite": 1,
+    "name": "Eric Dodds",
+    "description": "Battlecry: Summon a 2\/2 Pirate and destroy all Ninjas.",
+    popularity: 0
+}, {
     "id": 1846,
     "image": "PRO_001c",
     "set": 11,
@@ -7119,6 +9624,954 @@ var uncollectibleCards = [{
     "quality": 2,
     "name": "Power of the Horde",
     "description": "Summon a random Horde Warrior.",
+    popularity: 0
+}, {
+    "id": 1763,
+    "image": "CRED_03",
+    "set": 16,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "elite": 1,
+    "name": "Bob Fitch",
+    "description": "Super Taunt (EVERY character must attack this minion.)",
+    popularity: 0
+}, {
+    "id": 1912,
+    "image": "EX1_116t",
+    "set": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "race": 24,
+    "quality": 2,
+    "name": "Whelp",
+    popularity: 0
+}, {
+    "id": 1903,
+    "image": "NAX15_03t",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 4,
+    "attack": 5,
+    "health": 5,
+    "quality": 2,
+    "name": "Guardian of Icecrown",
+    "description": "Taunt",
+    popularity: 0
+}, {
+    "id": 1877,
+    "image": "NAX8_05",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 6,
+    "attack": 5,
+    "health": 6,
+    "quality": 2,
+    "name": "Unrelenting Rider",
+    "description": "Deathrattle: Summon a Spectral Rider for your opponent.",
+    popularity: 0
+}, {
+    "id": 1787,
+    "image": "FP1_007t",
+    "set": 12,
+    "quality": 3,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 4,
+    "health": 4,
+    "name": "Nerubian",
+    popularity: 0
+}, {
+    "id": 1880,
+    "image": "NAX9_03",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 1,
+    "health": 7,
+    "elite": 1,
+    "quality": 2,
+    "name": "Thane Korth'azz",
+    "description": "Your hero is Immune.",
+    popularity: 0
+}, {
+    "id": 1925,
+    "image": "NAX11_04",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 3,
+    "quality": 2,
+    "name": "Mutating Injection",
+    "description": "Give a minion +4\/+4 and Taunt.",
+    popularity: 0
+}, {
+    "id": 1868,
+    "image": "NAX3_03",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 2,
+    "quality": 2,
+    "name": "Necrotic Poison",
+    "description": "Destroy a minion.",
+    popularity: 0
+}, {
+    "id": 2089,
+    "image": "NAX6_04",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 1,
+    "quality": 2,
+    "name": "Sporeburst",
+    "description": "Deal 1 damage to all enemy minions. Summon a Spore.",
+    popularity: 0
+}, {
+    "id": 1960,
+    "image": "NAX7_05",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 1,
+    "quality": 2,
+    "name": "Mind Control Crystal",
+    "description": "Activate the Crystal to control the Understudies!",
+    popularity: 0
+}, {
+    "id": 1882,
+    "image": "NAX9_05",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_swords",
+    "type": 7,
+    "cost": 3,
+    "attack": 1,
+    "durability": 3,
+    "quality": 2,
+    "name": "Runeblade",
+    "description": "Has +3 Attack if the other Horsemen are dead.",
+    popularity: 0
+}, {
+    "id": 2132,
+    "image": "NAX10_02H",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_swords",
+    "type": 7,
+    "cost": 3,
+    "attack": 4,
+    "durability": 8,
+    "quality": 2,
+    "name": "Hook",
+    "description": "Windfury Deathrattle: Put this weapon into your hand.",
+    popularity: 0
+}, {
+    "id": 2130,
+    "image": "NAX7_04H",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_swords",
+    "type": 7,
+    "cost": 3,
+    "attack": 10,
+    "durability": 2,
+    "quality": 2,
+    "name": "Massive Runeblade",
+    "description": "Deals double damage to heroes.",
+    popularity: 0
+}, {
+    "id": 1884,
+    "image": "NAX9_07",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 5,
+    "quality": 2,
+    "name": "Mark of the Horsemen",
+    "description": "Give your minions and your weapon +1\/+1.",
+    popularity: 0
+}, {
+    "id": 1865,
+    "image": "NAX6_03t",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 0,
+    "attack": 0,
+    "health": 1,
+    "quality": 2,
+    "name": "Spore",
+    "description": "Deathrattle: Give all enemy minions +8 Attack.",
+    popularity: 0
+}, {
+    "id": 2199,
+    "image": "NAX15_03n",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 4,
+    "attack": 3,
+    "health": 3,
+    "quality": 2,
+    "name": "Guardian of Icecrown",
+    "description": "Taunt",
+    popularity: 0
+}, {
+    "id": 2123,
+    "image": "NAX9_02H",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 2,
+    "health": 7,
+    "elite": 1,
+    "quality": 2,
+    "name": "Lady Blaumeux",
+    "description": "Your hero is Immune.",
+    popularity: 0
+}, {
+    "id": 1785,
+    "image": "FP1_006",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 2,
+    "health": 3,
+    "quality": 2,
+    "name": "Deathcharger",
+    "description": "Charge. Deathrattle: Deal 3 damage to your hero.",
+    popularity: 0
+}, {
+    "id": 1879,
+    "image": "NAX9_02",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 1,
+    "health": 7,
+    "elite": 1,
+    "quality": 2,
+    "name": "Lady Blaumeux",
+    "description": "Your hero is Immune.",
+    popularity: 0
+}, {
+    "id": 1795,
+    "image": "FP1_012t",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 1,
+    "health": 2,
+    "quality": 2,
+    "name": "Slime",
+    "description": "Taunt",
+    popularity: 0
+}, {
+    "id": 1798,
+    "image": "FP1_014t",
+    "set": 12,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 10,
+    "attack": 11,
+    "health": 11,
+    "elite": 1,
+    "name": "Thaddius",
+    popularity: 0
+}, {
+    "id": 1830,
+    "image": "NAX1_03",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "attack": 3,
+    "health": 1,
+    "cost": 2,
+    "quality": 2,
+    "name": "Nerubian",
+    popularity: 0
+}, {
+    "id": 1803,
+    "image": "FP1_019t",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 2,
+    "health": 2,
+    "classs": 11,
+    "quality": 2,
+    "name": "Treant",
+    popularity: 0
+}, {
+    "id": 1782,
+    "image": "FP1_002t",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "quality": 2,
+    "name": "Spectral Spider",
+    popularity: 0
+}, {
+    "id": 2162,
+    "image": "NAX2_05H",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "quality": 2,
+    "name": "Worshipper",
+    "description": "Your hero has +3 Attack on your turn.",
+    popularity: 0
+}, {
+    "id": 1885,
+    "image": "NAX10_02",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_swords",
+    "type": 7,
+    "cost": 3,
+    "attack": 5,
+    "durability": 8,
+    "quality": 2,
+    "name": "Hook",
+    "description": "Deathrattle: Put this weapon into your hand.",
+    popularity: 0
+}, {
+    "id": 2114,
+    "image": "NAX4_03H",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "quality": 2,
+    "name": "Skeleton",
+    popularity: 0
+}, {
+    "id": 1878,
+    "image": "NAX8_05t",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "attack": 0,
+    "health": 6,
+    "quality": 2,
+    "name": "Spectral Rider",
+    "description": "At the start of your turn, deal 1 damage to your hero.",
+    popularity: 0
+}, {
+    "id": 2126,
+    "image": "NAX9_05H",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_swords",
+    "type": 7,
+    "cost": 3,
+    "attack": 2,
+    "durability": 3,
+    "quality": 2,
+    "name": "Runeblade",
+    "description": "Has +6 Attack if the other Horsemen are dead.",
+    popularity: 0
+}, {
+    "id": 2145,
+    "image": "NAX13_05H",
+    "set": 12,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "attack": 7,
+    "health": 4,
+    "elite": 1,
+    "name": "Stalagg",
+    popularity: 0
+}, {
+    "id": 2144,
+    "image": "NAX13_04H",
+    "set": 12,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "attack": 4,
+    "health": 7,
+    "elite": 1,
+    "name": "Feugen",
+    popularity: 0
+}, {
+    "id": 1876,
+    "image": "NAX8_04t",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 0,
+    "health": 4,
+    "quality": 2,
+    "name": "Spectral Warrior",
+    "description": "At the start of your turn, deal 1 damage to your hero.",
+    popularity: 0
+}, {
+    "id": 1832,
+    "image": "NAX1_05",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 7,
+    "quality": 2,
+    "name": "Locust Swarm",
+    "description": "Deal 3 damage to all enemy minions. Restore 3 Health to your hero.",
+    popularity: 0
+}, {
+    "id": 1848,
+    "image": "NAX4_03",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "quality": 2,
+    "name": "Skeleton",
+    popularity: 0
+}, {
+    "id": 1842,
+    "image": "NAX2_05",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "attack": 1,
+    "health": 4,
+    "cost": 3,
+    "quality": 2,
+    "name": "Worshipper",
+    "description": "Your hero has +1 Attack on your turn.",
+    popularity: 0
+}, {
+    "id": 1906,
+    "image": "NAX14_03",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "attack": 2,
+    "health": 10,
+    "quality": 2,
+    "name": "Frozen Champion",
+    "description": "Permanently Frozen.  Adjacent minions are Immune to Frost Breath.",
+    popularity: 0
+}, {
+    "id": 2101,
+    "image": "NAX1h_03",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "attack": 4,
+    "health": 4,
+    "quality": 2,
+    "name": "Nerubian",
+    popularity: 0
+}, {
+    "id": 1788,
+    "image": "NAXM_001",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 4,
+    "attack": 5,
+    "health": 6,
+    "quality": 2,
+    "name": "Necroknight",
+    "description": "Deathrattle: Destroy the minions next to this one as well.",
+    popularity: 0
+}, {
+    "id": 1873,
+    "image": "NAX8_03",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 2,
+    "health": 2,
+    "quality": 2,
+    "name": "Unrelenting Trainee",
+    "description": "Deathrattle: Summon a Spectral Trainee for your opponent.",
+    popularity: 0
+}, {
+    "id": 1875,
+    "image": "NAX8_04",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 3,
+    "health": 4,
+    "quality": 2,
+    "name": "Unrelenting Warrior",
+    "description": "Deathrattle: Summon a Spectral Warrior for your opponent.",
+    popularity: 0
+}, {
+    "id": 1893,
+    "image": "NAX12_04",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 3,
+    "quality": 2,
+    "name": "Enrage",
+    "description": "Give your hero +6 Attack this turn.",
+    popularity: 0
+}, {
+    "id": 1907,
+    "image": "NAX14_04",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 5,
+    "quality": 2,
+    "name": "Pure Cold",
+    "description": "Deal 8 damage to the enemy hero, and Freeze it.",
+    popularity: 0
+}, {
+    "id": 1976,
+    "image": "NAX13_03",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 2,
+    "quality": 2,
+    "name": "Supercharge",
+    "description": "Give your minions +2 Health.",
+    popularity: 0
+}, {
+    "id": 1881,
+    "image": "NAX9_04",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 1,
+    "health": 7,
+    "elite": 1,
+    "quality": 2,
+    "name": "Sir Zeliek",
+    "description": "Your hero is Immune.",
+    popularity: 0
+}, {
+    "id": 1850,
+    "image": "NAX4_05",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 6,
+    "quality": 2,
+    "name": "Plague",
+    "description": "Destroy all non-Skeleton minions.",
+    popularity: 0
+}, {
+    "id": 1864,
+    "image": "NAX6_03",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 4,
+    "quality": 2,
+    "name": "Deathbloom",
+    "description": "Deal 5 damage to a minion. Summon a Spore.",
+    popularity: 0
+}, {
+    "id": 2157,
+    "image": "NAX15_05",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "elite": 1,
+    "quality": 5,
+    "race": 20,
+    "name": "Mr. Bigglesworth",
+    "description": "This is Kel'Thuzad's kitty.",
+    popularity: 0
+}, {
+    "id": 1892,
+    "image": "NAX12_03",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_swords",
+    "type": 7,
+    "cost": 1,
+    "attack": 1,
+    "durability": 5,
+    "quality": 2,
+    "name": "Jaws",
+    "description": "Whenever a minion with Deathrattle dies, gain +2 Attack.",
+    popularity: 0
+}, {
+    "id": 2125,
+    "image": "NAX9_04H",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 2,
+    "health": 7,
+    "elite": 1,
+    "quality": 2,
+    "name": "Sir Zeliek",
+    "description": "Your hero is Immune.",
+    popularity: 0
+}, {
+    "id": 1874,
+    "image": "NAX8_03t",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 0,
+    "health": 2,
+    "quality": 2,
+    "name": "Spectral Trainee",
+    "description": "At the start of your turn, deal 1 damage to your hero.",
+    popularity: 0
+}, {
+    "id": 1871,
+    "image": "NAX7_04",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_swords",
+    "type": 7,
+    "cost": 3,
+    "attack": 5,
+    "durability": 2,
+    "quality": 2,
+    "name": "Massive Runeblade",
+    "description": "Deals double damage to heroes.",
+    popularity: 0
+}, {
+    "id": 1869,
+    "image": "NAX7_02",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 2,
+    "attack": 0,
+    "health": 7,
+    "quality": 2,
+    "name": "Understudy",
+    "description": "Taunt",
+    popularity: 0
+}, {
+    "id": 1792,
+    "image": "NAXM_002",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 4,
+    "health": 3,
+    "quality": 2,
+    "name": "Skeletal Smith",
+    "description": "Deathrattle: Destroy your opponent's weapon.",
+    popularity: 0
+}, {
+    "id": 1889,
+    "image": "NAX11_03",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 2,
+    "health": 2,
+    "quality": 2,
+    "name": "Fallout Slime",
+    popularity: 0
+}, {
+    "id": 1855,
+    "image": "NAX5_03",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 2,
+    "quality": 2,
+    "name": "Mindpocalypse",
+    "description": "Both players draw 2 cards and gain a Mana Crystal.",
+    popularity: 0
+}, {
+    "id": 2124,
+    "image": "NAX9_03H",
+    "set": 12,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 3,
+    "attack": 2,
+    "health": 7,
+    "elite": 1,
+    "quality": 2,
+    "name": "Thane Korth'azz",
+    "description": "Your hero is Immune.",
+    popularity: 0
+}, {
+    "id": 2277,
+    "image": "GVG_028t",
+    "set": 13,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 0,
+    "quality": 2,
+    "name": "Gallywix's Coin",
+    "description": "Gain 1 Mana Crystal this turn only. (Won't trigger Gallywix.)",
+    popularity: 0
+}, {
+    "id": 2195,
+    "image": "GVG_030a",
+    "set": 13,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "classs": 11,
+    "quality": 2,
+    "cost": 0,
+    "name": "Attack Mode",
+    "description": "+1 Attack.",
+    popularity: 0
+}, {
+    "id": 2197,
+    "image": "GVG_030b",
+    "set": 13,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "classs": 11,
+    "quality": 2,
+    "cost": 0,
+    "name": "Tank Mode",
+    "description": "+1 Health.",
+    popularity: 0
+}, {
+    "id": 2226,
+    "image": "GVG_032a",
+    "set": 13,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "classs": 11,
+    "quality": 2,
+    "cost": 0,
+    "name": "Gift of Mana",
+    "description": "Give each player a Mana Crystal.",
+    popularity: 0
+}, {
+    "id": 2227,
+    "image": "GVG_032b",
+    "set": 13,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "classs": 11,
+    "quality": 2,
+    "cost": 0,
+    "name": "Gift of Cards",
+    "description": "Each player draws a card.",
+    popularity: 0
+}, {
+    "id": 2176,
+    "image": "GVG_041a",
+    "set": 13,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "classs": 11,
+    "quality": 2,
+    "cost": 0,
+    "name": "Dark Wispers",
+    "description": "+5\/+5 and Taunt.",
+    popularity: 0
+}, {
+    "id": 2177,
+    "image": "GVG_041b",
+    "set": 13,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "classs": 11,
+    "quality": 2,
+    "cost": 0,
+    "name": "Dark Wispers",
+    "description": "Summon 5 Wisps.",
+    popularity: 0
+}, {
+    "id": 2270,
+    "image": "GVG_045t",
+    "set": 13,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "classs": 9,
+    "race": 15,
+    "quality": 2,
+    "name": "Imp",
+    popularity: 0
+}, {
+    "id": 2221,
+    "image": "GVG_056t",
+    "set": 13,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "classs": 1,
+    "cost": 0,
+    "quality": 2,
+    "name": "Burrowing Mine",
+    "description": "When you draw this, it explodes. You take 10 damage and draw a card.",
+    popularity: 0
+}, {
+    "id": 2230,
+    "image": "GVG_080t",
+    "set": 13,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 5,
+    "attack": 7,
+    "health": 7,
+    "classs": 11,
+    "race": 20,
+    "quality": 2,
+    "name": "Druid of the Fang",
+    popularity: 0
+}, {
+    "id": 2240,
+    "image": "GVG_092t",
+    "set": 13,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "race": 20,
+    "quality": 2,
+    "name": "Chicken",
+    popularity: 0
+}, {
+    "id": 2235,
+    "image": "GVG_110t",
+    "set": 13,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "race": 17,
+    "quality": 2,
+    "name": "Boom Bot",
+    "description": "Deathrattle: Deal 1-4 damage to a random enemy.",
+    popularity: 0
+}, {
+    "id": 2232,
+    "image": "GVG_111t",
+    "set": 13,
+    "quality": 5,
+    "icon": "inv_misc_ticket_tarot_beasts_01",
+    "type": 4,
+    "cost": 8,
+    "attack": 4,
+    "health": 8,
+    "elite": 1,
+    "race": 17,
+    "name": "V-07-TR-0N",
+    "description": "Charge Mega-Windfury (Can attack four times a turn.)",
+    popularity: 0
+}, {
+    "id": 2151,
+    "image": "PART_001",
+    "set": 13,
+    "cost": 1,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "quality": 2,
+    "name": "Armor Plating",
+    "description": "Give a minion +1 Health.",
+    popularity: 0
+}, {
+    "id": 2152,
+    "image": "PART_002",
+    "set": 13,
+    "cost": 1,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "quality": 2,
+    "name": "Time Rewinder",
+    "description": "Return a friendly minion to your hand.",
+    popularity: 0
+}, {
+    "id": 2153,
+    "image": "PART_003",
+    "set": 13,
+    "cost": 1,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "quality": 2,
+    "name": "Rusty Horn",
+    "description": "Give a minion Taunt.",
+    popularity: 0
+}, {
+    "id": 2154,
+    "image": "PART_004",
+    "set": 13,
+    "cost": 1,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "quality": 2,
+    "name": "Finicky Cloakfield",
+    "description": "Give a friendly minion Stealth until your next turn.",
+    popularity: 0
+}, {
+    "id": 2155,
+    "image": "PART_005",
+    "set": 13,
+    "cost": 1,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "quality": 2,
+    "name": "Emergency Coolant",
+    "description": "Freeze a minion.",
+    popularity: 0
+}, {
+    "id": 2156,
+    "image": "PART_006",
+    "set": 13,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "cost": 1,
+    "quality": 2,
+    "name": "Reversing Switch",
+    "description": "Swap a minion's Attack and Health.",
+    popularity: 0
+}, {
+    "id": 2150,
+    "image": "PART_007",
+    "set": 13,
+    "cost": 1,
+    "icon": "inv_misc_ticket_tarot_elemental02",
+    "type": 5,
+    "quality": 2,
+    "name": "Whirling Blades",
+    "description": "Give a minion +1 Attack.",
     popularity: 0
 }];
 /* End of uncollectible card list */
@@ -7380,7 +10833,7 @@ var tierListCommon = [{
 }];
 
 /* RARE TIER LIST */
-http://www.liquidhearth.com/forum/viewmessage.php?topic_id=835
+// http://www.liquidhearth.com/forum/viewmessage.php?topic_id=835
 var tierListRare = [{
 	"name":"Azure Drake",
 	"arenaRank":1
@@ -7491,6 +10944,354 @@ var tierListRare = [{
     "arenaRank":36
 }];
 
+/* EPIC TIER LIST */
+// http://www.liquidhearth.com/forum/viewmessage.php?topic_id=975
+var tierListEpic = [{
+	"name":"Sea Giant",
+	"arenaRank":1
+},{
+    "name":"Faceless Manipulator",
+    "arenaRank":2
+},{
+    "name":"Blood Knight",
+    "arenaRank":3
+},{
+    "name":"Big Game Hunter",
+    "arenaRank":4
+},{
+    "name":"Southsea Captain",
+    "arenaRank":5
+},{
+    "name":"Murloc Warleader",
+    "arenaRank":6
+},{
+    "name":"Molten Giant",
+    "arenaRank":7
+},{
+    "name":"Mountain Giant",
+    "arenaRank":8
+},{
+    "name":"Hungry Crab",
+    "arenaRank":9
+},{
+    "name":"Doomsayer",
+    "arenaRank":10
+}];
+
+/* LEGENDARY TIER LIST */
+// http://www.liquidhearth.com/forum/viewmessage.php?topic_id=975
+var tierListLegendary = [{
+	"name":"Cairne Bloodhoof",
+	"arenaRank":1
+},{
+    "name":"Ragnaros the Firelord",
+    "arenaRank":2
+},{
+    "name":"Ysera",
+    "arenaRank":3
+},{
+    "name":"Sylvanas Windrunner",
+    "arenaRank":4
+},{
+    "name":"Onyxia",
+    "arenaRank":5
+},{
+    "name":"The Black Knight",
+    "arenaRank":6
+},{
+    "name":"Baron Geddon",
+    "arenaRank":7
+},{
+    "name":"Gruul",
+    "arenaRank":8
+},{
+    "name":"Harrison Jones",
+    "arenaRank":9
+},{
+    "name":"Illidan Stormrage",
+    "arenaRank":10
+},{
+    "name":"Tinkmaster Overspark",
+    "arenaRank":11
+},{
+    "name":"Hogger",
+    "arenaRank":12
+},{
+    "name":"Deathwing",
+    "arenaRank":13
+},{
+    "name":"The Beast",
+    "arenaRank":14
+},{
+    "name":"Alexstrasza",
+    "arenaRank":15
+},{
+    "name":"Bloodmage Thalnos",
+    "arenaRank":16
+},{
+    "name":"King Mukla",
+    "arenaRank":17
+},{
+    "name":"Nat Pagle",
+    "arenaRank":18
+},{
+    "name":"Leeroy Jenkins",
+    "arenaRank":19
+},{
+    "name":"Captain Greenskin",
+    "arenaRank":20
+},{
+    "name":"Malygos",
+    "arenaRank":21
+},{
+    "name":"Millhouse Manastorm",
+    "arenaRank":22
+},{
+    "name":"Nozdormu",
+    "arenaRank":23
+},{
+    "name":"Lorewalker Cho",
+    "arenaRank":24
+}];
+
+/* Druid  LIST */
+// http://www.liquidhearth.com/forum/arena-strategy/457541-trumps-arena-list-druid
+var tierListDruid = [{
+	"name":"Cenarius",
+	"arenaRank":1
+},{
+    "name":"Ancient of Lore",
+    "arenaRank":2
+},{
+    "name":"Ancient of War",
+    "arenaRank":3
+},{
+    "name":"Keeper of the Grove",
+    "arenaRank":4
+},{
+    "name":"Starfall",
+    "arenaRank":5
+},{
+    "name":"Swipe",
+    "arenaRank":6
+},{
+    "name":"Force of Nature",
+    "arenaRank":7
+},{
+    "name":"Nourish",
+    "arenaRank":8
+},{
+    "name":"Druid of the Claw",
+    "arenaRank":9
+},{
+    "name":"Power of the Wild",
+    "arenaRank":10
+},{
+    "name":"Ironbark Protector",
+    "arenaRank":11
+},{
+    "name":"Wrath",
+    "arenaRank":12
+},{
+    "name":"Starfire",
+    "arenaRank":13
+},{
+    "name":"Claw",
+    "arenaRank":14
+},{
+    "name":"Bite",
+    "arenaRank":15
+},{
+    "name":"Mark of the Wild",
+    "arenaRank":16
+},{
+    "name":"Innervate",
+    "arenaRank":17
+},{
+    "name":"Mark of Nature",
+    "arenaRank":18
+},{
+    "name":"Savage Roar",
+    "arenaRank":19
+},{
+    "name":"Wild Growth",
+    "arenaRank":20
+},{
+    "name":"Soul of the Forest",
+    "arenaRank":21
+},{
+    "name":"Savagery",
+    "arenaRank":22
+},{
+    "name":"Naturalize",
+    "arenaRank":23
+},{
+    "name":"Healing Touch",
+    "arenaRank":24
+},{
+    "name":"Moonfire",
+    "arenaRank":25
+}];
+
+
+/* Mage  LIST */
+// http://www.liquidhearth.com/forum/arena-strategy/457552-trumps-arena-tier-list-mage
+var tierListMage = [{
+	"name":"Flamestrike",
+	"arenaRank":1
+},{
+    "name":"Water Elemental",
+    "arenaRank":2
+},{
+    "name":"Fireball",
+    "arenaRank":3
+},{
+    "name":"Frostbolt",
+    "arenaRank":4
+},{
+    "name":"Polymorph",
+    "arenaRank":5
+},{
+    "name":"Archmage Antonidas",
+    "arenaRank":6
+},{
+    "name":"Pyroblast",
+    "arenaRank":7
+},{
+    "name":"Kirin Tor Mage",
+    "arenaRank":8
+},{
+    "name":"Blizzard",
+    "arenaRank":9
+},{
+    "name":"Sorcerer's Apprentice",
+    "arenaRank":10
+},{
+    "name":"Mana Wyrm",
+    "arenaRank":11
+},{
+    "name":"Arcane Missiles",
+    "arenaRank":12
+},{
+    "name":"Arcane Intellect",
+    "arenaRank":13
+},{
+    "name":"Spellbender",
+    "arenaRank":14
+},{
+    "name":"Vaporize",
+    "arenaRank":15
+},{
+    "name":"Counterspell",
+    "arenaRank":16
+},{
+    "name":"Ethereal Arcanist",
+    "arenaRank":17
+},{
+    "name":"Mirror Entity",
+    "arenaRank":18
+},{
+    "name":"Arcane Explosion",
+    "arenaRank":19
+},{
+    "name":"Cone of Cold",
+    "arenaRank":20
+},{
+    "name":"Ice Block",
+    "arenaRank":21
+},{
+    "name":"Mirror Image",
+    "arenaRank":22
+},{
+    "name":"Frost Nova",
+    "arenaRank":23
+},{
+    "name":"Ice Barrier",
+    "arenaRank":24
+},{
+    "name":"Ice Lance",
+    "arenaRank":25
+}];
+
+/* Rogue  LIST */
+// http://www.liquidhearth.com/forum/arena-strategy/457552-trumps-arena-tier-list-mage
+var tierListRogue = [{
+	"name":"SI:7 Agent",
+	"arenaRank":1
+},{
+    "name":"Perdition's Blade",
+    "arenaRank":2
+},{
+    "name":"Backstab",
+    "arenaRank":3
+},{
+    "name":"Deadly Poison",
+    "arenaRank":4
+},{
+    "name":"Eviscerate",
+    "arenaRank":5
+},{
+    "name":"Assassinate",
+    "arenaRank":6
+},{
+    "name":"Assassin's Blade",
+    "arenaRank":7
+},{
+    "name":"Patient Assassin",
+    "arenaRank":8
+},{
+    "name":"Betrayal",
+    "arenaRank":9
+},{
+    "name":"Edwin VanCleef",
+    "arenaRank":10
+},{
+    "name":"Master of Disguise",
+    "arenaRank":11
+},{
+    "name":"Cold Blood",
+    "arenaRank":12
+},{
+    "name":"Defias Ringleader",
+    "arenaRank":13
+},{
+    "name":"Sprint",
+    "arenaRank":14
+},{
+    "name":"Fan of Knives",
+    "arenaRank":15
+},{
+    "name":"Blade Flurry",
+    "arenaRank":16
+},{
+    "name":"Headcrack",
+    "arenaRank":17
+},{
+    "name":"Shiv",
+    "arenaRank":18
+},{
+    "name":"Shadowstep",
+    "arenaRank":19
+},{
+    "name":"Kidnapper",
+    "arenaRank":20
+},{
+    "name":"Preparation",
+    "arenaRank":21
+},{
+    "name":"Sap",
+    "arenaRank":22
+},{
+    "name":"Vanish",
+    "arenaRank":23
+},{
+    "name":"Conceal",
+    "arenaRank":24
+},{
+    "name":"Sinister Strike",
+    "arenaRank":25
+}];
+
 // add common cards tiers to the hearthstoneCards list
 var counter = 0;
 $.each(tierListCommon, function(cardName, rank) {
@@ -7525,7 +11326,7 @@ $.each(tierListCommon, function(cardName, rank) {
 		}
     });
 });
-
+console.log("#Common: " + counter + " of 83");
 
 // add rare cards tiers to the hearthstoneCards list
 var counter = 0;
@@ -7565,6 +11366,208 @@ $.each(tierListRare, function(cardName, rank) {
 	   }
     });
 });
+
+console.log("#Rare: " + counter + " of 36");
+
+// add epic cards tiers to the hearthstoneCards list
+var counter = 0;
+$.each(tierListEpic, function(cardName, rank) {
+	$.each(hearthstoneCards, function(index, value) {
+		if (rank.name === value.name){
+			value.arenaRank = rank.arenaRank;
+			if (1 <= value.arenaRank && value.arenaRank <= 3){
+				value.arenaRankText = "Excellent";
+				value.arenaRankTier = "2";
+			}
+			else if (4 == value.arenaRank){
+				value.arenaRankText = "Good";
+				value.arenaRankTier = "3";
+			}
+			else if (5 <= value.arenaRank && value.arenaRank <= 6){
+				value.arenaRankText = "Average";
+				value.arenaRankTier = "4";
+			}
+			else if (7 == value.arenaRank){
+				value.arenaRankText = "Poor";
+				value.arenaRankTier = "5";
+			}
+			else if (8 <= value.arenaRank <= 10){
+				value.arenaRankText = "Terrible";
+				value.arenaRankTier = "6";
+			}
+			else{
+				value.arenaRankText = "";
+				value.arenaRankTier = "";
+			}
+		   counter++;
+	   }
+    });
+});
+console.log("#Epic: " + counter + " of 10");
+
+// add legendary cards tiers to the hearthstoneCards list
+var counter = 0;
+$.each(tierListLegendary, function(cardName, rank) {
+	$.each(hearthstoneCards, function(index, value) {
+		if (rank.name === value.name){
+			value.arenaRank = rank.arenaRank;
+			if (0 < value.arenaRank && value.arenaRank <= 5){
+				value.arenaRankText = "Best";
+				value.arenaRankTier = "1";
+			}
+			else if (6 <= value.arenaRank && value.arenaRank <= 7){
+				value.arenaRankText = "Excellent";
+				value.arenaRankTier = "2";
+			}
+			else if (8 <= value.arenaRank  && value.arenaRank <= 10){
+				value.arenaRankText = "Good";
+				value.arenaRankTier = "3";
+			}
+			else if (11 <= value.arenaRank && value.arenaRank <= 18){
+				value.arenaRankText = "Average";
+				value.arenaRankTier = "4";
+			}
+			else if (19 <= value.arenaRank && value.arenaRank <= 21){
+				value.arenaRankText = "Poor";
+				value.arenaRankTier = "5";
+			}
+			else if (22 <= value.arenaRank <= 24){
+				value.arenaRankText = "Terrible";
+				value.arenaRankTier = "6";
+			}
+			else{
+				value.arenaRankText = "";
+				value.arenaRankTier = "";
+			}
+		   counter++;
+	   }
+    });
+});
+
+console.log("#Legendary: " + counter + " of 24");
+
+// add Druid cards tiers to the hearthstoneCards list
+var counter = 0;
+$.each(tierListDruid, function(cardName, rank) {
+	$.each(hearthstoneCards, function(index, value) {
+		if (rank.name === value.name && value.collectible){
+			value.arenaRank = rank.arenaRank;
+			if (0 < value.arenaRank && value.arenaRank <= 6){
+				value.arenaRankText = "Best";
+				value.arenaRankTier = "1";
+			}
+			else if (7 <= value.arenaRank && value.arenaRank <= 14){
+				value.arenaRankText = "Excellent";
+				value.arenaRankTier = "2";
+			}
+			else if (15 == value.arenaRank){
+				value.arenaRankText = "Good";
+				value.arenaRankTier = "3";
+			}
+			else if (16 <= value.arenaRank && value.arenaRank <= 17){
+				value.arenaRankText = "Average";
+				value.arenaRankTier = "4";
+			}
+			else if (18 <= value.arenaRank && value.arenaRank <= 21){
+				value.arenaRankText = "Poor";
+				value.arenaRankTier = "5";
+			}
+			else if (22 <= value.arenaRank && value.arenaRank <= 25){
+				value.arenaRankText = "Terrible";
+				value.arenaRankTier = "6";
+			}
+			else{
+				value.arenaRankText = "";
+				value.arenaRankTier = "";
+			}
+		   counter++;
+	   }
+    });
+});
+
+console.log("#Druid: " + counter + " of 25");
+
+// add Mage cards tiers to the hearthstoneCards list
+var counter = 0;
+$.each(tierListMage, function(cardName, rank) {
+	$.each(hearthstoneCards, function(index, value) {
+		if (rank.name === value.name && value.collectible){
+			value.arenaRank = rank.arenaRank;
+			if (0 < value.arenaRank && value.arenaRank <= 3){
+				value.arenaRankText = "Best";
+				value.arenaRankTier = "1";
+			}
+			else if (4 <= value.arenaRank && value.arenaRank <= 5){
+				value.arenaRankText = "Excellent";
+				value.arenaRankTier = "2";
+			}
+			else if (6 <= value.arenaRank && value.arenaRank <= 12){
+				value.arenaRankText = "Good";
+				value.arenaRankTier = "3";
+			}
+			else if (13 == value.arenaRank){
+				value.arenaRankText = "Average";
+				value.arenaRankTier = "4";
+			}
+			else if (14 <= value.arenaRank && value.arenaRank <= 20){
+				value.arenaRankText = "Poor";
+				value.arenaRankTier = "5";
+			}
+			else if (21 <= value.arenaRank && value.arenaRank <= 25){
+				value.arenaRankText = "Terrible";
+				value.arenaRankTier = "6";
+			}
+			else{
+				value.arenaRankText = "";
+				value.arenaRankTier = "";
+			}
+		   counter++;
+	   }
+    });
+});
+
+console.log("#Mage: " + counter + " of 25");
+
+// add Rogue cards tiers to the hearthstoneCards list
+var counter = 0;
+$.each(tierListRogue, function(cardName, rank) {
+	$.each(hearthstoneCards, function(index, value) {
+		if (rank.name === value.name && value.collectible){
+			value.arenaRank = rank.arenaRank;
+			if (1 == value.arenaRank){
+				value.arenaRankText = "Best";
+				value.arenaRankTier = "1";
+			}
+			else if (2 <= value.arenaRank && value.arenaRank <= 7){
+				value.arenaRankText = "Excellent";
+				value.arenaRankTier = "2";
+			}
+			else if (8 <= value.arenaRank && value.arenaRank <= 9){
+				value.arenaRankText = "Good";
+				value.arenaRankTier = "3";
+			}
+			else if (10 <= value.arenaRank && value.arenaRank <= 15){
+				value.arenaRankText = "Average";
+				value.arenaRankTier = "4";
+			}
+			else if (16 <= value.arenaRank && value.arenaRank <= 19){
+				value.arenaRankText = "Poor";
+				value.arenaRankTier = "5";
+			}
+			else if (20 <= value.arenaRank && value.arenaRank <= 25){
+				value.arenaRankText = "Terrible";
+				value.arenaRankTier = "6";
+			}
+			else{
+				value.arenaRankText = "";
+				value.arenaRankTier = "";
+			}
+		   counter++;
+	   }
+    });
+});
+
+console.log("#Rogue: " + counter + " of 25");
 
 var table = "";
 $.each(hearthstoneCards, function(i, value) {
@@ -7686,7 +11689,7 @@ $.each(hearthstoneCards, function(i, value) {
 		description = value.description;
 	} 
 
-	table += '<tr><td><a href="http://wowhead.com/hearthstone/card='+value.id+'&image" class="quality '+ quality + '" target="_blank">' + value.name + '</a></td>';
+	table += '<tr><td><a rel="popover" href="https://www.hearthhead.com/hearthstone/card='+value.id+'&power" class="quality '+ quality + '" target="_blank">' + value.name + '</a></td>';
 	table += '<td class="quality ' + quality + '">' + quality + '</td>';
 	table += '<td class="txclass ' + classs + '">' + classs + '</td>';
 	table += '<td><span class="mana">' + value.cost + '</span></td>';
