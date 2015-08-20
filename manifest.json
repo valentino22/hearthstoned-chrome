@@ -2,7 +2,7 @@
 	"name": "Hearthstone Cards & Twitch.tv Streams",
 	"manifest_version": 2,
 	"description": "This add-on lists all Hearthstone cards and Twitch streams. It's useful to look up cards while watching a stream or reading a guide.",
-	"version": "2.5",
+	"version": "2.6",
 	"author": "Szabolcs Ferenczi",
 	"short_name": "Hearthstone Cards and Streams",
 	"browser_action": {
